@@ -10,10 +10,7 @@ logger = logging.getLogger("dt")
 volumeIndex = 5
 closeIndex = 6
 
-if __name__ == "__main__":
-    logging.basicConfig(format="%(asctime)s %(levelname)s %(name)s %(threadName)s: %(message)s")
-    logger.setLevel(logging.DEBUG)
-
+def getData():
     currentDir = os.path.dirname(os.path.realpath(__file__))
     with open(currentDir+'/../data/spy.json') as spyJsonFile:
         spyJson = json.load(spyJsonFile)
@@ -76,4 +73,12 @@ if __name__ == "__main__":
             data[outIndex][weekCount+j][1] = math.log(spyArray[i + weekCount*5 + j*20][volumeIndex] / spyArray[i + weekCount*5 + (j+1)*20][volumeIndex])
             data[outIndex][weekCount+j][2] = math.log(vixArray[i + weekCount*5 + j*20][closeIndex] / 20)
 
-        print("done")
+    return data, labels
+
+
+if __name__ == "__main__":
+    logging.basicConfig(format="%(asctime)s %(levelname)s %(name)s %(threadName)s: %(message)s")
+    logger.setLevel(logging.DEBUG)
+
+    data, labels = getData()
+    print("done")
