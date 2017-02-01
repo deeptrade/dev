@@ -47,12 +47,12 @@ def getData():
     lookBehind = weekCount * 5 + monthCount * 20
 
     dataSize = min(len(spyArray), len(vixArray))
-    data = np.empty([dataSize-predictAhead-lookBehind, weekCount+monthCount, dataPerDay], dtype=np.float32)
-    labels = np.empty(dataSize-predictAhead-lookBehind, dtype=np.int)
+    data = np.zeros([dataSize-predictAhead-lookBehind, weekCount+monthCount, dataPerDay], dtype=np.float32)
+    labels = np.zeros([dataSize-predictAhead-lookBehind, 2], dtype=np.int)
     
     for i in range(predictAhead, dataSize - lookBehind):
         outIndex = i-predictAhead # index position in the output array
-        labels[outIndex] = decideLabel(spyArray, i, predictAhead)
+        labels[outIndex][decideLabel(spyArray, i, predictAhead)] = 1
         
         for j in range(0, weekCount):
             jPos = i + j*5
