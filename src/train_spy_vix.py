@@ -17,7 +17,7 @@ logger.setLevel(logging.DEBUG)
 # Parameters
 
 # Data loading params
-tf.flags.DEFINE_float("dev_sample_percentage", .1, "Percentage of the training data to use for validation")
+tf.flags.DEFINE_float("dev_sample_percentage", .3, "Percentage of the training data to use for validation")
 
 # Model Hyperparameters
 tf.flags.DEFINE_string("filter_sizes", "3,4,5", "Comma-separated filter sizes (default: '3,4,5')")
@@ -27,7 +27,7 @@ tf.flags.DEFINE_float("l2_reg_lambda", 0.0, "L2 regularization lambda (default: 
 
 # Training parameters
 tf.flags.DEFINE_integer("batch_size", 64, "Batch Size (default: 64)")
-tf.flags.DEFINE_integer("num_epochs", 200, "Number of training epochs (default: 200)")
+tf.flags.DEFINE_integer("num_epochs", 200000, "Number of training epochs (default: 200)")
 tf.flags.DEFINE_integer("evaluate_every", 100, "Evaluate model on dev set after this many steps (default: 100)")
 tf.flags.DEFINE_integer("checkpoint_every", 100, "Save model after this many steps (default: 100)")
 tf.flags.DEFINE_integer("num_checkpoints", 5, "Number of checkpoints to store (default: 5)")
@@ -45,6 +45,8 @@ print("")
 # Get the data
 currentDir = os.path.dirname(os.path.realpath(__file__))
 x, y = getData()
+ysum = y.sum(0)
+print("Total distribution: buy {} sell {} buy/sell ration {}".format(ysum[1], ysum[0], ysum[1]/ysum[0]))
 
 # Randomly shuffle data
 np.random.seed(10)
@@ -58,6 +60,8 @@ dev_sample_index = -1 * int(FLAGS.dev_sample_percentage * float(len(y)))
 x_train, x_dev = x_shuffled[:dev_sample_index], x_shuffled[dev_sample_index:]
 y_train, y_dev = y_shuffled[:dev_sample_index], y_shuffled[dev_sample_index:]
 print("Train/Dev split: {:d}/{:d}".format(len(y_train), len(y_dev)))
+ysum = y_dev.sum(0)
+print("Test set distribution: buy {} sell {} buy/sell ration {}".format(ysum[1], ysum[0], ysum[1]/ysum[0]))
 
 # Training
 with tf.Graph().as_default():
