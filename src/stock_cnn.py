@@ -14,7 +14,7 @@ class StockCNN(object):
     def __init__(self, data_length, data_width, num_classes, filter_sizes, num_filters, l2_reg_lambda=0.0):
 
         # Placeholders for input, output and dropout
-        self.input_x = tf.placeholder(tf.float32, [None, data_length, data_width], name="input_x")
+        self.input_x = tf.placeholder(tf.float32, [None, data_length, data_width, 1], name="input_x")
         self.input_y = tf.placeholder(tf.int32, [None, num_classes], name="input_y")
         self.dropout_keep_prob = tf.placeholder(tf.float32, name="dropout_keep_prob")
 

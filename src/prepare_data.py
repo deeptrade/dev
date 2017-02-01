@@ -47,7 +47,7 @@ def getData():
     lookBehind = weekCount * 5 + monthCount * 20
 
     dataSize = min(len(spyArray), len(vixArray))
-    data = np.zeros([dataSize-predictAhead-lookBehind, weekCount+monthCount, dataPerDay], dtype=np.float32)
+    data = np.zeros([dataSize-predictAhead-lookBehind, weekCount+monthCount, dataPerDay, 1], dtype=np.float32)
     labels = np.zeros([dataSize-predictAhead-lookBehind, 2], dtype=np.int)
     
     for i in range(predictAhead, dataSize - lookBehind):
@@ -57,15 +57,15 @@ def getData():
         for j in range(0, weekCount):
             jPos = i + j*5
             j1Pos = jPos + 5
-            data[outIndex][j][0] = math.log(spyArray[jPos][closeIndex] / spyArray[j1Pos][closeIndex])
-            data[outIndex][j][1] = math.log(spyArray[jPos][volumeIndex] / spyArray[j1Pos][volumeIndex])
-            data[outIndex][j][2] = math.log(vixArray[jPos][closeIndex] / vixArray[j1Pos][closeIndex])
+            data[outIndex][j][0][0] = math.log(spyArray[jPos][closeIndex] / spyArray[j1Pos][closeIndex])
+            data[outIndex][j][1][0] = math.log(spyArray[jPos][volumeIndex] / spyArray[j1Pos][volumeIndex])
+            data[outIndex][j][2][0] = math.log(vixArray[jPos][closeIndex] / vixArray[j1Pos][closeIndex])
         
         for j in range(0, monthCount):
             jPos = i + weekCount*5 + j*20
             j1Pos = jPos + 20
-            data[outIndex][weekCount+j][0] = math.log(spyArray[jPos][closeIndex] / spyArray[j1Pos][closeIndex])
-            data[outIndex][weekCount+j][1] = math.log(spyArray[jPos][volumeIndex] / spyArray[j1Pos][volumeIndex])
-            data[outIndex][weekCount+j][2] = math.log(vixArray[jPos][closeIndex] / 20)
+            data[outIndex][weekCount+j][0][0] = math.log(spyArray[jPos][closeIndex] / spyArray[j1Pos][closeIndex])
+            data[outIndex][weekCount+j][1][0] = math.log(spyArray[jPos][volumeIndex] / spyArray[j1Pos][volumeIndex])
+            data[outIndex][weekCount+j][2][0] = math.log(vixArray[jPos][closeIndex] / 20)
 
     return data, labels
