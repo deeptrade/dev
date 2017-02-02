@@ -25,22 +25,17 @@ class StockCNN(object):
         pooled_outputs = []
         with tf.name_scope("conv-maxpool-1"):
             # Convolution Layer
-            W = tf.Variable(tf.truncated_normal([3, 3, 1, num_filters], stddev=0.1), name="W1")
+            W = tf.Variable(tf.truncated_normal([1, data_width, 1, num_filters], stddev=0.1), name="W1")
             b = tf.Variable(tf.constant(0.0, shape=[num_filters]), name="b1")
-            conv = tf.nn.conv2d(self.input_x, W, strides=[1, 1, 1, 1], padding="SAME", name="conv1")
+            conv = tf.nn.conv2d(self.input_x, W, strides=[1, 1, 1, 1], padding="VALID", name="conv1")
             # Relu
             h = tf.nn.relu(tf.nn.bias_add(conv, b), name="relu1")
 
-            # collapse the data_width
-            W = tf.Variable(tf.truncated_normal([1, data_width, num_filters, num_filters], stddev=0.1), name="W2")
+            # conv along the data_length direction
+            W = tf.Variable(tf.truncated_normal([3, 1, num_filters, num_filters], stddev=0.1), name="W2")
             b = tf.Variable(tf.constant(0.0, shape=[num_filters]), name="b2")
-            conv = tf.nn.conv2d(h, W, strides=[1, 1, 1, 1], padding="VALID", name="conv2")
+            conv = tf.nn.conv2d(h, W, strides=[1, 1, 1, 1], padding="SAME", name="conv2")
             h = tf.nn.relu(tf.nn.bias_add(conv, b), name="relu2")
-
-            W = tf.Variable(tf.truncated_normal([3, 1, num_filters, num_filters], stddev=0.1), name="W3")
-            b = tf.Variable(tf.constant(0.0, shape=[num_filters]), name="b3")
-            conv = tf.nn.conv2d(h, W, strides=[1, 1, 1, 1], padding="SAME", name="conv3")
-            h = tf.nn.relu(tf.nn.bias_add(conv, b), name="relu3")
 
             # Maxpooling over the outputs
             pooled = tf.nn.max_pool(h, ksize=[1, 2, 1, 1], strides=[1, 2, 1, 1], padding='VALID', name="pool")

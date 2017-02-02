@@ -20,17 +20,11 @@ def decideLabel(spyArray, i, predictAhead):
         return 1
     return 0
 
-def getData():
-    currentDir = os.path.dirname(os.path.realpath(__file__))
-    with open(currentDir+'/../data/spy.json') as spyJsonFile:
+def getETFData(filename):
+    with open(filename) as spyJsonFile:
         spyJson = json.load(spyJsonFile)
         spyArray = spyJson['dataset']['data']
 
-    with open(currentDir+'/../data/vix.json') as vixJsonFile:
-        vixJson = json.load(vixJsonFile)
-        vixArray = vixJson['dataset']['data']
-    
-    assert(spyArray[0][0] == vixArray[0][0])
     '''
     print(spyArray[0])
     print(spyArray[0][volumeIndex])
@@ -46,7 +40,7 @@ def getData():
     monthCount = 10
     lookBehind = weekCount * 5 + monthCount * 20
 
-    dataSize = min(len(spyArray), len(vixArray))
+    dataSize = len(spyArray)
     data = np.zeros([dataSize-predictAhead-lookBehind, weekCount+monthCount, dataPerDay, 1], dtype=np.float32)
     labels = np.zeros([dataSize-predictAhead-lookBehind, 2], dtype=np.int)
     
@@ -59,13 +53,11 @@ def getData():
             j1Pos = jPos + 5
             data[outIndex][j][0][0] = math.log(spyArray[jPos][closeIndex] / spyArray[j1Pos][closeIndex])
             data[outIndex][j][1][0] = math.log(spyArray[jPos][volumeIndex] / spyArray[j1Pos][volumeIndex])
-            data[outIndex][j][2][0] = math.log(vixArray[jPos][closeIndex] / vixArray[j1Pos][closeIndex])
         
         for j in range(0, monthCount):
             jPos = i + weekCount*5 + j*20
             j1Pos = jPos + 20
             data[outIndex][weekCount+j][0][0] = math.log(spyArray[jPos][closeIndex] / spyArray[j1Pos][closeIndex])
             data[outIndex][weekCount+j][1][0] = math.log(spyArray[jPos][volumeIndex] / spyArray[j1Pos][volumeIndex])
-            data[outIndex][weekCount+j][2][0] = math.log(vixArray[jPos][closeIndex] / 20)
 
     return data, labels

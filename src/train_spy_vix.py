@@ -6,7 +6,7 @@ import tensorflow as tf
 import time
 import datetime
 from tensorflow.contrib import learn
-from prepare_data import getData
+from prepare_data import getETFData
 from stock_cnn import StockCNN
 
 # logging
@@ -44,7 +44,7 @@ print("")
 
 # Get the data
 currentDir = os.path.dirname(os.path.realpath(__file__))
-x, y = getData()
+x, y = getETFData(currentDir+'/../data/spy.json')
 ysum = y.sum(0)
 print("Total distribution: buy {} sell {} buy/sell ration {:f}".format(ysum[1], ysum[0], float(ysum[1]/ysum[0])))
 
