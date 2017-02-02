@@ -72,7 +72,6 @@ with tf.Graph().as_default():
             data_length=x_train.shape[1],
             data_width=x_train.shape[2],
             num_classes=y_train.shape[1],
-            filter_sizes=list(map(int, FLAGS.filter_sizes.split(","))),
             num_filters=FLAGS.num_filters,
             l2_reg_lambda=FLAGS.l2_reg_lambda)
 
