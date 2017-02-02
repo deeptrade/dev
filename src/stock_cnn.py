@@ -33,8 +33,8 @@ class StockCNN(object):
             h = tf.nn.relu(tf.nn.bias_add(conv, b), name="relu")
 
             # Maxpooling over the outputs
-            pooled = tf.nn.max_pool(h, ksize=[1, 3, 1, 1], strides=[1, 2, 1, 1],
-                padding='SAME', name="pool")
+            pooled = tf.nn.max_pool(h, ksize=[1, 2, 1, 1], strides=[1, 2, 1, 1],
+                padding='VALID', name="pool")
             # Add dropout
             dropped = tf.nn.dropout(pooled, self.dropout_keep_prob)
 
@@ -50,8 +50,7 @@ class StockCNN(object):
             # Relu
             h = tf.nn.relu(tf.nn.bias_add(conv, b), name="relu")
 
-            # Maxpooling over the outputs. Hardcoded for now. We know with this pooling we reduce it to 1 number per feature.
-            pooled = tf.nn.max_pool(h, ksize=[1, 9, 1, 1], strides=[1, 1, 1, 1],
+            pooled = tf.nn.max_pool(h, ksize=[1, 2, 1, 1], strides=[1, 2, 1, 1],
                 padding='VALID', name="pool")
             # Add dropout
             dropped = tf.nn.dropout(pooled, self.dropout_keep_prob)
@@ -59,8 +58,26 @@ class StockCNN(object):
             norm2 = tf.nn.lrn(dropped, 4, bias=1.0, alpha=0.001 / 9.0, beta=0.75,
                 name='norm')
 
+        with tf.name_scope("conv-maxpool-3"):
+            # Convolution Layer
+            W = tf.Variable(tf.truncated_normal([3, 1, num_filters, num_filters], stddev=0.1), name="W")
+            b = tf.Variable(tf.constant(0.1, shape=[num_filters]), name="b")
+            conv = tf.nn.conv2d(norm2, W, strides=[1, 1, 1, 1], padding="SAME", name="conv")
+
+            # Relu
+            h = tf.nn.relu(tf.nn.bias_add(conv, b), name="relu")
+
+            # Maxpooling over the outputs. Hardcoded for now. We know with this pooling we reduce it to 1 number per feature.
+            pooled = tf.nn.max_pool(h, ksize=[1, 4, 1, 1], strides=[1, 1, 1, 1],
+                padding='VALID', name="pool")
+            # Add dropout
+            dropped = tf.nn.dropout(pooled, self.dropout_keep_prob)
+
+            norm3 = tf.nn.lrn(dropped, 4, bias=1.0, alpha=0.001 / 9.0, beta=0.75,
+                name='norm')
+
         # Combine all the pooled features
-        self.h_pool_flat = tf.reshape(norm2, [-1, num_filters])
+        self.h_pool_flat = tf.reshape(norm3, [-1, num_filters])
 
         # Final (unnormalized) scores and predictions
         with tf.name_scope("output"):
