@@ -1,0 +1,2015 @@
+Name Symbol Market Value (millions)
+Exxon Mobil Corporation XOM $384,845.80
+General Electric Company GE $346,042.10
+Microsoft Corporation MSFT $299,647.60
+BP p.l.c. BP $248,469.70
+Citigroup, Inc.
+C $231,977.70
+Procter & Gamble Company (The) PG $194,814.00
+Wal-Mart Stores, Inc. WMT $191,978.50
+Pfizer, Inc. PFE $189,297.40
+HSBC Holdings, plc. HBC $188,804.60
+Toyota Motor Corporation TM $187,196.40
+JOHNSON & JOHNSON JNJ $179,515.80
+Bank of America Corporation BAC $176,906.20
+American International Group, Inc. AIG $169,908.50
+TotalFinaElf, S.A. TOT $169,852.60
+Novartis AG NVS $151,092.70
+Altria Group MO $150,638.60
+GLAXOSMITHKLINE PLC GSK $149,062.80
+Mitsubishi UFJ Financial Group Inc MTU $146,421.90
+J.P. Morgan Chase & Co. JPM $138,596.30
+ROYAL DUTCH SHELL PLC RDS/A $133,773.40
+ChevronTexaco Corporation CVX $133,307.10
+Sanofi-Aventis SA SNY $128,920.20
+Vodafone AirTouch Public Limited Company VOD $128,885.40
+Intel Corporation INTC $128,146.40
+International Business Machines Corporation IBM $127,641.00
+ENI S.p.A.
+E $121,462.50
+Cisco Systems, Inc. CSCO $114,067.10
+Berkshire Hathaway Inc. BRK/A $112,846.90
+UBS AG UBS $110,546.60
+Wells Fargo Cap IX WFC $104,281.10
+AT&T Inc.
+T $101,549.80
+ROYAL DUTCH SHELL PLC RDS/B $99,061.00
+Coca-Cola Company (The) KO $98,450.10
+China Mobile (Hong Kong) Ltd. CHL $97,501.20
+Pepsico, Inc. PEP $94,976.00
+Verizon Communications Inc. VZ $92,763.80
+CONOCOPHILLIPS COP $92,112.70
+Genentech, Inc. DNA $90,603.70
+Amgen Inc. AMGN $89,969.60
+Banco Santander Central Hispano, S.A. STD $89,248.80
+Hewlett-Packard Company HPQ $87,958.60
+Google Inc. GOOG $86,317.00
+Home Depot, Inc. (The) HD $86,139.80
+Wachovia Corporation WB $85,370.30
+Siemens AG SI $81,605.60
+Nokia Corporation NOK $81,494.80
+UnitedHealth Group Incorporated UNH $81,108.30
+Time Warner Inc. TWX $80,206.10
+QUALCOMM Incorporated QCOM $78,855.30
+ING Group, N.V. ING $78,822.70
+e
+NTT Docomo Inc DCM $77,676.50
+E.ON AG EON $77,504.80
+ASTRAZENECA PLC AZN $76,838.50
+Merck & Company, Inc. MRK $75,438.80
+Schlumberger N.V. SLB $75,079.30
+Telefonica SA TEF $75,014.40
+Mobile TeleSystems MBT $74,709.90
+Nippon Telegraph and Telephone Corporation NTT $73,164.20
+BHP Billiton Limited BHP $70,814.20
+CREDIT SUISSE GROUP CSR $70,042.90
+Barclays PLC BCS $69,336.30
+Dell Inc. DELL $68,981.70
+Merrill Lynch & Co., Inc. MER $68,778.10
+Banco Bilbao Viscaya Argentaria S.A. BBV $68,630.80
+Medtronic, Inc. MDT $68,305.80
+Abbott Laboratories ABT $66,935.50
+Deutsche Telekom AG DT $66,534.40
+American Express Company AXP $65,090.50
+Morgan Stanley MS $64,994.30
+SAP Aktiengesellschaft Systeme, Anwendungen, Produkt SAP $64,993.50
+Sprint Nextel Corporation S $64,848.10
+Oracle Corporation ORCL $64,758.40
+Eli Lilly and Company LLY $64,355.90
+Allianz Aktiengesellschaft AZ $64,122.00
+Goldman Sachs Group, Inc. (The) GS $63,675.40
+Apple Computer, Inc. AAPL $63,637.40
+AXA AXA $63,391.30
+American Home Products Corporation WYE $62,079.50
+STATOIL ASA STO $60,629.60
+eBay Inc. EBAY $60,269.70
+Petroleo Brasileiro S.A.- Petrobras PBR $59,929.00
+United Technologies Corporation UTX $59,458.80
+France Telecom S.A. FTE $59,248.60
+Anglo American plc AAUK $58,155.30
+DAIMLERCHRYSLER AG DCX $58,055.10
+Deutsche Bank AG DB $58,039.10
+LM Ericsson Telephone Company ERICY $57,762.40
+Motorola, Inc. MOT $56,566.00
+Federal National Mortgage Association FNM $56,080.40
+Boeing Company (The) BA $55,144.30
+3M Company MMM $54,892.60
+SPDR Trust Series I SPY $54,770.60
+Rio Tinto Plc RTP $54,672.70
+U.S. Bancorp USB $54,326.90
+Canon, Inc. CAJ $53,520.10
+Taiwan Semiconductor Manufacturing Company Limited TSM $53,411.10
+Matsushita Electric Industrial Company, Ltd. MC $53,403.00
+Tyco International, Ltd. TYC $52,988.00
+ABN Amro Holding N.V. ABN $52,842.50
+Honda Motor Company, Ltd. HMC $52,826.80
+ENEL S.p.A. EN $52,286.60
+Structured Products Corp. BLS $51,670.90
+LLOYDS TSB GROUP PLC LYG $51,544.10
+Nissan Motor Co., Ltd. NSANY $50,519.00
+Royal Bank Of Canada RY $50,481.70
+Lowe's Companies, Inc. LOW $49,691.00
+Sony Corporation SNE $48,936.40
+Yahoo! Inc. YHOO $48,769.10
+Walt Disney Company (The) DIS $48,653.60
+Manulife Financial Corp MFC $48,275.90
+Target Corporation TGT $48,135.30
+Telefonica Moviles S.A. TEM $47,852.60
+British American Tobacco Industries, p.l.c. BTI $47,662.40
+United Parcel Service, Inc. UPS $47,629.80
+WellPoint Health Networks Inc. WLP $47,324.20
+Texas Instruments Incorporated TXN $47,295.70
+SUEZ ADS SZE $47,234.00
+Federal Home Loan Mortgage Corporation FRE $46,957.80
+BHP BILLITON PLC BBL $46,524.60
+Caterpillar, Inc. CAT $46,186.10
+Lehman ABS Corporation BMY $44,589.10
+Koninklijke Philips Electronics, N.V. PHG $44,312.10
+McDonald's Corporation MCD $44,062.60
+Walgreen Company WAG $43,803.20
+Diageo plc DEO $43,017.90
+Encana Corporation ECA $42,826.20
+Brown-Forman Corporation BF $42,299.50
+America Movil, S.A. de C.V. AMX $41,854.50
+Washington Mutual, Inc. WM $41,503.60
+National Australia Bank Limited NAB $41,326.70
+Halliburton Company HAL $40,832.30
+Dow Chemical Company (The) DOW $40,824.70
+Unilever NV UN $40,124.60
+BG Group plc BRG $40,090.90
+PETROLEO BRASILEIRO SA PETRO PBR/A $39,856.30
+Occidental Petroleum Corporation OXY $39,295.40
+ALCON INC ACL $39,244.30
+Bank of Nova Scotia (The) BNS $38,832.10
+Valero Energy Corporation VLO $38,623.40
+Cia Vale do Rio Doce RIO $38,449.90
+Nomura Holdings Inc ADR NMR $38,355.10
+EXELON CORP EXC $38,312.10
+Prudential Financial Inc PRU $38,046.70
+MetLife, Inc. MET $37,985.00
+Toronto Dominion Bank (The) TD $37,926.30
+Comcast Corporation CMCSA $37,907.90
+Lehman Brothers Fin SA LEH $37,627.80
+Telecom Italia S.P.A. TI $37,557.70
+Corning Incorporated GLW $37,114.60
+Suncor Energy Inc. SU $36,617.80
+Vivendi Universal
+V $36,115.40
+E.I. du Pont de Nemours and Company DD $35,993.50
+CNOOC Limited CEO $35,344.00
+Australia & New Zealand Banking Group Limited ANZ $34,934.70
+News Corporation Limited (The) NWS/A $34,905.90
+First Data Corporation FDC $34,397.80
+Millea Holdings Inc. ADR MLEA $34,316.40
+Burlington Resources Inc. BR $34,255.40
+Allstate Corporation (The) ALL $33,761.80
+Canadian Natural Resources Limited CNQ $33,253.60
+Repsol YPF S.A. REP $33,219.70
+Carnival Corporation CCL $32,977.20
+Westpac Banking Corporation WBK $32,532.00
+Honeywell International Inc. HON $32,378.80
+Anheuser-Busch Companies, Inc. BUD $32,171.30
+EMC Corporation EMC $31,947.60
+Norsk Hydro ASA NHY $31,908.30
+Emerson Electric Company EMR $31,846.30
+St. Paul Companies, Inc. (The) STA $31,423.40
+Applied Materials, Inc. AMAT $30,908.40
+BT GROUP PLC BT $30,852.00
+Cardinal Health, Inc. CAH $30,849.60
+FedEx Corporation FDX $30,737.70
+Bayer Aktiengesellschaft BAY $30,535.60
+Unilever PLC UL $30,423.30
+Devon Energy Corporation DVN $30,305.70
+Endesa S.A. ELE $30,238.00
+Bank Of Montreal BMO $30,003.40
+Burlington Northern Santa Fe Corporation BNI $29,772.60
+GROUPE DANONE DA $29,673.60
+Viacom, Inc. VIA/B $29,325.10
+Lockheed Martin Corporation LMT $29,218.00
+Korea Electric Power Corporation KEP $29,152.80
+Colgate-Palmolive Company CL $28,436.00
+Schering-Plough Corp SGP $28,322.90
+Marathon Oil Corporation MRO $28,171.20
+National Grid Transco, PLC NGG $27,995.40
+Gilead Sciences, Inc. GILD $27,873.50
+Sasol Ltd. SSL $27,699.00
+Aetna Inc. AET $27,685.90
+Alcoa Inc. AA $27,413.50
+Teva Pharmaceutical Industries Limited TEVA $26,839.80
+Kookmin Bank KB $26,822.90
+Transocean Inc. RIG $26,786.20
+Kimberly-Clark Corporation KMB $26,685.80
+Baker Hughes Incorporated BHI $26,472.40
+Duke Energy Corporation DUK $26,296.50
+Dominion Resources, Inc.
+D $26,229.80
+SunTrust Banks, Inc. STI $25,863.80
+Southern Company (The) SO $25,821.60
+AEGON N.V. AEG $25,807.50
+Sanpaolo IMI S.p.A. IMI $25,796.20
+Newmont Mining Corporation (Holding Company) NEM $25,644.80
+Franklin Resources, Inc. BEN $25,427.20
+Anadarko Petroleum Corporation APC $25,351.20
+Automatic Data Processing, Inc. ADP $25,335.80
+Apache Corporation APA $24,871.60
+Best Buy Co., Inc. BBY $24,819.70
+Hartford Financial Services Group, Inc. (The) HIG $24,700.20
+Petro-Canada PCZ $24,691.30
+Sun Life Financial Incorporated SLF $24,611.10
+Guidant Corporation GDT $24,570.30
+Prudential Public Limited Company PUK $24,556.40
+Berkshire Hathaway Inc. BRK/B $24,543.80
+Cemex Sa De Cv A Ads CX $24,503.70
+Bank of New York Company, Inc. (The) BK $24,490.90
+Starbucks Corporation SBUX $24,372.70
+TXU Corporation TXU $24,313.70
+Canadian National Railway Company CNI $24,258.00
+Adobe Systems Incorporated ADBE $23,749.90
+Hitachi, Ltd. HIT $23,745.30
+Illinois Tool Works Inc. ITW $23,643.60
+Costco Wholesale Corporation COST $23,553.00
+AFLAC Incorporated AFL $23,492.30
+Union Pacific Corporation UNP $23,436.60
+Canadian Imperial Bank of Commerce BCM $23,399.10
+SLM Corporation SLM $23,352.80
+THOMSON CORP TOC $23,307.70
+Orix Corp Ads IX $23,302.30
+General Dynamics Corporation GD $23,293.20
+ALLTEL Corporation AT $22,988.20
+Baxter International Inc. BAX $22,980.50
+Mitsui & Company, Ltd. MITSY $22,873.50
+Monsanto Company MON $22,791.90
+ABB LTD ABB $22,680.20
+CVS Corporation CVS $22,602.10
+BCE, Inc. BCE $22,450.40
+Liberty Media Corporation
+L $22,417.50
+Talisman Energy Inc. TLM $22,316.30
+Capital One Financial Corporation COF $22,208.70
+Caremark Rx, Inc. CMX $22,173.50
+Comcast Corporation CMCSK $22,160.50
+Northrop Grumman Corporation NOC $22,074.90
+Golden West Financial Corporation GDW $21,753.90
+NASDAQ-100 Index Tracking Stock QQQQ $21,672.00
+Norfolk Souther Corporation NSC $21,296.60
+BB&T Corporation BBT $21,202.70
+National City Corporation NCC $21,166.70
+YPF Sociedad Anonima YPF $21,107.70
+PetroChina Company Limited PTR $21,103.10
+Wipro Limited WIT $21,061.60
+Imperial Tobacco Group plc ITY $21,029.10
+iShares MSCI EAFE Index Fund EFA $20,994.20
+Royal KPN N.V. KPN $20,932.70
+Fifth Third Bancorp FITB $20,845.90
+Vivendi Environnement Ord VE $20,752.90
+Cadbury Schweppes, PLC CSG $20,750.40
+Progressive Corporation (The) PGR $20,724.40
+Infosys Technologies Limited INFY $20,622.90
+Archer-Daniels-Midland Company ADM $20,575.10
+HCA Inc. HCA $20,490.90
+EOG Resources, Inc. EOG $20,423.30
+Stryker Corporation SYK $20,208.90
+Pohang Iron & Steel Co., Ltd. PKX $20,014.60
+Structured Products Inc 8% CorTS CFC $19,995.20
+State Street Corp STT $19,993.50
+Symantec Corporation SYMC $19,877.50
+Broadcom Corporation BRCM $19,873.20
+Allied Irish Banks, p.l.c. AIB $19,601.50
+Banco Bradesco Sa BBD $19,568.20
+Marvell Technology Group, Ltd. MRVL $19,450.00
+Sears Holdings Corporation SHLD $19,438.10
+The DirecTV Group Inc DTV $19,236.20
+Tenaris S.A. TS $19,177.90
+Accenture Ltd. ACN $19,174.70
+ALCATEL ALA $19,137.10
+McGraw-Hill Companies, Inc. (The) MHP $19,134.90
+Charles Schwab Corporation (The) SCHW $19,071.10
+Scottish Power pls SPI $19,060.00
+Sysco Corporation SYY $19,030.80
+PNC Bank Corp. PNC $19,004.00
+SWISSCOM AG SCM $18,893.70
+Chubb Corporation (The) CB $18,860.60
+Advanced Micro Devices, Inc. AMD $18,794.20
+Moody's Corporation MCO $18,704.70
+Simon Property Group, Inc. SPG $18,608.30
+Amazon.com, Inc. AMZN $18,576.70
+Lafarge S.A. LR $18,499.50
+CBS Corporation CBS $18,473.10
+COMPANHIA VALE DO RIO DOCE RIO^ $18,450.00
+Telstra Corporation Limited TLS $18,399.00
+Loews Corporation LTR $18,331.40
+Genzyme General GENZ $18,318.60
+Raytheon Company RTN $18,302.20
+Telenor ASA TELN $18,202.60
+Las Vegas Sands Corp. LVS $18,186.20
+Federated Department Stores, Inc. FD $18,137.80
+ALCAN, Inc. AL $18,086.00
+St. Jude Medical, Inc. STJ $18,007.70
+Chunghwa Telecom Co Ltd CHT $17,964.10
+Boston Scientific Corporation BSX $17,941.10
+Fuji Photo Film Co., Ltd. FUJIY $17,842.10
+XTO Energy Inc. XTO $17,825.70
+Kellogg Company
+K $17,770.70
+Ace Limited ACE $17,647.50
+Waste Management, Inc. WMI $17,427.00
+Staples, Inc. SPLS $17,341.30
+General Mills, Inc. GIS $17,314.00
+Danaher Corporation DHR $17,307.50
+SK Telecom Corporation, Ltd. SKM $17,203.40
+Cendant Corporation CD $17,148.10
+Zimmer Holdings, Inc. ZMH $17,085.80
+News Corporation Limited (The) NWS $17,029.20
+CRH PLC CRHCY $16,989.90
+Praxair, Inc. PX $16,979.00
+Weyerhaeuser Company WY $16,968.30
+Kyocera Corporation KYO $16,911.70
+Deere & Company DE $16,871.90
+Novo Nordisk A/S NVO $16,796.10
+STMicroelectronics N.V. STM $16,728.70
+Governor and Company of the Bank of Ireland (The) IRE $16,711.50
+Public Service Enterprise Group Incorporated PEG $16,659.80
+MedcoHealth Solutions Inc MHS $16,638.80
+Marsh & McLennan Companies, Inc. MMC $16,553.40
+Telefonos de Mexico SA de CV Ser A Spons ADR TMX $16,549.00
+FirstEnergy Corporation FE $16,524.80
+FPL Group, Inc. FPL $16,500.70
+Electronic Arts Inc. ERTS $16,405.60
+LG.PHILIPS LPL $16,352.20
+PUBLIC SVC ELEC & GAS CO PEG^A $16,351.70
+McKesson Corporation MCK $16,306.60
+Phelps Dodge Corporation PD $16,298.80
+AngloGold Ashanti Ltd. AU $16,214.70
+Becton, Dickinson and Company BDX $16,088.80
+Banco Itau Holding Financeira SA (Holding Co) ITU $16,046.50
+International Paper Company IP $16,005.00
+British Sky Broadcasting Group, plc BSY $15,955.30
+Woori Finance Holdings Co Ltd WF $15,894.70
+Computer Associates International, Inc. CA $15,857.20
+Clear Channel Communications, Inc. CCU $15,821.10
+Gap, Inc. (The) GPS $15,731.50
+Nike, Inc. NKE $15,671.20
+Forest Laboratories, Inc. FRX $15,633.10
+Allergan, Inc. AGN $15,627.30
+Weatherford International, Inc. WFT $15,567.10
+Natl Bk Greece Ads NBG $15,552.60
+Sun Microsystems, Inc. SUNW $15,364.10
+Ford Motor Credit Company
+F $15,330.40
+Kohl's Corporation KSS $15,303.60
+Shinhan Financial Group Co Ltd SHG $15,300.50
+CIGNA Corporation CI $15,294.80
+Transcananda Pipelines, Ltd. TRP $15,226.10
+Biogen Idec Inc BIIB $15,188.60
+Regions Financing Tr I RF $15,141.60
+TPG, N.V. TP $15,073.60
+Nexen, Inc. NXY $14,979.70
+REYNOLDS AMERICAN INC RAI $14,907.30
+Gannett Co., Inc. GCI $14,825.30
+Legg Mason, Inc. LM $14,787.50
+Kraft Foods Inc. KFT $14,764.60
+Omnicom Group Inc. OMC $14,747.60
+Mellon Financial Corporation MEL $14,747.30
+Harley-Davidson, Inc. HDI $14,700.20
+American Electric Power Company, Inc. AEP $14,692.30
+Chicago Mercantile Exchange Holdings CME $14,591.50
+Analog Devices, Inc. ADI $14,588.90
+Agilent Technologies, Inc.
+A $14,539.30
+Entergy Corporation ETR $14,421.90
+Amerada Hess Corporation AHC $14,401.80
+KeyCorp KEY $14,390.40
+WOLSELEY PLC WOS $14,377.90
+Bear Stearns Companies, Inc (The) BSC $14,329.70
+Santa Fe International Corporation GSF $14,327.40
+TELECOM ITALIA S P A NEW TI/A $14,294.00
+Edison International EIX $14,277.00
+Williams Companies, Inc. (The) WMB $14,042.80
+AB Volvo VOLVY $14,026.30
+Yum! Brands, Inc. YUM $14,003.10
+Pacific Gas & Electric Co. PCG $13,982.10
+ICICI Bank Limited IBN $13,970.80
+P.T. Telekomunikasi Indonesia, Tbk. TLK $13,950.70
+Marriot International MAR $13,885.80
+Sara Lee Corporation SLE $13,884.40
+Akzo Nobel N.V. AKZOY $13,852.40
+Cameco Corporation CCJ $13,797.50
+Paychex, Inc. PAYX $13,776.20
+Air Products and Chemicals, Inc. APD $13,711.40
+Coach, Inc. COH $13,663.40
+General Motors Corporation GM $13,606.40
+Syngenta AG SYT $13,583.20
+Harrah's Entertainment, Inc. HET $13,526.10
+Entergy Mississippi, Inc. EMQ $13,483.80
+iShares S&P 500 Index Fund IVV $13,458.50
+Maxim Integrated Products, Inc. MXIM $13,453.50
+Johnson Controls, Inc. JCI $13,446.40
+BOC Group plc (The) BOX $13,415.20
+Kroger Company (The) KR $13,348.90
+Starwood Hotels & Resorts Worldwide, Inc. HOT $13,331.60
+Xerox Corporation XRX $13,325.30
+Telkom SA Ltd TKG $13,317.10
+Express Scripts, Inc. ESRX $13,294.90
+Schering Aktiengesellschaft SHR $13,279.40
+National-Oilwell, Inc. NOV $13,259.10
+Southwest Airlines Company LUV $13,233.80
+Principal Financial Group Inc PFG $13,211.90
+WPP Group plc WPPGY $13,197.10
+Nidec Corporation (Nihon Densan Kabushiki Kaisha) NJ $13,190.40
+Electronic Data Systems Corporation EDS $13,137.60
+Peabody Energy Corporation BTU $13,135.30
+BJ Services Company BJS $13,110.70
+Nucor Corporation NUE $13,107.80
+Nortel Networks Corporation NT $13,004.60
+Ingersoll-Rand Company IR $12,991.90
+Avon Products, Inc. AVP $12,981.70
+United Microelectronics Corporation UMC $12,966.40
+Sunoco, Inc. SUN $12,959.10
+J.C. Penney Company, Inc. Holding Company JCP $12,959.00
+Chesapeake Energy Corporation CHK $12,957.80
+Turkcell Iletisim Hizmetleri AS TKC $12,924.40
+Equity Office Properties Trust EOP $12,924.30
+Research in Motion Limited RIMM $12,903.70
+Companhia de Bebidas das Americas - AmBev ABV $12,851.90
+Kerr-McGee Corporation KMG $12,828.60
+Southern Peru Copper Corporation PCU $12,823.60
+Nabors Industries, Inc. NBR $12,795.00
+Tennessee Valley Authority TVE $12,757.50
+American Tower Corporation AMT $12,741.60
+Seagate Technology Holdings STX $12,682.70
+Tele Danmark A/S TLD $12,656.30
+Kubota Corporation KUB $12,626.40
+Electricidade de Portugal, S.A. EDP $12,571.70
+Masco Corporation MAS $12,565.70
+Genworth Financial Inc GNW $12,509.30
+NEC Corporation NIPNY $12,501.70
+ProLogis PLD $12,471.90
+Vornado Realty Trust VNO $12,415.70
+SanDisk Corporation SNDK $12,402.00
+Campbell Soup Company CPB $12,378.80
+SEMPRA ENERGY SRE $12,353.10
+General Growth Properties, Inc. GGP $12,319.70
+Advantest Corporation (Kabushiki Kaisha Advantest) ADS ATE $12,261.30
+North Fork Bancorporation, Inc. NFB $12,234.50
+EQUITY RESIDENTIAL EQR $12,221.10
+Wm. Wrigley Jr. Company WWY $12,221.00
+TRANSCANADA CORP TCA^ $12,193.20
+Reed Elsevier PLC RUK $12,157.60
+M&T Bank Corporation MTB $12,146.90
+Kirin Brewery Company, Limited KNBWY $12,084.60
+TELEKOM AUSTRIA AG TKA $12,075.00
+Celgene Corporation CELG $12,067.70
+International Game Technology IGT $12,040.90
+Koninklijke Ahold, N.V. AHO $12,036.70
+Korea Telecom Corporation KTC $12,026.30
+Freeport-McMoRan Copper & Gold, Inc. FCX $12,014.80
+COMPANHIA DE BEBIDAS DAS AME ABV/C $11,988.50
+Luxottica Group, S.p.A. LUX $11,962.30
+Carnival Plc ADS CUK $11,902.40
+XL CAPITAL LIMITED XL $11,801.40
+PACCAR Inc. PCAR $11,782.70
+Lucent Technologies, Inc. LU $11,771.80
+Portugal Telecom SGPS, S.A . PT $11,769.80
+TJX Companies, Inc. (The) TJX $11,761.40
+Kinder Morgan, Inc. KMI $11,748.80
+Rinker Group Limited RIN $11,709.90
+ROCKWELL AUTOMATION INC ROK $11,709.70
+D.R. Horton, Inc. DHI $11,684.20
+Gold Fields Ltd. GFI $11,632.30
+CSX Corporation CSX $11,628.80
+Network Appliance, Inc. NTAP $11,609.70
+Consolidated Edison, Inc. ED $11,515.60
+PP&L Corporation PPL $11,453.60
+Hellenic Telecommunication Organization, S.A. OTE $11,430.60
+Northern Trust Corporation NTRS $11,394.60
+Rogers Communication, Inc. RG $11,374.60
+H.J. Heinz Company HNZ $11,358.70
+Linear Technology Corporation LLTC $11,340.30
+Rohm and Haas Company ROH $11,277.80
+Nordstrom, Inc. JWN $11,259.50
+Placer Dome Incorporated PDG $11,240.30
+China Netcom Group Corporation (Hong Kong) Limited CN $11,205.70
+Qwest Communications International Inc.
+Q $11,197.20
+iShares MSCI Japan Index Fund EWJ $11,194.60
+CHINA UNICOM LTD CHU $11,191.10
+Textron Inc. TXT $11,180.10
+Aes Trust AES $11,178.00
+Bed Bath & Beyond Inc. BBBY $11,105.50
+ENBRIDGE INC ENB $11,080.40
+Noble Corporation NE $11,011.90
+PROGRESS ENERGY INC PGN $10,977.50
+Fortune Brands, Inc. FO $10,952.60
+Aon Corporation AOC $10,950.90
+ASML Holding N.V. ASML $10,931.10
+Diamond Offshore Drilling, Inc. DO $10,922.20
+Reuters Group PLC RTRSY $10,877.70
+FIAT S.p.A. FIA $10,791.40
+ConAgra Foods, Inc. CAG $10,764.30
+UPM-Kymmene Oyj UPM $10,737.20
+United Utilities plc. UU $10,659.90
+CIT Group Inc (DEL) CIT $10,656.10
+Murphy Oil Corporation MUR $10,575.30
+MGM MIRAGE MGM $10,549.50
+Safeway Inc. SWY $10,531.60
+Reed Elsevier NV ENL $10,516.40
+Adecco SA ADO $10,480.80
+FORD MTR CO DEL F^A $10,470.00
+Pearson, Plc PSO $10,453.40
+Constellation Energy Group, Inc. CEG $10,406.10
+Ameren Corporation AEE $10,368.90
+China Petroleum & Chemical Corporation SNP $10,360.30
+Pulte Homes, Inc. PHM $10,313.00
+KLA-Tencor Corporation KLAC $10,261.50
+Juniper Networks, Inc. JNPR $10,238.70
+Office Depot, Inc. ODP $10,238.50
+AMERIPRISE FINANCIAL SERVICES, INC. AMP $10,168.40
+Gallaher Group, PLC GLH $10,135.20
+Whole Foods Market, Inc. WFMI $10,039.50
+Quest Diagnostics Incorporated DGX $9,989.20
+T. Rowe Price Group, Inc. TROW $9,988.70
+PPG Industries, Inc. PPG $9,938.10
+Archstone Communities Trust ASN $9,933.90
+E*TRADE Financial Corporation ET $9,910.50
+Marshall & Ilsley Corporation MI $9,872.70
+Coles Meyer Limited CM $9,867.00
+Enterprise Products Partners L.P. EPD $9,851.80
+Xilinx, Inc. XLNX $9,814.40
+Eaton Corporation ETN $9,797.60
+Apollo Group, Inc. APOL $9,795.10
+PITNEY BOWES INC PBI $9,749.70
+L-3 Communications Holdings, Inc. LLL $9,733.30
+Inco Ltd.
+N $9,717.30
+TDK Corporation TDK $9,686.90
+Coventry Health Care, Inc. CVH $9,678.00
+UnionBanCal Corporation UB $9,674.80
+Open Joint Stock Company Vimpel-Communications"" VIP $9,599.80
+AmSouth Bancorporation ASO $9,597.20
+Smith International, Inc. SII $9,557.60
+National Semiconductor Corporation NSM $9,520.50
+Hilton Hotels Corporation HLT $9,509.60
+Limited Brands, Inc. LTD $9,470.30
+ITT Industries, Inc. ITT $9,465.20
+Lincoln National Corporation LNC $9,446.70
+Biomet, Inc. BMET $9,417.60
+Public Storage, Inc. PSA $9,414.70
+Smith & Nephew SNATS, Inc. SNN $9,392.80
+Autodesk, Inc. ADSK $9,384.80
+Computer Sciences Corporation CSC $9,380.00
+A.O. Tatneft TNT $9,368.40
+Coca-Cola Enterprises, Inc. CCE $9,347.20
+Potash Corporation of Saskatchewan Inc. POT $9,322.40
+Dover Corporation DOV $9,308.50
+Grupo Televisa S.A. TV $9,298.80
+Goldcorp Incorporated GG $9,292.60
+Albertson's, Inc. ABS $9,279.60
+Intuit Inc. INTU $9,259.60
+Hershey Foods Corporation HSY $9,248.80
+Mittal Steel Company NV MT $9,245.60
+Ecolab Inc. ECL $9,168.20
+Centex Corporation CTX $9,120.00
+Stora Enso Oyj SEO $9,109.40
+Micron Technology, Inc. MU $9,084.00
+Humana Inc. HUM $9,078.70
+Parker-Hannifin Corporation PH $9,074.70
+Comerica Incorporated CMA $9,041.60
+Banco Santiago, S.A. SAN $9,041.40
+Clorox Company (The) CLX $9,019.50
+Tribune Company TRB $8,935.70
+AU OPTRONICS CORP AUO $8,914.90
+El Paso Corporation EP $8,875.80
+Boston Properties, Inc. BXP $8,805.00
+Cinergy Corporation CIN $8,665.50
+Empresa Nacional de Electricidad S.A. EOC $8,658.30
+Synovus Financial Corporation SNV $8,650.70
+iShares MSCI Emerging Index Fund EEM $8,618.10
+Chiron Corporation CHIR $8,599.10
+Royal Caribbean Cruises Ltd. RCL $8,586.30
+MidCap SPDR Trust Series I MDY $8,574.80
+IAC/InterActiveCorp IACI $8,486.10
+Mirant Corp MIR $8,400.00
+MedImmune, Inc. MEDI $8,395.50
+Ryanair Holdings plc RYAAY $8,393.00
+Hanson plc.(Holding Company) HAN $8,332.90
+Jabil Circuit, Inc. JBL $8,298.00
+Zions Bancorporation ZION $8,297.40
+Expedia, Inc. EXPE $8,259.70
+IVAX Corporation IVX $8,255.50
+MBIA, Inc. MBI $8,252.90
+iShares Russell 2000 Index Fund IWM $8,251.00
+Serono International S.A. SRA $8,227.80
+Fisher Scientific International Inc. FSH $8,200.10
+TD Ameritrade Holding Corporation AMTD $8,192.60
+Ambac Financial Group, Inc. ABK $8,114.10
+Fiserv, Inc. FISV $8,114.00
+Noble Energy Inc. NBL $8,096.40
+CNA Financial Corporation CNA $8,093.60
+Rockwell Collins, Inc. COL $8,083.50
+Ultra Petroleum Corp. UPL $8,060.60
+H&R Block, Inc. HRB $8,014.00
+Magna International, Inc. MGA $8,005.60
+Kimco Realty Corporation KIM $7,975.40
+Cincinnati Financial Corporation CINF $7,956.20
+Varian Medical Systems, Inc. VAR $7,937.80
+Hutchison Telecommunications International Limited HTX $7,936.70
+ENERSIS S A ENI $7,914.60
+Companhia Siderurgica Nacional S.A. SID $7,890.00
+Microchip Technology Incorporated MCHP $7,883.90
+Chico's FAS, Inc. CHS $7,883.30
+Shire plc SHPGY $7,863.20
+Expeditors International of Washington, Inc. EXPD $7,841.60
+ENSCO International Incorporated ESV $7,834.90
+Lennar Corporation LEN $7,827.50
+Asco Plc Ads AAA $7,827.30
+Xcel Energy Inc. XEL $7,824.10
+Jefferson-Pilot Corporation JP $7,818.10
+Laboratory Corporation of America Holdings LH $7,795.80
+Telecomunicacoes de Sao Paulo S.A. TSP $7,789.90
+Sovereign Bancorp, Inc. SOV $7,786.00
+Imperial Chemical Industries Plc ICI $7,774.50
+NVIDIA Corporation NVDA $7,696.10
+Kinder Morgan Energy Partners, L.P. KMP $7,686.90
+DIAMONDS Trust Series I DIA $7,644.00
+Fluor Corporation FLR $7,636.30
+Canadian Pacific Railway Limited CP $7,630.40
+Telecom Corporation of New Zealand Limited NZT $7,614.40
+China Life Insurance Company Limited LFC $7,614.20
+Univision Communications Inc. UVN $7,574.40
+American Standard Companies, Inc. ASD $7,564.90
+Sirius Satellite Radio Inc. SIRI $7,549.50
+DTE Energy Company DTE $7,504.30
+AutoZone, Inc. AZO $7,500.00
+Amvescap Plc AVZ $7,492.90
+Cooper Industries, Ltd. CBE $7,481.10
+NII Holdings, Inc. NIHD $7,471.00
+Publicis Groupe S.A. PUB $7,470.40
+Fresenius Medical Care Corporation FMS $7,424.20
+Hudson City Bancorp, Inc. HCBK $7,422.50
+Genuine Parts Company GPC $7,379.90
+Affiliated Computer Services, Inc. ACS $7,367.10
+KB HOME KBH $7,364.40
+Harmony Gold Mining Co. Ltd. HMY $7,343.20
+AvalonBay Communities, Inc. AVB $7,328.00
+Vulcan Materials Company VMC $7,319.80
+International Power Plc IPR $7,263.90
+Sherwin-Williams Company (The) SHW $7,242.30
+Cognizant Technology Solutions Corporation CTSH $7,237.90
+Harman International Industries, Incorporated HAR $7,234.80
+COCA COLA HELLENIC BOTTLING CO CCH $7,220.80
+Eastman Kodak Company EK $7,209.30
+Southwestern Energy Company SWN $7,207.10
+iShares Dow Jones Select Dividend Index Fund DVY $7,199.60
+HOSPIRA INC HSP $7,198.20
+SODEXHO ALLIANCE SA SDX $7,188.00
+Cintas Corporation CTAS $7,155.10
+Barr Pharmaceuticals, Inc. BRL $7,056.00
+Host Marriott Financial Trust HMT $7,051.50
+INFINEON TECHNOLOGIES AG IFX $7,049.50
+R.R. Donnelley & Sons Company RRD $7,025.30
+Altera Corporation ALTR $6,999.20
+Brookfield Properties Corporation BPO $6,984.90
+Pepsi Bottling Group, Inc. (The) PBG $6,975.30
+Questar Corporation STR $6,948.60
+C.H. Robinson Worldwide, Inc. CHRW $6,918.60
+Pixar PIXR $6,870.20
+CPFL Energia S.A. CPL $6,852.50
+Wendy's International, Inc. WEN $6,852.40
+Fidelity National Financial, Inc. FNF $6,849.10
+Pioneer Natural Resources Company PXD $6,825.00
+NCR Corporation NCR $6,820.70
+FREESCALE SEMICONDUCTOR INC FSL/B $6,817.00
+Plum Creek Timber Company, Inc. PCL $6,798.90
+Dassault Systemes, S.A. DASTY $6,792.20
+Elan Corporation, plc ELN $6,782.70
+USX Corporation
+X $6,774.70
+Black & Decker Corporation (The) BDK $6,766.90
+Crown Castle International Corporation CCI $6,750.90
+CONSOL Energy Inc. CNX $6,745.10
+ALUMINA LTD AWC $6,738.90
+Garmin Ltd. GRMN $6,714.80
+Newfield Exploration Company NFX $6,667.10
+Intercontinental Hotels Group IHG $6,664.30
+Mattel, Inc. MAT $6,663.00
+C.R. Bard, Inc. BCR $6,650.70
+Precision Castparts Corporation PCP $6,633.40
+Scientific-Atlanta, Inc. SFA $6,597.20
+Technip TKP $6,584.30
+Bunge Limited BG $6,577.70
+British Airways plc BAB $6,576.10
+Telus Corporation TU $6,575.00
+Joy Global Inc. JOYG $6,566.60
+Royal & SunAlliance Insurance Group PLC RSA $6,564.30
+Etablissements Delhaize Freres et Cie Le Lion" S.A." DEG $6,536.00
+Newell Rubbermaid Inc. NWL $6,512.80
+Patterson-UTI Energy, Inc. PTEN $6,500.80
+Amdocs Limited DOX $6,483.20
+SAFECO Corporation SAFC $6,454.80
+Grant Prideco, Inc. GRP $6,440.20
+Wynn Resorts, Limited WYNN $6,427.20
+UST Inc. UST $6,369.40
+W.W. Grainger, Inc. GWW $6,363.60
+Satyam Computer Services Limited SAY $6,338.10
+Gerdau S.A. GGB $6,336.30
+Lam Research Corporation LRCX $6,314.20
+W.R. Berkley Corporation BER $6,295.20
+KeySpan Corporation KSE $6,263.00
+Philippine Long Distance Telephone Company PHI $6,255.80
+Enerplus Resources Fund ERF $6,239.00
+Harris Corporation HRS $6,222.90
+Robert Half International Inc. RHI $6,221.30
+HDFC Bank Limited HDB $6,185.30
+V.F. Corporation VFC $6,168.10
+Darden Restaurants, Inc. DRI $6,146.50
+Air France ADS AKH $6,144.60
+Suntech Power Holdings Co., LTD. STP $6,139.70
+E.W. Scripps Company (The) SSP $6,135.50
+America Movil, S.A. de C.V. AMOV $6,112.40
+VeriSign, Inc. VRSN $6,087.50
+Compass Bancshares, Inc. CBSS $6,067.60
+UnumProvident Corporation UNM $6,058.70
+Tata Motors Ltd TTM $6,042.50
+Sepracor Inc. SEPR $6,037.10
+Assurant, Inc. AIZ $6,010.80
+Washington Post Company (The) WPO $6,008.50
+MEMC Electronic Materials, Inc. WFR $6,001.60
+Flextronics International Ltd. FLEX $5,999.60
+MGIC Investment Corporation MTG $5,989.20
+Everest Re Group, Ltd. RE $5,979.30
+Avery Dennison Corporation AVY $5,956.10
+Omnicare, Inc. OCR $5,955.90
+Lyondell Chemical Company LYO $5,931.70
+Mosaic Company (The) MOS $5,930.10
+AutoNation, Inc. AN $5,848.70
+EchoStar Communications Corporation DISH $5,839.20
+Torchmark Corporation TMK $5,821.90
+Abercrombie & Fitch Company ANF $5,818.00
+XM Satellite Radio Holdings Inc. XMSR $5,817.40
+Commerce Bancorp, Inc. CBH $5,806.90
+Santos, Ltd. STOSY $5,792.80
+Fastenal Company FAST $5,762.70
+Mohawk Industries, Inc. MHK $5,739.90
+Tellabs, Inc. TLAB $5,735.70
+Telewest Global Inc TLWT $5,729.70
+White Mountains Insurance Group, Ltd. WTM $5,721.50
+Pride International, Inc. PDE $5,717.90
+IMS Health Incorporated RX $5,699.70
+Leucadia National Corporation LUK $5,671.20
+Allegheny Energy, Inc. AYE $5,665.70
+Health Net Inc. HNT $5,653.20
+Formento Economico Mexicano S.A. de C.V. FMX $5,643.50
+Lexmark International, Inc. LXK $5,636.50
+iShares Russell 1000 Value Index Fund IWD $5,619.20
+THOMSON multimedia S.A. TMS $5,616.50
+Arch Coal, Inc. ACI $5,597.70
+Northern Indiana Public Service Company NI $5,596.90
+CBOT Holdings, Inc. BOT $5,592.30
+DaVita Inc. DVA $5,568.10
+Cablevision Systems Corporation CVC $5,521.40
+CORUS GROUP PLC CGA $5,514.70
+Comverse Technology, Inc. CMVT $5,513.60
+Cooper Cameron Corporation CAM $5,488.60
+Iron Mountain Incorporated IRM $5,466.10
+Willis Group Holdings Limited WSH $5,463.40
+Thermo Electron Corporation TMO $5,458.00
+Whirlpool Corporation WHR $5,443.20
+Citrix Systems, Inc. CTXS $5,438.60
+Popular, Inc. BPOP $5,431.40
+NTL Incorporated NTLI $5,387.00
+Tiffany & Co. TIF $5,362.60
+Developers Diversified Realty Corporation DDR $5,362.50
+Dollar General Corporation DG $5,351.00
+Vanguard Total Stock Market VIPERs VTI $5,344.60
+Applera Corporation ABI $5,325.50
+Huntington Bancshares Incorporated HBAN $5,294.20
+China Telecom Corp Ltd CHA $5,280.40
+Constellation Brands, Inc. STZ $5,275.20
+Toll Brothers Inc. TOL $5,272.80
+Temple-Inland Inc. TIN $5,263.70
+Check Point Software Technologies Ltd. CHKP $5,261.60
+Republic Services, Inc. RSG $5,250.50
+Nextel Partners, Inc. NXTP $5,206.20
+Red Hat, Inc. RHAT $5,108.70
+Dean Foods Company DF $5,105.40
+Allegheny Technologies Incorporated ATI $5,091.70
+Rexam, Plc REXMY $5,083.20
+Macerich Company (The) MAC $5,079.10
+Getty Images, Inc. GYI $5,068.20
+Health Management Associates, Inc. HMA $5,065.10
+Monster Worldwide, Inc. MNST $5,033.00
+Shaw Communications Inc. SJR $5,024.00
+Cadence Design Systems, Inc. CDNS $5,010.30
+Tesoro Petroleum Corporation TSO $5,000.40
+Equifax, Inc. EFX $4,976.50
+JDS Uniphase Corporation JDSU $4,974.00
+Avaya Inc. AV $4,964.00
+Alliance Capital Management Holding L.P. AC $4,937.30
+Old Republic International Corporation ORI $4,924.40
+Liberty Global, Inc. LBTYA $4,917.50
+Rowan Companies, Inc. RDC $4,903.40
+Duke Realty Corporation DRE $4,886.80
+Intuitive Surgical, Inc. ISRG $4,869.40
+BANCO DE CHILE BCH $4,862.00
+Embraer-Empresa Brasileira de Aeronautica ERJ $4,859.90
+Wisconsin Energy Corporation WEC $4,855.90
+Jacobs Engineering Group Inc. JEC $4,851.50
+Weight Watchers International Inc WTW $4,847.70
+Meadwestvaco Corporation MWV $4,841.60
+Goodrich Corporation (The) GR $4,839.20
+Engelhard Corporation EC $4,832.30
+Matav MTA $4,811.50
+Dun & Bradstreet Corporation (The) DNB $4,798.60
+Liberty Global, Inc. LBTYK $4,798.40
+BMC Software, Inc. BMC $4,780.20
+iShares Russell 1000 Growth Index Fund IWF $4,778.80
+St. Joe Company (The) JOE $4,778.20
+Sanyo Electric Co., Ltd. SANYY $4,774.50
+First Tennessee National Corporation FHN $4,771.70
+Huntsman Corporation HUN $4,766.20
+Patterson Companies Inc. PDCO $4,762.40
+Radian Group Inc. RDN $4,751.60
+Ashland Inc. ASH $4,747.00
+Western Digital Corporation WDC $4,715.20
+ADVANCE AUTO PARTS INC AAP $4,713.30
+CheckFree Corporation CKFR $4,701.90
+Manpower Inc MAN $4,701.20
+Mercantile Bankshares Corporation MRBK $4,672.60
+Amylin Pharmaceuticals, Inc. AMLN $4,670.60
+Waters Corporation WAT $4,642.70
+Metso Corporation MX $4,642.00
+Tele Norte Leste Participacoes S.A. TNE $4,639.30
+Brown-Forman Corporation BF/B $4,633.60
+Estee Lauder Companies, Inc. (The) EL $4,631.10
+American Power Conversion Corporation APCC $4,628.90
+CB Richard Ellis Group Inc CBG $4,621.60
+Hormel Foods Corporation HRL $4,620.60
+Associated Banc-Corp ASBC $4,618.10
+New York Community Bancorp, Inc. NYB $4,602.40
+SCANA Corporation SCG $4,598.80
+Williams-Sonoma, Inc. WSM $4,591.40
+Knight-Ridder, Inc. KRI $4,585.60
+Sealed Air Corporation SEE $4,580.40
+BEA Systems, Inc. BEAS $4,578.50
+Station Casinos, Inc. STN $4,578.50
+Cummins Inc. CMI $4,556.10
+Amcor Limited AMCR $4,554.40
+King Pharmaceuticals, Inc. KG $4,533.60
+Leggett & Platt, Incorporated LEG $4,529.30
+Amphenol Corporation APH $4,517.70
+Stilwell Financial Inc. JNS $4,505.90
+Michaels Stores, Inc. MIK $4,495.60
+Urban Outfitters, Inc. URBN $4,490.70
+ATI Technologies Inc. ATYT $4,488.30
+First American Corporation (The) FAF $4,488.20
+Axis Capital Holdings Limited AXS $4,485.10
+CDW Corporation CDWC $4,472.70
+Circuit City Stores, Inc. CC $4,463.00
+AMB Property Corporation AMB $4,460.80
+Equitable Resources, Inc. EQT $4,460.20
+Trend Micro Incorporated TMIC $4,459.80
+IPSCO Inc. IPS $4,448.80
+Salesforce.com Inc CRM $4,445.70
+Lafarge Corporation LAF $4,420.40
+NVR, Inc. NVR $4,411.00
+Pacific Century CyberWorks Limited PCW $4,410.30
+Ciba Specialty Chemicals Holding, Inc. CSB $4,406.30
+Student Loan Corporation (The) STU $4,380.00
+Regency Centers Corporation REG $4,374.40
+Sigma-Aldrich Corporation SIAL $4,362.50
+CenturyTel, Inc. CTL $4,362.10
+Potomac Electric Power Company POM $4,360.70
+SuperValu Inc. SVU $4,352.70
+Interpublic Group of Companies, Inc. (The) IPG $4,348.30
+People's Bank PBCT $4,346.10
+MDU RES GROUP INC MDU $4,339.10
+Comp En De Mn Cemig ADS CIG $4,332.10
+Tomkins PLC TKS $4,254.50
+Mylan Laboratories, Inc. MYL $4,241.60
+USG Corporation USG $4,237.40
+iShares Lehman 1-3 Year Treasury Bond Fund SHY $4,232.30
+GTECH Holdings Corporation GTK $4,225.90
+DENTSPLY International Inc. XRAY $4,222.40
+Pinnacle West Capital Corporation PNW $4,218.40
+Glamis Gold Ltd. GLG $4,217.50
+Ball Corporation BLL $4,213.70
+Transatlantic Holdings, Inc. TRH $4,169.90
+Precision Drilling Corporation PDS $4,169.60
+Brown-Forman Corporation BF/A $4,151.40
+Lamar Advertising Company LAMR $4,144.50
+Advanced Semiconductor Engineering, Inc. ASX $4,144.00
+Federated Investors, Inc. FII $4,138.10
+Makita Corp. MKTAY $4,124.90
+Ross Stores, Inc. ROST $4,124.00
+Cephalon, Inc. CEPH $4,118.70
+Intersil Corporation ISIL $4,111.60
+Lincare Holdings Inc. LNCR $4,109.30
+Arrow Electronics, Inc. ARW $4,108.30
+Autoliv, Inc. ALV $4,100.50
+Stanley Works (The) SWK $4,100.30
+NAVTEQ CORP NVT $4,097.40
+Citizens Communications Company CZN $4,096.90
+SEI Investments Company SEIC $4,093.50
+TransAlta Corporation TAC $4,090.30
+iShares S&P SmallCap 600 Index Fund IJR $4,085.10
+Helmerich & Payne, Inc. HP $4,083.30
+New York Times Company (The) NYT $4,082.20
+Alberto-Culver Company ACV $4,081.60
+AMR Corporation AMR $4,077.90
+Apartment Investment and Management Company AIV $4,069.30
+Henry Schein, Inc. HSIC $4,065.40
+Discovery Holding Co DISCA $4,064.30
+ENERGY TRANSFER PARTNERS ETP $4,063.30
+iStar Financial Inc. SFI $4,059.30
+Global Payments Inc. GPN $4,034.80
+Boyd Gaming Corporation BYD $4,033.60
+American Eagle Outfitters, Inc. AEOS $4,033.20
+Mechel Steel Group OAO MTL $4,021.20
+Pharmaceutical Product Development, Inc. PPDI $3,998.50
+Liberty Property Trust LRY $3,993.80
+Brown & Brown, Inc. BRO $3,993.60
+CenterPoint Energy, Inc (Holding Co) CNP $3,963.20
+Arch Capital Group Ltd. ACGL $3,957.70
+AmeriCredit Corporation ACF $3,934.10
+Eastman Chemical Company EMN $3,933.90
+Martin Marietta Materials, Inc. MLM $3,930.70
+Novellus Systems, Inc. NVLS $3,929.30
+Activision, Inc. ATVI $3,924.80
+DST Systems, Inc. DST $3,909.50
+NRG Energy, Inc. NRG $3,895.50
+Networks Associates, Inc. MFE $3,890.50
+Allied Capital Corporation ALD $3,886.10
+Pentair, Inc. PNR $3,885.40
+Bunzl, plc BNL $3,881.80
+Range Resources Corporation RRC $3,874.60
+Total System Services, Inc. TSS $3,872.50
+PMI Group, Inc. (The) PMI $3,871.30
+American Capital Strategies, Ltd. ACAS $3,867.00
+Molson Coors Brewing Company TAP $3,844.90
+Colonial BancGroup, Inc. (The) CNB $3,840.70
+Millicom International Cellular S.A. MICC $3,819.90
+Quicksilver Resources Inc. KWK $3,818.10
+Compania Mina Buenaventura, S.A. BVN $3,810.00
+Indiana Michigan Power Co. IJD $3,810.00
+Endo Pharmaceuticals Holdings Inc. ENDP $3,808.90
+Vertex Pharmaceuticals Incorporated VRTX $3,781.60
+Hasbro, Inc. HAS $3,781.00
+Novell, Inc. NOVL $3,780.20
+Health Care Property Investors, Inc. HCP $3,770.10
+ServiceMaster Company (The) SVM $3,761.30
+Logitech International S.A. LOGI $3,760.50
+Cimarex Energy Co XEC $3,754.00
+McDermott International, Inc. MDR $3,728.90
+Eaton Vance Corporation EV $3,724.80
+Family Dollar Stores, Inc. FDO $3,718.80
+Liz Claiborne, Inc. LIZ $3,702.80
+Beckman Coulter, Inc. BEC $3,700.90
+ChoicePoint Inc. CPS $3,687.70
+Conseco, Inc. CNO $3,686.60
+City National Corporation CYN $3,685.50
+J.B. Hunt Transport Services, Inc. JBHT $3,680.90
+Merrill Lynch & Co., Inc. BDM $3,679.40
+O'Reilly Automotive, Inc. ORLY $3,678.40
+Energy East Corporation EAS $3,670.40
+Watson Pharmaceuticals, Inc. WPI $3,666.90
+Jones Apparel Group, Inc. JNY $3,654.30
+Invitrogen Corporation IVGN $3,640.40
+TRIZEC PROPERTIES INC TRZ $3,637.80
+CNX Gas Corporation CXG $3,629.00
+Brunswick Corporation BC $3,626.00
+Oshkosh Truck Corporation OSK $3,623.90
+Tyson Foods, Inc. TSN $3,623.70
+Aqua America, Inc. WTR $3,623.40
+Bausch & Lomb Incorporated BOL $3,622.00
+Weingarten Realty Investors WRI $3,619.70
+WestCorp WES $3,616.90
+Biovail Corporation BVF $3,614.70
+A.G. Edwards, Inc. AGE $3,602.10
+Pogo Producing Company PPP $3,593.90
+PETsMART, Inc. PETM $3,590.00
+Pall Corporation PLL $3,587.90
+Ceridian Corporation CEN $3,585.20
+LSI Logic Corporation LSI $3,584.00
+Millipore Corporation MIL $3,581.50
+Western Gas Resources, Inc. WGR $3,578.00
+McCormick & Company, Incorporated MKC $3,570.10
+Avnet, Inc. AVT $3,568.70
+SL Green Realty Corporation SLG $3,568.00
+FMC Technologies, Inc. FTI $3,567.90
+TECO Energy, Inc. TE $3,554.70
+Covance Inc. CVD $3,554.40
+Venator Group, Inc. FL $3,545.60
+Florida Rock Industries, Inc. FRK $3,544.60
+REEBOK INTL LTD RBK $3,541.80
+Triad Hospitals, Inc. TRI $3,536.80
+Freescale Semiconductor Inc FSL $3,532.90
+Federal Realty Investment Trust FRT $3,524.30
+Enterprise GP Holdings L.P. EPE $3,523.40
+Plains Exploration & Production Company PXP $3,515.50
+John Nuveen Company (The) JNC $3,505.60
+Brinker International, Inc. EAT $3,500.30
+PartnerRe Ltd. PRE $3,491.20
+iShares Lehman TIPS Bond Fund TIP $3,486.60
+Polo Ralph Lauren Corporation RL $3,485.90
+United Dominion Realty Trust, Inc. UDR $3,485.90
+Terex Corporation TEX $3,482.70
+Siliconware Precision Industries Company, Ltd. SPIL $3,477.50
+Alliant Energy Corporation LNT $3,466.50
+Alliance Data Systems Corporation ADS $3,466.00
+Roper Industries, Inc. ROP $3,461.90
+Commerce Bancshares, Inc. CBSH $3,459.90
+Dade Behring Holdings, Inc DADE $3,458.80
+Cognos Incorporated COGN $3,451.60
+Outback Steakhouse, Inc. OSI $3,451.50
+Cerner Corporation CERN $3,440.20
+Nasdaq Stock Market, Inc. (The) NDAQ $3,437.10
+HCC Insurance Holdings, Inc. HCC $3,436.10
+Teradyne, Inc. TER $3,430.00
+Cytyc Corporation CYTC $3,429.90
+Solectron Corporation SLR $3,414.20
+Tenet Healthcare Corporation THC $3,412.60
+Denbury Resources, Inc. (Holding Company) DNR $3,410.60
+Camden Property Trust CPT $3,393.90
+Energizer Holdings, Inc. ENR $3,388.10
+Community Health Systems, Inc. CYH $3,384.10
+Ryland Group, Inc. (The) RYL $3,382.70
+Inamed Corporation IMDC $3,377.00
+Scotts Company (The) SMG $3,366.20
+Tidewater Inc. TDW $3,363.60
+Owens-Illinois, Inc. OI $3,361.20
+Perusahaan Satlt Cp IIT $3,346.60
+Timken Company (The) TKR $3,344.00
+TCF Financial Corporation TCB $3,342.40
+Charles River Laboratories International, Inc. CRL $3,335.20
+Akamai Technologies, Inc. AKAM $3,325.40
+Corporate Executive Board Company (The) EXBD $3,325.40
+GLOBAL SIGNAL INC GSL $3,314.30
+UTi Worldwide Inc. UTIW $3,313.10
+Harsco Corporation HSC $3,306.60
+Streettracks Gold Trust GLD $3,306.30
+Reckson Associates Realty Corporation RA $3,296.60
+PDL BioPharma, Inc. PDLI $3,289.20
+Independence Community Bank Corp. ICBC $3,279.90
+Erie Indemnity Company ERIE $3,278.10
+Markel Corporation MKL $3,272.90
+Whitman Corporation PAS $3,272.10
+DPL Inc. DPL $3,269.80
+Cal Dive International, Inc. CDIS $3,267.30
+WFS Financial Inc. WFSI $3,266.50
+Raymond James Financial, Inc. RJF $3,257.70
+Smurfit-Stone Container Corporation SSCC $3,247.00
+Celanese Corporation CE $3,245.80
+Rayonier Inc. REIT RYN $3,242.70
+Renal Care Group, Inc. RCI $3,241.60
+RenaissanceRe Holdings Ltd. RNR $3,229.30
+Sabre Holdings Corporation TSG $3,215.10
+Bemis Company, Inc. BMS $3,213.80
+Millennium Pharmaceuticals, Inc. MLNM $3,210.10
+Dai'ei, Inc. DAIEY $3,201.60
+Forest Oil Corporation FST $3,198.20
+Compuware Corporation CPWR $3,196.40
+QLogic Corporation QLGC $3,192.10
+Synopsys, Inc. SNPS $3,192.10
+Canadian Pac Ltd FHR $3,189.30
+Pactiv Corporation PTV $3,186.60
+CMS Energy Corporation CMS $3,184.80
+Career Education Corporation CECO $3,183.20
+Aramark Corporation RMK $3,179.40
+Massey Energy Company MEE $3,172.60
+Zebra Technologies Corporation ZBRA $3,168.00
+iShares S&P MidCap 400 Index Fund IJH $3,166.50
+Jefferies Group, Inc. JEF $3,165.30
+HON INDUSTRIES Inc. HNI $3,160.80
+Signet Group plc SIG $3,160.40
+Ventas, Inc. VTR $3,159.10
+ITT Educational Services, Inc. ESI $3,152.20
+Affiliated Managers Group, Inc. AMG $3,150.40
+Plains All American Pipeline, L.P. PAA $3,149.20
+Konami Corporation KNM $3,146.40
+Loews Corporation CG $3,144.60
+BorgWarner Inc. BWA $3,142.90
+SPX Corporation SPW $3,139.80
+American National Insurance Company ANAT $3,137.90
+CARMAX INC KMX $3,134.00
+Protective Life Corporation PL $3,132.70
+Sappi Limited SPP $3,127.10
+Pittston Company (The) BCO $3,125.10
+Agrium Inc. AGU $3,120.80
+Crown Cork & Seal Company, Inc. CCK $3,118.60
+Rhodia SA RHA $3,118.30
+Ingram Micro Inc. IM $3,115.50
+Louisiana-Pacific Corporation LPX $3,115.00
+Lubrizol Corporation (The) LZ $3,110.60
+Choice Hotels International, Inc. CHH $3,103.90
+Symbol Technologies, Inc. SBL $3,099.50
+James Hardie Industries NV JHX $3,089.60
+Hughes Supply, Inc. HUG $3,085.10
+CGI Group, Inc. GIB $3,083.50
+Hospitality Properites Trust HPT $3,083.30
+Reliant Resources, Inc. RRI $3,083.10
+CAPITALSOURCE INC CSE $3,082.60
+Manor Care, Inc. HCR $3,078.30
+Mercury General Corporation MCY $3,077.80
+iShares S&P 500/BARRA Growth Index Fund IVW $3,071.70
+NSTAR NST $3,069.70
+Sonoco Products Company SON $3,069.40
+Level 3 Communications, Inc. LVLT $3,065.90
+Semiconductor Manufacturing International Corporation SMI $3,065.10
+Alamosa Holdings, Inc. APCS $3,063.50
+Internationa Flavors & Fragrances, Inc. IFF $3,061.50
+iShares S&P 500/BARRA Value Index Fund IVE $3,058.10
+Aluminum Corporation of China Ltd ACH $3,055.70
+Investors Financial Services Corp. IFIN $3,050.30
+Molex Incorporated MOLX $3,046.10
+Unitrin, Inc. UTR $3,044.80
+Arden Realty, Inc. ARI $3,040.70
+Reinsurance Group of America, Incorporated RGA $3,038.10
+BOK Financial Corporation BOKF $3,035.00
+Panamsat Holding Corporation PA $3,031.80
+ImClone Systems Incorporated IMCL $3,025.20
+Astoria Financial Corporation AF $3,023.00
+Advanced Medical Optics, Inc. EYE $3,019.90
+Hillenbrand Industries, Inc. HB $3,016.90
+Crompton Corporation CEM $3,015.50
+Chicago Bridge & Iron Company N.V. CBI $3,015.20
+Allied Waste Industries, Inc. AW $3,006.10
+Beazer Homes USA, Inc. BZH $2,996.70
+Frontline Ltd. FRO $2,990.80
+Radioshack Corporation RSH $2,988.70
+Airgas, Inc. ARG $2,986.10
+Claire's Stores, Inc. CLE $2,984.00
+Northeast Utilities NU $2,983.40
+Warner Music Group Corp. WMG $2,982.60
+Smithfield Foods, Inc. SFD $2,981.80
+PerkinElmer, Inc. PKI $2,974.30
+ADC Telecommunications, Inc. ADCT $2,962.10
+Select Sector SPDR Fund - Energy Select Sector XLE $2,929.20
+Teekay Shipping Corporation TK $2,929.00
+Cullen/Frost Bankers, Inc. CFR $2,927.90
+Rambus, Inc. RMBS $2,925.40
+American Financial Group, Inc. AFG $2,917.60
+General Motors Corporation GPM $2,910.40
+NISSIN CO LTD NIS $2,903.60
+YRC Worldwide, Inc. YRCW $2,894.20
+Cheesecake Factory Incorporated (The) CAKE $2,893.80
+FORD MTR CO CAP TR II F^S $2,893.50
+Gildan Activewear, Inc. GIL $2,892.30
+AMTEK, Inc. AME $2,887.40
+Scientific Games Corp SGMS $2,877.10
+AVX Corporation AVX $2,871.50
+Ryder System, Inc.
+R $2,868.60
+Fair, Isaac and Company, Incorporated FIC $2,865.40
+Brandywine Realty Trust BDN $2,864.20
+Energen Corporation EGN $2,859.50
+iShares Russell 2000 Value Index Fund IWN $2,853.60
+Nova Chemicals Corporation NCX $2,844.10
+Donaldson Company, Inc. DCI $2,843.50
+Alliant Techsystems Inc. ATK $2,840.10
+West Corporation WSTC $2,836.80
+Forest City Enterprises Inc FCE/A $2,831.00
+M.D.C. Holdings, Inc. MDC $2,829.90
+Shurgard Storage Centers, Inc. SHU $2,829.20
+Shaw Group Inc. (The) SGR $2,824.00
+Intercontinentalexchange, Inc. ICE $2,818.80
+Fulton Financial Corporation FULT $2,817.60
+Pan Pacific Retail Properties, Inc. PNP $2,816.50
+JLG Industries, Inc. JLG $2,814.80
+Wilmington Trust Corporation WL $2,814.50
+Buhrmann Nv BUH $2,812.90
+Credicorp Ltd. BAP $2,812.60
+Southern Union Company SUG $2,807.80
+ResMed Inc. RMD $2,793.50
+Barnes & Noble, Inc. BKS $2,790.60
+AGL Resources, Inc. ATG $2,780.10
+National Fuel Gas Company NFG $2,779.00
+Arthur J. Gallagher & Co. AJG $2,776.00
+Sky Financial Group, Inc. SKYF $2,773.00
+Integrated Device Technology, Inc. IDTI $2,772.90
+Commercial Metals Company CMC $2,769.60
+Mack-Cali Realty Corporation CLI $2,767.80
+Foster Wheeler Ltd. FWLT $2,763.30
+Goodyear Tire & Rubber Company (The) GT $2,758.90
+ONEOK, Inc. OKE $2,757.40
+Unit Corporation UNT $2,754.40
+Graco Inc. GGG $2,754.10
+Valspar Corporation (The) VAL $2,746.50
+TODCO THE $2,743.70
+MDS, Inc. MDZ $2,739.70
+Laidlaw International, Inc. LI $2,731.20
+Viacom, Inc. VIA $2,728.30
+Business Objects S.A. BOBJ $2,724.80
+Meridian Gold Inc. MDG $2,724.30
+Thomas & Betts Corporation TNB $2,717.90
+StanCorp Financial Group, Inc. SFG $2,715.30
+Petrobras Energia Participaciones SA PZE $2,703.40
+CBL & Associates Properties, Inc. CBL $2,697.60
+United States Cellular Corporation USM $2,691.00
+Diebold, Incorporated DBD $2,687.10
+Titanium Metals Corporation TIE $2,686.90
+Thornburg Mortgage, Inc. TMA $2,685.40
+Saks Incorporated SKS $2,683.80
+Vishay Intertechnology, Inc. VSH $2,682.20
+CNF, Inc. CNF $2,681.80
+Frontier Oil Corporation FTO $2,679.10
+Penn National Gaming, Inc. PENN $2,677.60
+Bank of Hawaii Corporation BOH $2,677.10
+Standard Pacific Lp SPF $2,669.40
+Silicon Laboratories, Inc. SLAB $2,658.30
+Sierra Pacific Resources SRP $2,650.10
+iShares Lehman Aggregate Bond Fund AGG $2,644.00
+Dollar Tree Stores, Inc. DLTR $2,638.30
+Stericycle, Inc. SRCL $2,637.20
+W&T Offshore, Inc. WTI $2,633.90
+Nalco Holding Company NLC $2,633.50
+Reliance Steel & Aluminum Company RS $2,632.20
+Kinder Morgan Management, LLC KMR $2,626.60
+IndyMac Bancorp, Inc. NDE $2,625.10
+National Instruments Corporation NATI $2,618.90
+FRESENIUS MED CARE AG FMS^ $2,615.40
+BlackRock, Inc. BLK $2,613.90
+Gol Linhas Aereas Inteligentes S.A. GOL $2,612.20
+Valley National Bancorp VLY $2,607.30
+Allmerica Financial Corporation THG $2,601.50
+Emdeon Corporation HLTH $2,598.70
+Respironics, Inc. RESP $2,596.80
+Gentex Corporation GNTX $2,594.80
+Laureate Education, Inc. LAUR $2,592.90
+TEPPCO Partners, L.P. TPP $2,592.20
+Fairfax Financial Holdings Ltd FFH $2,589.70
+PrimeWest Energy Trust PWI $2,588.30
+International Rectifier Corporation IRF $2,574.80
+New Plan Excel Realty Trust, Inc. NXL $2,569.20
+Gen-Probe Incorporated GPRO $2,563.10
+F5 Networks, Inc. FFIV $2,556.80
+BRE Properties, Inc. BRE $2,554.60
+Teleflex Incorporated TFX $2,554.10
+Edwards Lifesciences Corporation EW $2,553.40
+Videsh Sanchar Nigam Limited VSL $2,549.30
+TRW Automotive Holdings Corporation TRW $2,547.90
+Kinetic Concepts, Inc. KCI $2,544.40
+Flowserve Corporation FLS $2,541.50
+J.M. Smucker Company (The) SJM $2,539.20
+Affymetrix, Inc. AFFX $2,534.00
+Webster Financial Corporation WBS $2,527.50
+Cabot Oil & Gas Corporation COG $2,525.40
+CNH Global N.V. CNH $2,523.10
+Trinity Industries, Inc. TRN $2,501.60
+Wesco Financial Corporation WSC $2,492.00
+Packaging Corporation of America PKG $2,487.00
+SCOR S.A. SCO $2,477.50
+Landstar System, Inc. LSTR $2,475.60
+Methanex Corporation MEOH $2,472.10
+Pioneer Corporation PIO $2,470.50
+St. Mary Land SM $2,468.50
+Cooper Companies, Inc. (The) COO $2,466.90
+Cabot Corporation CBT $2,466.30
+Walter Industries, Inc. WLT $2,463.80
+IDEXX Laboratories, Inc. IDXX $2,462.50
+OGE Energy Corporation OGE $2,458.90
+Danielson Holding Corporation CVA $2,442.30
+Duff & Phelps Utilities Income, Inc. DNP $2,441.60
+Nationwide Financial Services, Inc. NFS $2,439.60
+Puget Sound Energy PSD $2,435.20
+Stolt Offshore S.A. SOSA $2,434.20
+Service Corporation International SCI $2,426.20
+ARM Holdings, plc ARMHY $2,425.30
+Aber Diamond Corporation ABER $2,423.90
+AnnTaylor Stores Corporation ANN $2,422.30
+American Pharmaceutical Partners, Inc. APPX $2,421.80
+Universal Health Services, Inc. UHS $2,417.50
+Thor Industries, Inc. THO $2,417.40
+CenterPoint Properties Trust CNT $2,417.10
+Herbalife LTD. HLF $2,414.30
+Havas HAVS $2,414.10
+Lan Chile S.A. LFL $2,411.00
+Lihir Gold, Limited LIHRY $2,409.20
+Convergys Corporation CVG $2,407.80
+Tektronix, Inc. TEK $2,407.50
+IDEX Corporation IEX $2,406.60
+Mettler-Toledo International, Inc. MTD $2,405.80
+Companhia Brasileira de Distribuicao CBD $2,401.80
+Agnico-Eagle Mines Limited AEM $2,399.00
+Fairchild Semiconductor International, Inc. FCS $2,396.30
+iShares Russell 2000 Growth Index Fund IWO $2,395.70
+US Airways Group, Inc. New LCC $2,395.00
+Molex Incorporated MOLXA $2,382.50
+Kerzner International Limited KZL $2,374.70
+Amerus Group Company AMH $2,373.10
+Dow Jones & Company, Inc. DJ $2,371.90
+Church & Dwight Company, Inc. CHD $2,367.20
+Cleveland-Cliffs Inc. CLF $2,365.00
+iShares Russell 1000 Index Fund IWB $2,364.60
+Companhia de saneamento Basico Do Estado De Sao Pau SBS $2,362.70
+iShares S&P MidCap 400/Barra Value Index Fund IJJ $2,348.40
+Mills Corporation (The) MLS $2,346.20
+TM Corporate Bond Fund LQD $2,343.90
+Maxtor Corporation MXO $2,336.80
+Harte-Hanks, Inc. HHS $2,335.30
+Capitol Federal Financial CFFN $2,332.20
+Tech Data Corporation TECD $2,328.00
+Enbridge Energy, Limited Partnership EEP $2,325.30
+Snap-On Incorporated SNA $2,324.70
+CIENA Corporation CIEN $2,323.50
+Cypress Semiconductor Corporation CY $2,320.00
+Mahanagar Telephone Nigam Ltd MTE $2,318.40
+Hubbell Inc A HUB/B $2,313.70
+Hologic, Inc. HOLX $2,309.70
+Alexander & Baldwin, Inc. ALEX $2,307.20
+Education Management Corporation EDMC $2,301.10
+Dresser-Rand Group Inc. DRC $2,301.00
+Netease.com, Inc. NTES $2,297.30
+Adesa Inc KAR $2,293.00
+Alleghany Corporation Y $2,292.10
+Cytec Industries Inc. CYT $2,287.50
+VCA Antech, Inc. WOOF $2,286.30
+Unisys Corporation UIS $2,283.10
+United Rentals, Inc. URI $2,281.60
+Copart, Inc. CPRT $2,279.30
+Sierra Health Services, Inc. SIE $2,277.50
+HOVNANIAN ENTERPRISES INC HOV $2,275.10
+Polaris Industries Inc. PII $2,274.00
+Carpenter Technology Corporation CRS $2,272.00
+Essex Property Trust, Inc. ESS $2,271.20
+WESCO International, Inc. WCC $2,270.60
+Lennox International, Inc. LII $2,264.80
+Leap Wireless International, Inc. LEAP $2,263.00
+Moneygram International, Inc. MGI $2,262.10
+New Century Financial Corp. NEW $2,259.60
+Kennametal Inc. KMT $2,255.10
+UGI Corporation UGI $2,253.80
+HRPT Properties Trust HRP $2,251.80
+Crane Company CR $2,248.10
+JetBlue Airways Corporation JBLU $2,246.70
+Neurocrine Biosciences, Inc. NBIX $2,244.10
+WPS Resources Corporation WPS $2,242.90
+Philadelphia Consolidated Holding Corp. PHLY $2,239.80
+RPM, Inc. RPM $2,235.10
+Cogent, Inc. COGT $2,233.00
+ADTRAN, Inc. ADTN $2,232.00
+CNET Networks, Inc. CNET $2,230.40
+Sanmina-SCI Corporation SANM $2,229.40
+Agere Systems Inc AGR $2,221.90
+Compagnie Generale de Geophysique GGY $2,220.70
+Alkermes, Inc. ALKS $2,217.60
+Techne Corporation TECH $2,210.00
+Benetton Group SPA BNG $2,194.40
+Holly Corporation HOC $2,193.90
+ROYAL BK SCOTLAND GROUP PLC RBS^F $2,193.50
+Brookdale Senior Living Inc. BKD $2,190.40
+Tri Continental Corporation TY $2,183.30
+Travelers Property Casualty Corporation TPK $2,182.80
+UNOVA, Inc. IN $2,180.40
+BJ's Wholesale Club, Inc. BJ $2,173.90
+Endurance Specialty Holdings Ltd ENH $2,173.60
+Meredith Corporation MDP $2,173.30
+Calamos Strategic Total Return CSQ $2,169.40
+Pediatrix Medical Group, Inc. PDX $2,165.90
+Telephone and Data Systems, Inc. TDS $2,160.60
+Tele Celular Sul Participacoes S.A. TSU $2,160.40
+Petroleum Geo-Services Asa PGS $2,159.40
+Superior Energy Services, Inc. SPN $2,157.00
+Belo Corporation BLC $2,153.60
+Trimble Navigation Limited TRMB $2,152.80
+Health Care REIT, Inc. HCN $2,143.30
+FMC Corporation FMC $2,142.20
+Crescent Real Estate Equities Company CEI $2,142.10
+CarrAmerica Realty Corporation CRE $2,141.50
+Merrill Lynch Biotech HOLDRS BBH $2,139.50
+American Real Estate Partners, L.P. ACP $2,139.00
+Valhi, Inc. VHI $2,132.90
+Del Monte Foods Company DLM $2,132.70
+Great Plains Energy Inc GXP $2,131.00
+RPC, Inc. RES $2,130.00
+URS Corporation URS $2,127.90
+Carlisle Companies Incorporated CSL $2,124.40
+Atmos Energy Corporation ATO $2,124.30
+Hawaiian Electric Industries, Inc. HE $2,123.50
+Huaneng Power Intl HNP $2,117.40
+Aracruz Celulose S.A. ARA $2,115.60
+Foundry Networks, Inc. FDRY $2,108.50
+Chartered Semiconductor Manufacturing Ltd. CHRT $2,105.30
+MSC Industrial Direct Company, Inc. MSM $2,102.70
+Interactive Data Corporation IDC $2,101.50
+San Juan Basin Royalty Trust SJT $2,101.10
+CAE INC CGT $2,100.20
+Washington Federal, Inc. WFSL $2,099.00
+FirstMerit Corporation FMER $2,098.90
+R.H. Donnelley Corporation RHD $2,092.40
+Whitney Holding Corporation WTNY $2,083.30
+Vectren Corporation VVC $2,082.00
+SCP Pool Corporation POOL $2,078.20
+TELEPHONE & DATA SYS INC TDS/S $2,078.20
+East West Bancorp, Inc. EWBC $2,076.30
+Colonial Properties Trust CLP $2,070.10
+Andrew Corporation ANDW $2,070.00
+Avid Technology, Inc. AVID $2,069.60
+Northern Border Partners, L.P. NBP $2,067.00
+Jones Lang LaSalle Incorporated JLL $2,062.80
+Maverick Tube Corporation MVK $2,062.40
+Herman Miller, Inc. MLHR $2,057.40
+Anteon International Corporation ANT $2,053.90
+Seaboard Corporation SEB $2,053.10
+CBRL Group Inc. CBRL $2,052.60
+Hyperion Solutions Corporation HYSL $2,045.80
+Westlake Chemical Corporation WLK $2,044.40
+Albemarle Corporation ALB $2,040.60
+Overseas Shipholding Group, Inc. OSG $2,034.70
+Kos Pharmaceuticals, Inc. KOSP $2,034.60
+First Marblehead Corporation (The) FMD $2,032.40
+Panera Bread Company PNRA $2,024.10
+Focus Media Holding Limited FMCN $2,023.80
+Boise Cascade Corporation OMX $2,022.70
+Distribucion y Servicio DYS $2,022.30
+Aspen Insurance Holdings Limited AHL $2,015.40
+Acxiom Corporation ACXM $2,014.50
+Manitowoc Company, Inc. MTW $2,011.80
+Zenith National Insurance Corporation ZNT $2,011.80
+Corn Products International, Inc. CPO $2,011.10
+GATX Corporation GMT $2,009.50
+Tractor Supply Company TSCO $2,009.00
+Oil States International, Inc. OIS $2,006.40
+Foundation Coal Holdings, Inc. FCL $2,002.80
+Steel Dynamics, Inc. STLD $2,000.80
+Burlington Coat Factory Corporation BCF $2,000.30
+Abgenix, Inc. ABGX $1,998.60
+First Industrial Realty Trust, Inc. FR $1,995.90
+Palm, Inc. PALM $1,991.30
+Korea Fund, Inc. (The) KF $1,987.60
+Telesp Celular Participacoes S.A. TCP $1,985.20
+Alexandria Real Estate Equities, Inc. ARE $1,984.70
+MetLife, Inc. MEU $1,980.00
+Cree, Inc. CREE $1,977.60
+Microsemi Corporation MSCC $1,973.90
+AptarGroup, Inc. ATR $1,972.90
+Mentor Corporation MNT $1,970.10
+National Financial Partners Corporation NFP $1,967.30
+Wacoal Holdings Corporation WACLY $1,966.20
+Neustar, Inc. NSR $1,963.90
+Celestica, Inc. CLS $1,962.80
+CompuCredit Corporation CCRT $1,962.60
+Carter's, Inc. CRI $1,960.90
+Dr. Reddy's Laboratories Ltd RDY $1,959.40
+Magellan Midstream Partners L.P. MMP $1,959.40
+Columbia Sportswear Company COLM $1,954.90
+Kilroy Realty Corporation KRC $1,954.90
+Sybase, Inc. SY $1,953.90
+Realty Income Corporation
+O $1,949.20
+South Financial Group Inc. (The) TSFG $1,947.10
+Hansen Natural Corporation HANS $1,946.90
+Desarrolladora Homex HXM $1,943.00
+Dillard's, Inc. DDS $1,941.50
+Compania de Telecomunicaciones de Chile S.A. CTC $1,933.70
+FactSet Research Systems Inc. FDS $1,930.20
+Hexcel Corporation HXL $1,927.70
+ON Semiconductor Corporation ONNN $1,927.30
+Ohio Casualty Corporation OCAS $1,917.30
+Cheniere Energy, Inc. LNG $1,916.50
+ASSURED GUARANTY LTD AGO $1,916.00
+Toro Company (The) TTC $1,915.20
+Nuveen Municipal Value Fund, Inc. NUV $1,912.60
+NFJ Dividend, Interest & Premium Strategy Fund NFJ $1,911.40
+Atmel Corporation ATML $1,908.80
+Fremont General Corporation FMT $1,907.90
+Alliance Capital Management Holding L.P. ACG $1,907.40
+Taubman Centers, Inc. TCO $1,907.30
+Kansas City Southern KSU $1,907.10
+Navistar International Corporation NAV $1,906.90
+Valero LP VLI $1,906.60
+Investment Technology Group, Inc. ITG $1,899.50
+Four Seasons Hotels, Inc. FS $1,895.10
+LENNAR CORP LEN/B $1,892.90
+Select Sector SPDR Fund - Financial XLF $1,889.60
+iShares Russell 3000 Index Fund IWV $1,889.00
+ValueClick, Inc. VCLK $1,888.50
+Guess?, Inc. GES $1,888.40
+Rite Aid Corporation RAD $1,886.30
+Coldwater Creek, Inc. CWTR $1,874.30
+Varian Semiconductor Equipment Associates, Inc. VSEA $1,873.10
+Lincoln Electric Holdings, Inc. LECO $1,871.30
+Jack Henry & Associates, Inc. JKHY $1,867.90
+HUDSON UNITED BANCORP HU $1,867.80
+Waddell & Reed Financial, Inc. WDR $1,865.80
+SBA Communications Corporation SBAC $1,864.20
+Simpson Manufacturing Company, Inc. SSD $1,863.50
+International Bancshares Corporation IBOC $1,863.30
+Copene-Petroquimica do Nordeste BAK $1,860.60
+Timberland Company (The) TBL $1,859.20
+SEACOR SMIT Inc. CKH $1,858.10
+Piedmont Natural Gas Company, Inc. PNY $1,857.90
+iShares Russell MidCap Value Index Fund IWS $1,855.20
+Central European Media Enterprises Ltd. CETV $1,847.50
+STERIS Corporation STE $1,845.80
+Friedman, Billings, Ramsey Group, Inc. FBR $1,841.90
+bebe stores, inc. BEBE $1,840.50
+Select Sector SPDR Fund - Health Care XLV $1,835.20
+Applebee's International, Inc. APPB $1,828.50
+Stolt-Nielsen S.A. SNSA $1,826.00
+Downey Financial Corporation DSL $1,823.90
+Polycom, Inc. PLCM $1,822.90
+Worthington Industries, Inc. WOR $1,821.80
+Pacific Sunwear of California, Inc. PSUN $1,818.10
+Brady Corporation BRC $1,815.20
+Commerce Group, Inc. (The) CGI $1,813.90
+Eaton Vance Corporation ETW $1,813.00
+optionsXpress Holdings, Inc. OXPS $1,811.40
+Kyphon Inc. KYPH $1,807.70
+Nicor Inc. GAS $1,806.80
+Men's Wearhouse, Inc. (The) MW $1,805.50
+BancorpSouth, Inc. BXS $1,803.50
+Equity One, Inc. EQY $1,801.20
+Briggs & Stratton Corporation BGG $1,799.80
+KKR Financial Corp. KFN $1,799.60
+Aktieselskabet Dampskibsselskabet Torm TRMD $1,799.30
+John Wiley & Sons, Inc. JW/A $1,795.30
+United Auto Group, Inc. UAG $1,794.50
+Houston Exploration Company (The) THX $1,794.20
+Cathay General Bancorp CATY $1,791.50
+CORUS Bankshares, Inc. CORS $1,790.00
+Westar Energy, Inc. WR $1,788.40
+Encore Acquisition Company EAC $1,784.80
+NCE Petrofund PTF $1,782.90
+Continental Airlines, Inc. CAL $1,778.40
+3Com Corporation COMS $1,777.30
+Platinum Underwriters Holdings Ltd PTP $1,776.80
+Anixter International Inc. AXE $1,771.40
+Reynolds and Reynolds Company (The) REY $1,771.30
+MICROS Systems, Inc. MCRS $1,768.60
+CLARCOR Inc. CLC $1,767.70
+LifePoint Hospitals, Inc. LPNT $1,761.30
+Nuveen Preferred and Convertible Income Fund 2 JQC $1,761.20
+Perot Systems Corporation PER $1,758.50
+Regis Corporation RGS $1,757.50
+SVB Financial Group SIVB $1,755.90
+Qiagen N.V. QGEN $1,753.80
+BISYS Group, Inc. (The) BSG $1,750.50
+Knight Transportation, Inc. KNX $1,741.10
+Lone Star Technologies, Inc. LSS $1,739.60
+Select Sector SPDR Fund - Utilities XLU $1,738.80
+Parametric Technology Corporation PMTC $1,737.20
+PMC - Sierra, Inc. PMCS $1,733.50
+Eaton Vance Limited Duration Income Fund EVV $1,733.20
+Gaylord Entertainment Company GET $1,733.00
+IPC Holdings, Limited IPCR $1,733.00
+Nektar Therapeutics NKTR $1,732.30
+Psychiatric Solutions, Inc. PSYS $1,729.70
+Swift Transportation Co., Inc. SWFT $1,729.60
+Baidu.com, Inc. BIDU $1,729.00
+Westamerica Bancorporation WABC $1,727.60
+Veriphone Holdings, Inc. PAY $1,726.90
+Amerco UHAL $1,724.10
+CBS CORP NEW CBS/A $1,722.50
+Pimco High Income Fund PHK $1,721.90
+Sybron Dental Specialties, Inc. SYD $1,721.30
+Montpelier RE Holdings Ltd MRH $1,721.10
+CACI International, Inc. CAI $1,720.00
+Heartland Express, Inc. HTLD $1,719.30
+General Motors Corporation Ser B Conv Sr Dbs due 2032 GBM $1,718.10
+AmeriGas Partners, L.P. APU $1,715.80
+United Surgical Partners International, Inc. USPI $1,713.70
+Werner Enterprises, Inc. WERN $1,710.80
+Buckeye Partners L.P. BPL $1,710.40
+Gamestop Corporation GME $1,710.00
+Nutri/System Inc NTRI $1,708.40
+Abitibi-Consolidated, Inc. ABY $1,707.90
+Whiting Petroleum Corporation WLL $1,705.80
+Odyssey Re Holdings Corporation ORH $1,704.60
+Highwoods Properties, Inc. HIW $1,704.10
+Lear Corporation LEA $1,702.70
+aQuantive, Inc. AQNT $1,702.10
+Quiksilver, Inc. ZQK $1,701.70
+ACUITY BRANDS INC AYI $1,699.50
+Greenhill GHL $1,696.30
+Pacific Capital Bancorp PCBC $1,695.70
+TIBCO Software, Inc. TIBX $1,695.30
+SkyWest, Inc. SKYW $1,692.50
+Hanover Compressor Company HC $1,689.60
+PNM Resources, Inc. (Holding Co.) PNM $1,689.50
+Granite Construction Incorporated GVA $1,688.00
+UICI UCI $1,685.00
+Heritage Property Investment Trust Inc HTG $1,682.10
+First Citizens BancShares, Inc. FCNCA $1,681.90
+Fossil, Inc. FOSL $1,681.70
+Medicis Pharmaceutical Corporation MRX $1,681.60
+Berry Petroleum Company BRY $1,681.10
+Corrections Corporation of America CXW $1,680.00
+Eaton Vance Tax Advantaged Dividend Income Fund EVT $1,679.60
+Hewitt Associates Inc HEW $1,679.10
+Jarden Corporation JAH $1,677.40
+Smedvig Asa Ads Cla SMV/A $1,677.40
+Dynegy Inc. DYN $1,676.50
+Nuveen Quality Preferred Income Fund 2 JPS $1,676.00
+Healthcare Realty Trust Incorporated HR $1,673.40
+Flowers Foods, Inc. FLO $1,672.70
+Sonic Corp. SONC $1,672.60
+Payless Shoesource, Inc. PSS $1,671.20
+NewAlliance Bancshares, Inc. NAL $1,668.40
+Bill Barrett Corporation BBG $1,667.80
+SiRF Technology Holdings, Inc. SIRF $1,666.90
+GRUMA, S.A. de C.V. GMK $1,666.20
+Valeant Pharmaceuticals International VRX $1,664.20
+Armor Holdings, Inc. AH $1,664.10
+Domino's Pizza Inc DPZ $1,662.40
+Ruby Tuesday, Inc. RI $1,661.60
+Watsco, Inc. WSO $1,660.60
+Plantronics, Inc. PLT $1,658.40
+Post Properties, Inc. PPS $1,658.10
+Meritage Corporation MTH $1,654.90
+THQ Inc. THQI $1,653.90
+Rostelecom ROS $1,651.70
+FLIR Systems, Inc. FLIR $1,644.20
+Borders Group, Inc. BGP $1,643.90
+Aeropostale Inc ARO $1,643.20
+BEARINGPOINT INC BE $1,637.60
+Brasil Telecom Participacoes S.A. BRP $1,637.60
+Hydril HYDL $1,637.00
+Selective Insurance Group, Inc. SIGI $1,636.50
+Nelnet, Inc. NNI $1,634.70
+Quanta Services, Inc. PWR $1,634.40
+Converium Holding AG CHR $1,634.10
+ABN AMRO CAP FDG TR VII ABN^G $1,632.20
+iShares Small Cap 600/BARRA Value Index Fund IJS $1,631.50
+AGCO Corporation AG $1,630.00
+MI Developments Inc MIM $1,627.50
+Avocent Corporation AVCT $1,626.90
+Syniverse Holdings, Inc. SVR $1,624.70
+Carbo Ceramics, Inc. CRR $1,622.50
+DeVry Inc. DV $1,622.30
+Waste Connections Inc. WCN $1,620.60
+Pilgrim's Pride Corporation PPC $1,620.00
+Marvel Enterprises, Inc. MVL $1,617.50
+United Stationers Inc. USTR $1,616.90
+Pan American Silver Corp. PAAS $1,616.70
+UCBH Holdings, Inc. UCBH $1,616.10
+Powerwave Technologies, Inc. PWAV $1,615.90
+Genlyte Group Incorporated (The) GLYT $1,613.90
+OSI Pharmaceuticals Inc. OSIP $1,612.90
+Cymer, Inc. CYMI $1,612.20
+Eaton Vance Tax-Advantaged Global Dividend Income Fu ETG $1,609.20
+Florida East Coast Industries, Inc. FLA $1,608.30
+iShares MSCI Pacific Ex-Japan Index Fund EPP $1,608.10
+EGL, Inc. EAGL $1,606.60
+Global Industries, Ltd. GLBL $1,604.20
+iShares Cohen & Steers Realty Majors Index Fund ICF $1,603.60
+Corporate Office Properties Trust OFC $1,603.00
+iShares NASDAQ Biotechnology Index Fund IBB $1,601.90
+American Financial Realty Trust AFR $1,599.90
+SOCIEDAD QUIMICA Y MINERA DE SQM/A $1,599.90
+Compania Cervecerias Unidas, S.A. CU $1,595.70
+Conexant Systems, Inc. CNXT $1,594.80
+Brookfield Homes Corp BHS $1,594.40
+ICOS Corporation ICOS $1,593.60
+Pro-Assurance Corporation PRA $1,591.80
+COLT Telecom Group plc COLT $1,589.40
+Oceaneering International, Inc. OII $1,587.60
+Wellcare Group WCG $1,586.00
+First Midwest Bancorp, Inc. FMBI $1,584.40
+Trustmark Corporation TRMK $1,580.40
+Cousins Properties Incorporated CUZ $1,578.20
+Highveld Steel and Vanadium Corporation Limited HSVLY $1,576.80
+METLIFE INC MET^B $1,575.00
+Openwave Systems Inc OPWV $1,574.90
+American Medical Systems Holdings, Inc. AMMD $1,574.40
+Veritas DGC, Inc. VTS $1,574.10
+iShares S&P MidCap 400/BARRA Growth Index Fund IJK $1,573.10
+Quest Software, Inc. QSFT $1,571.90
+Washington Group International, Inc. WGII $1,571.20
+United Bankshares, Inc. UBSI $1,570.90
+IKON Office Solutions, Inc. IKN $1,570.20
+Websense, Inc. WBSN $1,569.10
+Speedway Motorsports, Inc. TRK $1,568.10
+iShares Russell MidCap Index Fund IWR $1,566.90
+Rockwood Holdings, Inc. ROC $1,566.30
+Reader's Digest Association, Inc. (The) RDA $1,565.60
+AMERADA HESS CORP AHC^ $1,564.20
+Gemplus International S.A. GEMP $1,563.30
+Gabelli Dividend GDV $1,562.70
+First Niagara Financial Group Inc. FNFG $1,562.20
+Gartner, Inc. IT $1,562.10
+Park National Corporation PRK $1,559.50
+Medarex, Inc. MEDX $1,556.70
+Quanex Corporation NX $1,555.60
+Sunrise Senior Living, Inc. SRZ $1,555.20
+Imation Corporation IMN $1,554.80
+State Auto Financial Corporation STFC $1,554.60
+India Fund, Inc. (The) IFN $1,553.70
+ViroPharma Incorporated VPHM $1,553.70
+Actuant Corporation ATU $1,552.90
+BE Aerospace, Inc. BEAV $1,551.90
+Myogen, Inc. MYOG $1,549.60
+Ritchie Bros. Auctioneers Incorporated RBA $1,547.40
+Nationwide Health Properties, Inc. NHP $1,545.10
+Morningstar, Inc. MORN $1,541.80
+International Coal Group, Inc. ICO $1,541.50
+Hugoton Royalty Trust HGT $1,540.80
+Oce NV OCENY $1,540.30
+Annaly Mortgage Management, Inc. NLY $1,537.40
+KRONOS WORLDWIDE INC KRO $1,537.00
+ING Clarion Global Real Estate Income Fund IGR $1,535.60
+Emulex Corporation ELX $1,535.50
+PHH CORP PHH $1,534.70
+Benchmark Electronics, Inc. BHE $1,533.90
+Salomon Brothers Fund Inc. SBF $1,530.50
+Ceradyne, Inc. CRDN $1,529.90
+Texas Regional Bancshares, Inc. TRBS $1,529.60
+Phillips-Van Heusen Corporation PVH $1,529.50
+Bowater Incorporated BOW $1,528.90
+Tommy Hilfiger USA Inc TOM $1,525.90
+Big Lots, Inc. BLI $1,523.40
+Washington Gas Light Company WGL $1,520.40
+Electronics for Imaging, Inc. EFII $1,518.10
+Alpha Natural Resources, inc. ANR $1,515.80
+BP Prudhoe Bay Royalty Trust BPT $1,514.70
+Cedar Fair, L.P. FUN $1,514.20
+Max Re Capital Ltd. MXRE $1,514.00
+Westinghouse Air Brake Technologies Corporation WAB $1,512.70
+GFI Group Inc. GFIG $1,512.60
+Potlatch Corporation PCH $1,504.30
+Yanzhou Coal Mining Company Limited YZC $1,501.30
+Netflix, Inc. NFLX $1,498.00
+Aberdeen Asia-Pacific Income Fund Inc FAX $1,496.20
+Diagnostic Products Corporation DP $1,496.10
+Atwood Oceanics, Inc. ATW $1,496.00
+United Therapeutics Corporation UTHR $1,494.80
+National Australia Bank Limited NAU $1,494.20
+Pennsylvania Real Estate Investment Trust PEI $1,493.10
+Maguire Properties Inc MPG $1,492.80
+EarthLink, Inc. ELNK $1,491.80
+AirTran Holdings, Inc. AAI $1,487.60
+Talbots, Inc. (The) TLB $1,483.70
+Nordson Corporation NDSN $1,483.20
+Energy Conversion Devices, Inc. ENER $1,481.90
+Charming Shoppes, Inc. CHRS $1,474.30
+Olin Corporation OLN $1,474.00
+Rollins, Inc. ROL $1,468.00
+Partner Communications Company Ltd. PTNR $1,466.80
+Oregon Steel Mills, Inc. OS $1,466.70
+Grey Wolf, Inc. GW $1,465.70
+ZymoGenetics, Inc. ZGEN $1,464.20
+Van Kampen Senior Income Trust VVR $1,461.70
+KCS Energy, Inc. KCS $1,459.50
+Home Properties, Inc. HME $1,459.40
+Mine Safety Appliances Company MSA $1,458.90
+Perrigo Company PRGO $1,458.20
+Ventana Medical Systems, Inc. VMSI $1,457.10
+Rent-A-Center Inc. RCII $1,455.00
+BanColombia S.A. CIB $1,452.90
+UMB Financial Corporation UMBF $1,451.20
+Patni Computer Systems Limited PTI $1,450.90
+Headwaters Incorporated HW $1,450.80
+Tessera Technologies, Inc. TSRA $1,449.40
+Human Genome Sciences, Inc. HGSI $1,441.50
+Adams Respiratory Therapeutics, Inc. ARXT $1,437.90
+Citadel Broadcasting Corporation CDL $1,437.60
+Modis Professional Services, Inc. MPS $1,437.40
+Sociedad Quimica y Minera S.A. SQM $1,436.00
+Phoenix Companies, Inc. (The) PNX $1,435.10
+Kirby Corporation KEX $1,433.30
+Universal Compression Holdings, Inc. UCO $1,431.60
+Sadia S.A. SDA $1,431.40
+Entegris, Inc. ENTG $1,428.50
+Arrow International, Inc. ARRO $1,428.40
+Peoples Energy Corporation PGL $1,425.30
+American Home Mortgage Investment Corp AHM $1,419.70
+Ethan Allen Interiors Inc. ETH $1,418.90
+Swift Energy Company SFY $1,418.70
+Old National Bancorp Capital Trust I ONB $1,417.80
+Select Sector SPDR Fund - Technology XLK $1,415.50
+Eagle Materials Inc EXP $1,415.00
+Sunstone Hotel Investors, Inc. SHO $1,412.80
+W Holding Company Incorporated WHI $1,412.60
+Komag, Inc. New KOMG $1,409.10
+Silgan Holdings, Inc. SLGN $1,408.60
+Lancaster Colony Corporation LANC $1,407.90
+Gemstar-TV Guide International Inc. GMST $1,406.30
+Semtech Corporation SMTC $1,404.40
+Dress Barn, Inc. (The) DBRN $1,404.30
+Duquesne Light Holdings, Inc. DQE $1,402.00
+ANSYS, Inc. ANSS $1,401.30
+Dreamworks Animation SKG, Inc. DWA $1,400.90
+Internation Securities Exchange, Inc. ISE $1,399.40
+Guitar Center, Inc. GTRC $1,396.50
+RLI Corporation RLI $1,396.40
+DRS Technologies, Inc. DRS $1,395.80
+21st Century Insurance Group TW $1,394.00
+Investors Bancorp, Inc. ISBC $1,393.00
+InterDigital Communications Corp. IDCC $1,392.60
+Hilb, Rogal and Hamilton Company HRH $1,392.20
+Alpharma, Inc. ALO $1,392.00
+NBTY, Inc. NTY $1,390.20
+Washington Real Estate Investment Trust WRE $1,389.60
+Iamgold Corporation IAG $1,387.90
+Trident Microsystems, Inc. TRID $1,386.90
+International Speedway Corporation ISCA $1,386.00
+Jack In The Box Inc. JBX $1,385.80
+Maytag Corporation MYG $1,380.30
+Cognex Corporation CGNX $1,380.20
+MAF Bancorp, Inc. MAFB $1,378.40
+W-H Energy services, Inc. WHQ $1,378.20
+Alliance Resource Partners, L.P. ARLP $1,377.90
+RF Micro Devices, Inc. RFMD $1,377.70
+Tetra Technologies, Inc. TTI $1,376.90
+Haemonetics Corporation HAE $1,376.70
+Gardner Denver, Inc. GDI $1,373.60
+Intrawest Corporation IDR $1,371.00
+CITIGROUP CAP VIII C^Z $1,370.50
+Sycamore Networks, Inc. SCMR $1,370.10
+Roto-Rooter Inc CHE $1,369.00
+Nuance Communications, Inc. NUAN $1,368.10
+Nu Skin Enterprises, Inc. NUS $1,367.90
+Wolverine World Wide, Inc. WWW $1,367.70
+Delphi Financial Group, Inc. DFG $1,366.30
+AQUILA INC ILA $1,362.90
+Lee Enterprises, Incorporated LEE $1,362.90
+Alfa Corporation ALFA $1,361.70
+STATS ChipPAC Ltd. STTS $1,361.00
+Remington Oil and Gas Corporation REM $1,360.20
+Deluxe Corporation DLX $1,357.70
+Life Time Fitness LTM $1,354.40
+Pinnacle Entertainment, Inc. PNK $1,353.80
+Comstock Resources, Inc. CRK $1,352.00
+P.F.Chang's China Bistro, Inc. PFCB $1,352.00
+Technical Olympic USA Inc TOA $1,351.50
+Ship Finance International SFL $1,349.20
+RealNetworks, Inc. RNWK $1,347.50
+Stone Energy Corporation SGY $1,346.90
+Lazard LTD. LAZ $1,344.80
+IDACORP, Inc. IDA $1,339.90
+United Natural Foods, Inc. UNFI $1,339.60
+Dick's Sporting Goods Inc DKS $1,338.40
+Immucor, Inc. BLUD $1,335.10
+Fresh Del Monte Produce, Inc. FDP $1,333.60
+Beverly Enterprises. Inc. BEV $1,332.50
+Tupperware Corporation TUP $1,332.40
+Allete, Inc. ALE $1,332.20
+EAGLE MATERIALS INC EXP/B $1,331.00
+Chittenden Corporation CHZ $1,328.50
+Valassis Communications, Inc. VCI $1,327.60
+Wells Fargo Cap IX WSF $1,325.00
+Hancock Holding Company HBHC $1,324.60
+Westwood One, Inc. WON $1,324.30
+OmniVision Technologies, Inc. OVTI $1,324.00
+USEC Inc. USU $1,322.60
+Hercules Incorporated HPC $1,320.40
+Stillwater Mining Company SWC $1,318.20
+Brasil Telecom Participacoes S.A. BTM $1,316.50
+Ferrellgas Partners, L.P. FGP $1,311.00
+Longs Drug Stores Corporation LDG $1,310.80
+Resources Connection, Inc. RECN $1,309.90
+Greater Bay Bancorp GBBK $1,309.10
+iShares Small Cap 600/BARRA Growth Index Fund IJT $1,302.30
+Multi-Fineline Electronix, Inc. MFLX $1,301.90
+Cohen & Steers Reit and Preferred Income Fund Inc RNP $1,301.80
+Quilmes Industrial (Quinsa) S.A. LQU $1,299.70
+HealthExtras, Inc. HLEX $1,298.90
+Aleris International, Inc. ARS $1,295.70
+Acco Brands Corporation ABD $1,295.20
+Coeur d'Alene Mines Corporation CDE $1,294.30
+Informatica Corporation INFA $1,294.20
+BOARDWALK PIPELINE PARTNERS BWP $1,292.80
+MGI PHARMA, Inc. MOGN $1,291.40
+Curtiss-Wright Corporation CW $1,290.10
+Baxter International Inc. BAX^ $1,289.00
+Andrx Group ADRX $1,288.20
+General Maritime Corporation GMR $1,287.70
+Senior Housing Properties Trust SNH $1,287.60
+Provident Financial Services PFS $1,283.40
+Watson Wyatt & Company Holdings WW $1,282.70
+IShares Trust FTSE-Xinhua China 25 Index Fund FXI $1,282.60
+SCHERING PLOUGH CORP SGP^M $1,282.00
+Thoratec Corporation THOR $1,281.00
+Casey's General Stores, Inc. CASY $1,280.80
+Scottish RE Group Limited SCT $1,279.70
+Equinix, Inc. EQIX $1,279.50
+Net 1 UEPS Technologies, Inc. UEPS $1,277.10
+Alexander's, Inc. ALX $1,277.00
+Corus Entertainmt Incorporated CJR $1,276.50
+Wintrust Financial Corporation WTFC $1,276.40
+EMCOR Group, Inc. EME $1,275.60
+Great Atlantic & Pacific Tea Company, Inc. (The) GAP $1,275.40
+Quinenco SA LQ $1,274.10
+Liberty All-Star Equity Fund USA $1,273.50
+Orient-Express Hotels, Ltd. OEH $1,271.50
+Strayer Education, Inc. STRA $1,271.30
+ATMI Inc. ATMI $1,270.40
+Empresas Ica Soc Contrladora ICA $1,270.00
+Ansell Limited ANSL $1,267.00
+CORPBANCA BCA $1,266.20
+Idenix Pharmaceuticals, Inc. IDIX $1,265.70
+PETCO Animal Supplies, Inc. PETC $1,264.80
+SRA International, Inc SRX $1,264.80
+Nuveen Preferred and Convertible Income Fund JPC $1,264.60
+AK Steel Holding Corporation AKS $1,263.90
+Bio-Rad Laboratories, Inc. BIO $1,260.80
+Global Cash Access Holdings, Inc. GCA $1,260.80
+OMI Corporation OMM $1,260.80
+Embratel Participacoes SA EMT $1,257.40
+CVB Financial Corporation CVBF $1,257.00
+ESCO Technologies Inc. ESE $1,256.80
+Brooks Automation, Inc. BRKS $1,256.70
+Ameristar Casinos, Inc. ASCA $1,256.10
+Brocade Communications Systems, Inc. BRCD $1,255.90
+hanarotelecom incorporated HANA $1,255.70
+Umpqua Holdings Corporation UMPQ $1,254.30
+Bucyrus International, Inc. BUCY $1,254.20
+Strategic Hotel Capital Inc SLH $1,253.90
+Linens 'n Things, Inc. LIN $1,253.10
+Kronos Incorporated KRON $1,252.10
+NewJersey Resources Corporation NJR $1,252.10
+Biomed Realty Trust BMR $1,251.20
+Perdigao S.A. PDA $1,251.10
+Applied Industrial Technologies, Inc. AIT $1,251.00
+Owens & Minor, Inc. OMI $1,249.00
+Under Armour, Inc. UARM $1,246.60
+Plexus Corp. PLXS $1,246.40
+LaSalle Hotel Properties LHO $1,246.10
+ATP Oil & Gas Corporation ATPG $1,244.80
+Commercial Net Lease Realty, Inc. NNN $1,243.00
+Texas Industries, Inc. TXI $1,241.70
+Labor Ready, Inc. LRW $1,241.10
+Rydex ETF Trust RSP $1,240.60
+Spansion Inc. SPSN $1,240.50
+Tele Centro Oest Celular Participacoes S.A. TRO $1,239.70
+Arris Group Inc ARRS $1,238.70
+Merrill Lynch Semiconductor HOLDRS SMH $1,237.40
+Nuveen Insured Municipal Opportunity Fund, Inc. NIO $1,236.50
+Sina Corporation SINA $1,236.40
+Digital Insight Corporation DGIN $1,235.60
+Hearst-Argyle Television, Inc. HTV $1,232.70
+ArvinMeritor, Inc. ARM $1,229.70
+CEC Entertainment, Inc. CEC $1,229.00
+Transaction Systems Architects , Inc. TSAI $1,229.00
+Banta Corporation BN $1,225.80
+Masisa Sa Ads MYS $1,225.60
+Arbitron Inc. ARB $1,225.40
+iShares Dow Jones U.S. Health Care Index Fund IYH $1,224.60
+Furniture Brands International, Inc. FBN $1,223.60
+Pantry, Inc. (The) PTRY $1,223.40
+WCI Communities Inc WCI $1,221.70
+Randgold Resources Limited GOLD $1,221.20
+Domtar Incorporated DTC $1,219.50
+Forward Air Corporation FWRD $1,219.10
+U-Store-It Trust YSI $1,218.90
+ABN AMRO CAP FDG TR V ABN^E $1,218.00
+Children's Place Retail Stores, Inc. (The) PLCE $1,217.70
+CommScope, Inc. CTV $1,216.30
+Penn Virginia Corporation PVA $1,216.20
+Theravance, Inc. THRX $1,215.40
+Universal Corporation UVV $1,215.00
+MERRILL LYNCH & CO INC MER^H $1,213.00
+Nuveen Equity Premium Opportunity Fund JSN $1,212.50
+Putnam Premier Income Trust PPT $1,211.90
+New River Pharmaceuticals Inc. NRPH $1,211.40
+American Greetings Corporation AM $1,211.10
+Dril-Quip, Inc. DRQ $1,210.10
+American Reporgraphics Company ARP $1,209.80
+Apria Healthcare Group, Inc. AHG $1,207.90
+Provident Bankshares Corporation PBKS $1,207.80
+VistaPrint Limited VPRT $1,207.70
+Bois D'Arc Energy, Inc. BDE $1,207.40
+iShares S&P Europe 350 Index Fund IEV $1,207.00
+Scholastic Corporation SCHL $1,206.50
+CCE Spinco, Inc. LYV $1,199.30
+Zale Corporation ZLC $1,197.60
+Citizens Banking Corporation CBCF $1,197.50
+Matthews International Corporation MATW $1,197.10
+Magellan Health Services, Inc. MGLN $1,196.20
+FelCor Lodging Trust Incorporated FCH $1,195.20
+FormFactor, Inc. FORM $1,194.90
+Newcastle Investment Corporation NCT $1,194.40
+Gabelli Equity Trust, Inc. (The) GAB $1,193.10
+SANTANDER BANCORP SBP $1,192.10
+Midway Games Inc. MWY $1,191.70
+Varian, Inc. VARI $1,191.10
+China Medical Technologies, Inc. CMED $1,190.40
+Alabama National BanCorporation ALAB $1,189.70
+SSA Global Technologies, Inc. SSAG $1,189.40
+Companhia Paranaense de Energia (COPEL) ELP $1,188.60
+Kingsway Financial Services, Inc. KFS $1,187.80
+Eldorado Gold Corp EGO $1,186.40
+Itron, Inc. ITRI $1,186.40
+Digital River, Inc. DRIV $1,182.30
+Delta Petroleum Corporation DPTR $1,181.10
+j2 Global Communications Inc JCOM $1,181.00
+MKS Instruments, Inc. MKSI $1,180.00
+Black Hills Corporation BKH $1,179.30
+Aviall, Inc. AVL $1,177.80
+Revlon, Inc. REV $1,177.80
+Petrohawk Energy Corporation HAWK $1,176.60
+Belden CDT Inc BDC $1,174.40
+Doral Financial Corporation DRL $1,173.20
+Shanda Interactive Entertainment Limited SNDA $1,172.20
+Advance America, Cash Advance Centers, Inc. AEA $1,172.00
+Parker Drilling Company PKD $1,172.00
+Digitas, Inc. DTAS $1,171.30
+PSS World Medical Inc. PSSI $1,170.80
+FileNet Corporation FILE $1,169.00
+iShares Lehman 7-10 Year Treasury Bond Fund IEF $1,168.40
+Quality Systems, Inc. QSII $1,168.40
+Callaway Golf Company ELY $1,168.20
+Sonus Networks, Inc. SONS $1,167.10
+Verint Systems Inc. VRNT $1,166.80
+Georgia Gulf Corporation GGC $1,166.70
+Knight Capital Group, Inc. NITE $1,166.50
+BBVA Banco Frances S.A. BFR $1,165.80
