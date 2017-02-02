@@ -46,22 +46,20 @@ print("")
 currentDir = os.path.dirname(os.path.realpath(__file__))
 x, y = getData()
 ysum = y.sum(0)
-print("Total distribution: buy {} sell {} buy/sell ration {}".format(ysum[1], ysum[0], ysum[1]/ysum[0]))
-
-# Randomly shuffle data
-np.random.seed(10)
-shuffle_indices = np.random.permutation(np.arange(len(y)))
-x_shuffled = x[shuffle_indices]
-y_shuffled = y[shuffle_indices]
+print("Total distribution: buy {} sell {} buy/sell ration {:f}".format(ysum[1], ysum[0], float(ysum[1]/ysum[0])))
 
 # Split train/test set
-# TODO: This is very crude, should use cross-validation
-dev_sample_index = -1 * int(FLAGS.dev_sample_percentage * float(len(y)))
-x_train, x_dev = x_shuffled[:dev_sample_index], x_shuffled[dev_sample_index:]
-y_train, y_dev = y_shuffled[:dev_sample_index], y_shuffled[dev_sample_index:]
+dev_sample_index = len(y) - int(FLAGS.dev_sample_percentage * float(len(y)))
+x_train, x_dev = x[:dev_sample_index], x[dev_sample_index:]
+y_train, y_dev = y[:dev_sample_index], y[dev_sample_index:]
 print("Train/Dev split: {:d}/{:d}".format(len(y_train), len(y_dev)))
 ysum = y_dev.sum(0)
-print("Test set distribution: buy {} sell {} buy/sell ration {}".format(ysum[1], ysum[0], ysum[1]/ysum[0]))
+print("Test set distribution: buy {} sell {} buy/sell ration {}".format(ysum[1], ysum[0], float(ysum[1]/ysum[0])))
+
+# Randomly shuffle training data. No need to do this on the test data
+shuffle_indices = np.random.permutation(np.arange(len(y_train)))
+x_train = x_train[shuffle_indices]
+y_train = y_train[shuffle_indices]
 
 # Training
 with tf.Graph().as_default():
