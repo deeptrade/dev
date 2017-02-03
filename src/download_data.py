@@ -31,12 +31,39 @@ def decideLabel(spyArray, i, predictAhead):
         return 1
     return 0
 
+def volumeSum(spyArray, index, count):
+    s = 0
+    for i in range(index, index+count):
+        s += spyArray[i][volumeIndex]
+    return s
+
 def getStockData(filename):
     with open(filename) as spyJsonFile:
         spyJson = json.load(spyJsonFile)
         spyArray = spyJson['datatable']['data']
-        spyArray.reverse()
-    if spyArray == None:
+
+        # clean the data
+        if spyArray == None:
+            print("discarding stock")
+            return [], []
+
+        reverseArray = []
+        skipped = 0
+        for d in reversed(spyArray):
+            if d[closeIndex] == 0 or d[volumeIndex] == 0 or d[closeIndex] == None or d[volumeIndex] == None:
+                print("found zero value {}".format(d))
+                skipped += 1
+                if skipped > 10:
+                    print("discarding stock")
+                    return [], []
+                continue
+            reverseArray.append(d)
+        spyArray = reverseArray
+
+    dataSize = len(spyArray)
+    if dataSize < 400:
+        # just ignore the ones with a short history
+        print("discarding stock")
         return [], []
 
     # in our calculation, we always treat 5 trading day as 1 week, and 20 trading day as 1 month
@@ -47,37 +74,24 @@ def getStockData(filename):
     monthCount = 10
     lookBehind = weekCount * 5 + monthCount * 20
 
-    dataSize = len(spyArray)
-    if dataSize < 400:
-        # just ignore the ones with a short history
-        return [], []
-
     data = np.zeros([dataSize-predictAhead-lookBehind, weekCount+monthCount, dataPerDay, 1], dtype=np.float32)
     labels = np.zeros([dataSize-predictAhead-lookBehind, 2], dtype=np.int)
     
-    for i in range(predictAhead, dataSize - lookBehind):
+    for i in range(predictAhead, dataSize - lookBehind - 20):
         outIndex = i-predictAhead # index position in the output array
         labels[outIndex][decideLabel(spyArray, i, predictAhead)] = 1
         
         for j in range(0, weekCount):
             jPos = i + j*5
             j1Pos = jPos + 5
-            if spyArray[j1Pos][closeIndex] == 0 or spyArray[j1Pos][volumeIndex] == 0 or \
-              spyArray[j1Pos][closeIndex] == None or spyArray[j1Pos][volumeIndex] == None:
-                print("found zero value at index {} value {}".format(j1Pos, spyArray[j1Pos]))
-                return [], []
             data[outIndex][j][0][0] = math.log(spyArray[jPos][closeIndex] / spyArray[j1Pos][closeIndex])
-            data[outIndex][j][1][0] = math.log(spyArray[jPos][volumeIndex] / spyArray[j1Pos][volumeIndex])
+            data[outIndex][j][1][0] = math.log(volumeSum(spyArray, jPos, 5) / volumeSum(spyArray, j1Pos, 5))
         
         for j in range(0, monthCount):
             jPos = i + weekCount*5 + j*20
             j1Pos = jPos + 20
-            if spyArray[j1Pos][closeIndex] == 0 or spyArray[j1Pos][volumeIndex] == 0 or \
-              spyArray[j1Pos][closeIndex] == None or spyArray[j1Pos][volumeIndex] == None:
-                print("found zero value at index {} value {}".format(j1Pos, spyArray[j1Pos]))
-                return [], []
             data[outIndex][weekCount+j][0][0] = math.log(spyArray[jPos][closeIndex] / spyArray[j1Pos][closeIndex])
-            data[outIndex][weekCount+j][1][0] = math.log(spyArray[jPos][volumeIndex] / spyArray[j1Pos][volumeIndex])
+            data[outIndex][weekCount+j][1][0] = math.log(volumeSum(spyArray, jPos, 20) / volumeSum(spyArray, j1Pos, 20))
 
     return np.reshape(data, [-1, (weekCount+monthCount)*dataPerDay]), labels
 
