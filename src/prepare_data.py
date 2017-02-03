@@ -5,7 +5,7 @@ import math
 
 volumeIndex = 5
 closeIndex = 6
-dataPerDay = 3 # close price, volume, VIX
+dataPerDay = 2 # close price, volume
 
 # given the data and range, decide whether it's a buy (1) or sell (0)
 # the data is always sorted inversely by time.
