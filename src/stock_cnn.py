@@ -11,11 +11,19 @@ class StockCNN(object):
     filter_sizes is an array of filter size we want to use along the data_length direction
     num_filters is the number of filters we use for each filter size
     """
-    def __init__(self, data_length, data_width, num_classes, num_filters, l2_reg_lambda=0.0):
+    def __init__(self, data_length, data_width, num_classes, num_filters, l2_reg_lambda=0.0, x=None, y=None):
 
         # Placeholders for input, output and dropout
-        self.input_x = tf.placeholder(tf.float32, [None, data_length, data_width, 1], name="input_x")
-        self.input_y = tf.placeholder(tf.int32, [None, num_classes], name="input_y")
+        if x == None:
+            self.input_x = tf.placeholder(tf.float32, [None, data_length, data_width, 1], name="input_x")
+        else:
+            self.input_x = x
+
+        if y == None:
+            self.input_y = tf.placeholder(tf.int32, [None, num_classes], name="input_y")
+        else:
+            self.input_y = y
+        
         self.dropout_keep_prob = tf.placeholder(tf.float32, name="dropout_keep_prob")
 
         # Keeping track of l2 regularization loss (optional)

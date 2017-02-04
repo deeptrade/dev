@@ -14,9 +14,14 @@ import math
 
 BASEURL="https://www.quandl.com/api/v3/datatables/WIKI/PRICES.json?qopts.columns=ticker,date,adj_close,adj_volume"
 
+# parameter regarding the raw data format
 volumeIndex = 3
 closeIndex = 2
 dataPerDay = 2 # close price, volume
+
+# parameter used when parsing and serializing data
+weekCount = 10
+monthCount = 10
 
 # given the data and range, decide whether it's a buy (1) or sell (0)
 # the data is always sorted inversely by time.
@@ -70,8 +75,6 @@ def getStockData(filename):
     # currently look back 10 x 20-day data point, and 10 x 5-day data point)
     # look ahead 20 day.
     predictAhead = 20
-    weekCount = 10
-    monthCount = 10
     lookBehind = weekCount * 5 + monthCount * 20
 
     data = np.zeros([dataSize-predictAhead-lookBehind, weekCount+monthCount, dataPerDay, 1], dtype=np.float32)
