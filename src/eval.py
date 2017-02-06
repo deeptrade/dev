@@ -54,12 +54,10 @@ def evaluate(x, y):
 
             total_sample_count = len(y)
             feed_dict = {cnn.dropout_keep_prob: 1.0}
-            results = sess.run({'score': cnn.scores, 'softmax': cnn.softmax, 'prediction': cnn.predictions}, feed_dict)
+            probabilities, predictions = sess.run([cnn.softmax, cnn.predictions], feed_dict)
 
             i = 0
             correctCount = 0
-            predictions = results['prediction']
-            probabilities = results['softmax']
             for truth in y:
                 if truth[predictions[i]] == 1:
                     correctCount += 1
