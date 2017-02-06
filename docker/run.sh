@@ -6,4 +6,4 @@ then
     exit 1
 fi
 
-nvidia-docker run --name tensorflow -d -p 8888:8888 -p 6006:6006 -v ${1}:/dev tensorflow/tensorflow:latest-gpu
+nvidia-docker run --name tensorflow -d -p 8888:8888 -p 6006:6006 -v ${1}:/code tensorflow/tensorflow:latest-gpu
