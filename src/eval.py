@@ -17,20 +17,22 @@ MOVING_AVERAGE_DECAY = 0.9999     # The decay to use for the moving average.
 
 def evaluate(x, y):
     with tf.Graph().as_default() as g:
+        x_tensor = tf.constant(x)
+        y_tensor = tf.constant(y)
         cnn = StockCNN(
             data_length=len(x[0]),
             data_width=len(x[0][0]),
             num_classes=len(y[0]),
             num_filters=FLAGS.num_filters,
-            l2_reg_lambda=0.0)
+            l2_reg_lambda=0.0,
+            x=x_tensor,
+            y=y_tensor)
 
         # Calculate predictions.
-        top_k_op = tf.nn.in_top_k(cnn.scores, y, 1)
+        # top_k_op = tf.nn.in_top_k(cnn.scores, y_tensor, 1)
 
         # Restore the moving average version of the learned variables for eval.
-        variable_averages = tf.train.ExponentialMovingAverage(MOVING_AVERAGE_DECAY)
-        variables_to_restore = variable_averages.variables_to_restore()
-        saver = tf.train.Saver(variables_to_restore)
+        saver = tf.train.Saver(tf.global_variables())
 
         # Build the summary operation based on the TF collection of Summaries.
         summary_op = tf.summary.merge_all()
@@ -50,14 +52,10 @@ def evaluate(x, y):
                 return
 
             total_sample_count = len(y)
-            feed_dict = {
-                cnn.input_x: x,
-                cnn.input_y: y,
-                cnn.dropout_keep_prob: 1.0
-            }
-            predictions = sess.run([top_k_op], feed_dict)
-            true_count = np.sum(predictions)
+            feed_dict = {cnn.dropout_keep_prob: 1.0}
+            predictions = sess.run({'score': cnn.scores, 'softmax': cnn.softmax, 'prediction': cnn.predictions}, feed_dict)
 
+            '''
             # Compute precision @ 1.
             precision = true_count / total_sample_count
             print('%s: precision @ 1 = %.3f' % (datetime.now(), precision))
@@ -66,6 +64,8 @@ def evaluate(x, y):
             summary.ParseFromString(sess.run(summary_op))
             summary.value.add(tag='Precision @ 1', simple_value=precision)
             summary_writer.add_summary(summary, global_step)
+            '''
+            print("done")
 
 if __name__ == '__main__':
     tf.flags.DEFINE_string("input_filename", "", "The path to the json data file we want to evaluate, e.g. spy.json")

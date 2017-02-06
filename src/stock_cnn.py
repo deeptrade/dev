@@ -103,6 +103,7 @@ class StockCNN(object):
             l2_loss += tf.nn.l2_loss(b)
             self.scores = tf.nn.xw_plus_b(self.h_pool_flat, W, b, name="scores")
             self.predictions = tf.argmax(self.scores, 1, name="predictions")
+            self.softmax = tf.nn.softmax(self.scores)
 
         # CalculateMean cross-entropy loss
         with tf.name_scope("loss"):
