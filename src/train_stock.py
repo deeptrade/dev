@@ -14,9 +14,6 @@ from read_data import readOne
 
 # Parameters
 
-# Data loading params
-tf.flags.DEFINE_float("dev_sample_percentage", .999, "Percentage of the training data to use for validation")
-
 # Model Hyperparameters
 tf.flags.DEFINE_integer("num_filters", 64, "Number of filters to begin with (default: 64)")
 tf.flags.DEFINE_float("dropout_keep_prob", 0.5, "Dropout keep probability (default: 0.5)")

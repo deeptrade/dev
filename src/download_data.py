@@ -11,12 +11,15 @@ import tensorflow as tf
 import numpy as np
 import json
 import math
+import pdb
 
 BASEURL="https://www.quandl.com/api/v3/datatables/WIKI/PRICES.json?qopts.columns=ticker,date,adj_close,adj_volume"
 
 # parameter regarding the raw data format
-volumeIndex = 3
+tickerIndex = 0
+dateIndex = 1
 closeIndex = 2
+volumeIndex = 3
 dataPerDay = 2 # close price, volume
 
 # parameter used when parsing and serializing data
@@ -42,7 +45,7 @@ def volumeSum(spyArray, index, count):
         s += spyArray[i][volumeIndex]
     return s
 
-def getStockData(filename):
+def getStockData(filename, untilYear=2007):
     with open(filename) as spyJsonFile:
         spyJson = json.load(spyJsonFile)
         spyArray = spyJson['datatable']['data']
@@ -55,6 +58,9 @@ def getStockData(filename):
         reverseArray = []
         skipped = 0
         for d in reversed(spyArray):
+            if int(d[dateIndex].split('-')[0]) >= untilYear:
+                continue
+
             if d[closeIndex] == 0 or d[volumeIndex] == 0 or d[closeIndex] == None or d[volumeIndex] == None:
                 print("found zero value {}".format(d))
                 skipped += 1
@@ -104,12 +110,15 @@ parser = argparse.ArgumentParser(description='downloading data from quandl')
 parser.add_argument("-i", "--input", help="Set input file name.")
 parser.add_argument("-o", "--output", help="Set output directory name.")
 parser.add_argument("-k", "--key", help="Set the quandl api key")
+parser.add_argument("-u", "--until", help="Only train on data that's before this year (default 2007)")
 
 args = parser.parse_args()
 if args.input == None:
     args.input = "{}/../data/sp500.csv".format(currentDir)
 if args.output == None:
     args.output = "{}/../data/sp500".format(currentDir)
+if args.until == None:
+    args.until = 2007
 
 # download again if the output directory doesn't have any json files
 found = False
@@ -137,7 +146,7 @@ writer = tf.python_io.TFRecordWriter("{}/all.bin".format(args.output))
 for filename in os.listdir(args.output):
     if filename.endswith(".json"): 
         print("processing {}".format(filename))
-        data, labels = getStockData("{}/{}".format(args.output, filename))
+        data, labels = getStockData("{}/{}".format(args.output, filename), untilYear=int(args.until))
         if len(data) == 0:
             continue
 
