@@ -26,3 +26,6 @@ sudo -b nohup nvidia-docker-plugin > /tmp/nvidia-docker.log
 
 # Test nvidia-smi
 nvidia-docker run --rm nvidia/cuda nvidia-smi
+
+# install aws tools
+apt install -y awscli
