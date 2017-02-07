@@ -8,11 +8,11 @@ import tensorflow as tf
 import numpy as np
 import json
 import math
+import constants as const
 
 # parameter used when parsing and serializing data
-weekCount = 10
-monthCount = 10
-dataPerDay = 2 # close price, volume
+weekCount = const.WEEK_COUNT
+dataPerDay = const.DATA_PER_DAY
 
 def readOne(filename):
     # first construct a queue containing a list of filenames.
@@ -30,7 +30,7 @@ def readOne(filename):
         # We know the length of both fields. If not the
         # tf.VarLenFeature could be used
         'label': tf.FixedLenFeature([2], tf.int64),
-        'data': tf.FixedLenFeature([weekCount+monthCount, dataPerDay, 1], tf.float32)
+        'data': tf.FixedLenFeature([weekCount, dataPerDay, 1], tf.float32)
     })
     # now return the converted data
     label = features['label']

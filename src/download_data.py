@@ -12,6 +12,9 @@ import numpy as np
 import json
 import math
 import pdb
+import constants as const
+from utils import dataSum
+from utils import decideLabel
 
 BASEURL="https://www.quandl.com/api/v3/datatables/WIKI/PRICES.json?qopts.columns=ticker,date,adj_close,adj_volume"
 
@@ -20,30 +23,10 @@ tickerIndex = 0
 dateIndex = 1
 closeIndex = 2
 volumeIndex = 3
-dataPerDay = 2 # close price, volume
 
 # parameter used when parsing and serializing data
-weekCount = 10
-monthCount = 10
-
-# given the data and range, decide whether it's a buy (1) or sell (0)
-# the data is always sorted inversely by time.
-def decideLabel(spyArray, i, predictAhead):
-    currentClose = spyArray[i][closeIndex]
-    total = 0.0
-    for j in range(1, predictAhead+1):
-        total += spyArray[i-j][closeIndex]
-        
-    # this model issues a buy signal if the average is higher than the current price. 
-    if (total / predictAhead) > currentClose:
-        return 1
-    return 0
-
-def volumeSum(spyArray, index, count):
-    s = 0
-    for i in range(index, index+count):
-        s += spyArray[i][volumeIndex]
-    return s
+weekCount = const.WEEK_COUNT
+dataPerDay = const.DATA_PER_DAY
 
 def getStockData(filename, untilYear=2007):
     with open(filename) as spyJsonFile:
@@ -78,31 +61,25 @@ def getStockData(filename, untilYear=2007):
         return [], []
 
     # in our calculation, we always treat 5 trading day as 1 week, and 20 trading day as 1 month
-    # currently look back 10 x 20-day data point, and 10 x 5-day data point)
-    # look ahead 20 day.
-    predictAhead = 20
-    lookBehind = weekCount * 5 + monthCount * 20
+    # currently look back 60 weeks, look ahead 20 days. For each week data point, we take the average
+    # for that week.
+    predictAhead = const.PREDICT_DAYS_AHEAD
+    lookBehind = weekCount * 5
 
-    data = np.zeros([dataSize-predictAhead-lookBehind, weekCount+monthCount, dataPerDay, 1], dtype=np.float32)
+    data = np.zeros([dataSize-predictAhead-lookBehind, weekCount, dataPerDay, 1], dtype=np.float32)
     labels = np.zeros([dataSize-predictAhead-lookBehind, 2], dtype=np.int)
     
-    for i in range(predictAhead, dataSize - lookBehind - 20):
+    for i in range(predictAhead, dataSize - lookBehind - 5):
         outIndex = i-predictAhead # index position in the output array
-        labels[outIndex][decideLabel(spyArray, i, predictAhead)] = 1
+        labels[outIndex][decideLabel(spyArray, i, predictAhead, closeIndex)] = 1
         
         for j in range(0, weekCount):
             jPos = i + j*5
             j1Pos = jPos + 5
-            data[outIndex][j][0][0] = math.log(spyArray[jPos][closeIndex] / spyArray[j1Pos][closeIndex])
-            data[outIndex][j][1][0] = math.log(volumeSum(spyArray, jPos, 5) / volumeSum(spyArray, j1Pos, 5))
+            data[outIndex][j][0][0] = math.log(dataSum(spyArray, jPos, 5, closeIndex) / dataSum(spyArray, j1Pos, 5, closeIndex))
+            data[outIndex][j][1][0] = math.log(dataSum(spyArray, jPos, 5, volumeIndex) / dataSum(spyArray, j1Pos, 5, volumeIndex))
         
-        for j in range(0, monthCount):
-            jPos = i + weekCount*5 + j*20
-            j1Pos = jPos + 20
-            data[outIndex][weekCount+j][0][0] = math.log(spyArray[jPos][closeIndex] / spyArray[j1Pos][closeIndex])
-            data[outIndex][weekCount+j][1][0] = math.log(volumeSum(spyArray, jPos, 20) / volumeSum(spyArray, j1Pos, 20))
-
-    return np.reshape(data, [-1, (weekCount+monthCount)*dataPerDay]), labels
+    return np.reshape(data, [-1, weekCount*dataPerDay]), labels
 
 currentDir = os.path.dirname(os.path.realpath(__file__))
 
@@ -145,11 +122,12 @@ writer = tf.python_io.TFRecordWriter("{}/all.bin".format(args.output))
 # from the json files generate training data.
 for filename in os.listdir(args.output):
     if filename.endswith(".json"): 
-        print("processing {}".format(filename))
+        print("\nprocessing {}".format(filename))
         data, labels = getStockData("{}/{}".format(args.output, filename), untilYear=int(args.until))
         if len(data) == 0:
             continue
-
+        
+        print("... {} entries".format(len(data)))
         assert(len(data) == len(labels))
         shuffle_indices = np.random.permutation(np.arange(len(data)))
         data = data[shuffle_indices]
