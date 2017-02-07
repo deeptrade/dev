@@ -79,6 +79,7 @@ def evaluate(x, y):
 
 if __name__ == '__main__':
     tf.flags.DEFINE_string("input_filename", "", "The path to the json data file we want to evaluate, e.g. spy.json")
+    tf.flags.DEFINE_integer("start_from", 2007, "Evaluate only data starting from this year (default 2007)")
     tf.flags.DEFINE_string("eval_dir", "", "The path to the directory we want to write the evaluate result, note - the directory will be overwritten")
     tf.flags.DEFINE_string("checkpoint_dir", "", "The path to the directory we want to load the checkpointed model data")
     tf.flags.DEFINE_integer("num_filters", 64, "Number of filters to begin with (default: 64), must match checkpoint config")
@@ -98,11 +99,11 @@ if __name__ == '__main__':
         FLAGS.checkpoint_dir = currentDir+'/../output/checkpoints'
     if len(FLAGS.eval_dir) == 0:
         FLAGS.eval_dir = currentDir+'/../output/eval'
-    x, y = getETFData(FLAGS.input_filename)
+    x, y = getETFData(FLAGS.input_filename, FLAGS.start_from)
 
     if tf.gfile.Exists(FLAGS.eval_dir):
         tf.gfile.DeleteRecursively(FLAGS.eval_dir)
     tf.gfile.MakeDirs(FLAGS.eval_dir)
     
-    evaluate(x,y)
+    evaluate(x, y)
 

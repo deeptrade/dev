@@ -44,7 +44,7 @@ print("")
 
 # Get the data
 currentDir = os.path.dirname(os.path.realpath(__file__))
-x, y = getETFData(currentDir+'/../data/spy.json')
+x, y = getETFData(currentDir+'/../data/spy.json', startYear=1950)
 ysum = y.sum(0)
 print("Total distribution: buy {} sell {} buy/sell ration {:f}".format(ysum[1], ysum[0], float(ysum[1]/ysum[0])))
 

@@ -2,7 +2,9 @@ import numpy as np
 import os
 import json
 import math
+import pdb
 
+dateIndex = 0
 volumeIndex = 5
 closeIndex = 6
 dataPerDay = 2 # close price, volume
@@ -20,7 +22,7 @@ def decideLabel(spyArray, i, predictAhead):
         return 1
     return 0
 
-def getETFData(filename):
+def getETFData(filename, startYear=2007):
     with open(filename) as spyJsonFile:
         spyJson = json.load(spyJsonFile)
         spyArray = spyJson['dataset']['data']
@@ -45,6 +47,9 @@ def getETFData(filename):
     labels = np.zeros([dataSize-predictAhead-lookBehind, 2], dtype=np.int)
     
     for i in range(predictAhead, dataSize - lookBehind):
+        if int(spyArray[i][dateIndex].split('-')[0]) < startYear:
+            break
+
         outIndex = i-predictAhead # index position in the output array
         labels[outIndex][decideLabel(spyArray, i, predictAhead)] = 1
         
@@ -60,4 +65,4 @@ def getETFData(filename):
             data[outIndex][weekCount+j][0][0] = math.log(spyArray[jPos][closeIndex] / spyArray[j1Pos][closeIndex])
             data[outIndex][weekCount+j][1][0] = math.log(spyArray[jPos][volumeIndex] / spyArray[j1Pos][volumeIndex])
 
-    return data, labels
+    return np.resize(data, [outIndex+1, weekCount+monthCount, dataPerDay, 1]), np.resize(labels, [outIndex+1, 2])
