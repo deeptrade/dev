@@ -11,11 +11,11 @@ class StockCNN(object):
     filter_sizes is an array of filter size we want to use along the data_length direction
     num_filters is the number of filters we use for each filter size
     """
-    def __init__(self, data_length, data_width, num_classes, num_filters, l2_reg_lambda=0.0, x=None, y=None):
+    def __init__(self, data_length, data_width, data_height, num_classes, num_filters, l2_reg_lambda=0.0, x=None, y=None):
 
         # Placeholders for input, output and dropout
         if x == None:
-            self.input_x = tf.placeholder(tf.float32, [None, data_length, data_width, 1], name="input_x")
+            self.input_x = tf.placeholder(tf.float32, [None, data_length, data_width, data_height], name="input_x")
         else:
             self.input_x = x
 
@@ -33,13 +33,13 @@ class StockCNN(object):
         pooled_outputs = []
         with tf.name_scope("conv-maxpool-1"):
             # Convolution Layer
-            W = tf.Variable(tf.truncated_normal([1, data_width, 1, num_filters], stddev=0.1), name="W1")
+            W = tf.Variable(tf.truncated_normal([3, data_width, data_height, num_filters], stddev=0.1), name="W1")
             b = tf.Variable(tf.constant(0.0, shape=[num_filters]), name="b1")
-            conv = tf.nn.conv2d(self.input_x, W, strides=[1, 1, 1, 1], padding="VALID", name="conv1")
+            conv = tf.nn.conv2d(self.input_x, W, strides=[1, 1, 1, 1], padding="SAME", name="conv1")
             # Relu
             h = tf.nn.relu(tf.nn.bias_add(conv, b), name="relu1")
 
-            # conv along the data_length direction
+            # conv again
             W = tf.Variable(tf.truncated_normal([3, 1, num_filters, num_filters], stddev=0.1), name="W2")
             b = tf.Variable(tf.constant(0.0, shape=[num_filters]), name="b2")
             conv = tf.nn.conv2d(h, W, strides=[1, 1, 1, 1], padding="SAME", name="conv2")

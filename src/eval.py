@@ -23,6 +23,7 @@ def evaluate(x, y):
         cnn = StockCNN(
             data_length=len(x[0]),
             data_width=len(x[0][0]),
+            data_height=len(x[0][0][0]),
             num_classes=len(y[0]),
             num_filters=FLAGS.num_filters,
             l2_reg_lambda=0.0,

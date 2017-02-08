@@ -27,7 +27,7 @@ def getETFData(filename, startYear=2007):
     lookBehind = weekCount * 5
 
     dataSize = len(spyArray)
-    data = np.zeros([dataSize-predictAhead-lookBehind, weekCount, dataPerDay, 1], dtype=np.float32)
+    data = np.zeros([dataSize-predictAhead-lookBehind, weekCount, 1, dataPerDay], dtype=np.float32)
     labels = np.zeros([dataSize-predictAhead-lookBehind, 2], dtype=np.int)
     
     for i in range(predictAhead, dataSize - lookBehind - 5):
@@ -41,6 +41,6 @@ def getETFData(filename, startYear=2007):
             jPos = i + j*5
             j1Pos = jPos + 5
             data[outIndex][j][0][0] = math.log(dataSum(spyArray, jPos, 5, closeIndex) / dataSum(spyArray, j1Pos, 5, closeIndex))
-            data[outIndex][j][1][0] = math.log(dataSum(spyArray, jPos, 5, volumeIndex) / dataSum(spyArray, j1Pos, 5, volumeIndex))
+            data[outIndex][j][0][1] = math.log(dataSum(spyArray, jPos, 5, volumeIndex) / dataSum(spyArray, j1Pos, 5, volumeIndex))
 
-    return np.resize(data, [outIndex+1, weekCount, dataPerDay, 1]), np.resize(labels, [outIndex+1, 2])
+    return np.resize(data, [outIndex+1, weekCount, 1, dataPerDay]), np.resize(labels, [outIndex+1, 2])

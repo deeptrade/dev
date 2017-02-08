@@ -68,6 +68,7 @@ with tf.Graph().as_default():
         cnn = StockCNN(
             data_length=x_train.shape[1],
             data_width=x_train.shape[2],
+            data_height=x_train.shape[3],
             num_classes=y_train.shape[1],
             num_filters=FLAGS.num_filters,
             l2_reg_lambda=FLAGS.l2_reg_lambda)

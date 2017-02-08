@@ -30,7 +30,7 @@ def readOne(filename):
         # We know the length of both fields. If not the
         # tf.VarLenFeature could be used
         'label': tf.FixedLenFeature([2], tf.int64),
-        'data': tf.FixedLenFeature([weekCount, dataPerDay, 1], tf.float32)
+        'data': tf.FixedLenFeature([weekCount, 1, dataPerDay], tf.float32)
     })
     # now return the converted data
     label = features['label']
