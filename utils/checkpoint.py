@@ -25,12 +25,12 @@ if args.bucket == None:
 
 # Do the simple thing for now, checkpoint once every 10 minutes
 while True:
-    status = os.system("tar cvzf /tmp/{}.tgz {}", args.name, args.input)
+    status = os.system("tar cvzf /tmp/{}.tgz {}".format(args.name, args.input))
     if status != 0:
         print("tar command failed")
         exit(status)
 
-    status = os.system("aws s3 cp /tmp/{}.tgz {}", args.name, args.bucket)
+    status = os.system("aws s3 cp /tmp/{}.tgz {}".format(args.name, args.bucket))
     if status != 0:
         print("aws s3 cp command failed")
         exit(status)
