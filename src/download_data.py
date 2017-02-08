@@ -67,7 +67,7 @@ def getStockData(filename, untilYear=2007):
     lookBehind = weekCount * 5
 
     data = np.zeros([dataSize-predictAhead-lookBehind, weekCount, 1, dataPerDay], dtype=np.float32)
-    labels = np.zeros([dataSize-predictAhead-lookBehind, 2], dtype=np.int)
+    labels = np.zeros([dataSize-predictAhead-lookBehind, const.NUM_CLASSES], dtype=np.int)
     
     for i in range(predictAhead, dataSize - lookBehind - 5):
         outIndex = i-predictAhead # index position in the output array
@@ -127,7 +127,8 @@ for filename in os.listdir(args.output):
         if len(data) == 0:
             continue
         
-        print("... {} entries".format(len(data)))
+        labelsum = sum(labels)
+        print("... {} entries, buy {} hold {} sell {}".format(len(data), labelsum[2], labelsum[1], labelsum[0]))
         assert(len(data) == len(labels))
         shuffle_indices = np.random.permutation(np.arange(len(data)))
         data = data[shuffle_indices]

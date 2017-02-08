@@ -29,7 +29,7 @@ def readOne(filename):
     features = tf.parse_single_example(serialized_example, features={
         # We know the length of both fields. If not the
         # tf.VarLenFeature could be used
-        'label': tf.FixedLenFeature([2], tf.int64),
+        'label': tf.FixedLenFeature([const.NUM_CLASSES], tf.int64),
         'data': tf.FixedLenFeature([weekCount, 1, dataPerDay], tf.float32)
     })
     # now return the converted data

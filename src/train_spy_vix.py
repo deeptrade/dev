@@ -23,6 +23,7 @@ tf.flags.DEFINE_float("dev_sample_percentage", .99, "Percentage of the training 
 tf.flags.DEFINE_integer("num_filters", 64, "Number of filters per filter size (default: 128)")
 tf.flags.DEFINE_float("dropout_keep_prob", 0.5, "Dropout keep probability (default: 0.5)")
 tf.flags.DEFINE_float("l2_reg_lambda", 0.0, "L2 regularization lambda (default: 0.0)")
+tf.flags.DEFINE_float("learning_rate", 0.001, "Learning rate")
 
 # Training parameters
 tf.flags.DEFINE_integer("batch_size", 64, "Batch Size (default: 64)")
@@ -45,7 +46,7 @@ print("")
 currentDir = os.path.dirname(os.path.realpath(__file__))
 x, y = getETFData(currentDir+'/../data/spy.json', startYear=1950)
 ysum = y.sum(0)
-print("Total distribution: buy {} sell {} buy/sell ration {:f}".format(ysum[1], ysum[0], float(ysum[1]/ysum[0])))
+print("Total distribution: buy {} hold {} sell {} buy/sell ration {:f}".format(ysum[2], ysum[1], ysum[0], float(ysum[2]/ysum[0])))
 
 # Split train/test set
 dev_sample_index = len(y) - int(FLAGS.dev_sample_percentage * float(len(y)))
@@ -53,7 +54,7 @@ x_train, x_dev = x[:dev_sample_index], x[dev_sample_index:]
 y_train, y_dev = y[:dev_sample_index], y[dev_sample_index:]
 print("Train/Dev split: {:d}/{:d}".format(len(y_train), len(y_dev)))
 ysum = y_dev.sum(0)
-print("Test set distribution: buy {} sell {} buy/sell ration {}".format(ysum[1], ysum[0], float(ysum[1]/ysum[0])))
+print("Test set distribution: buy {} hold {} sell {} buy/sell ration {:f}".format(ysum[2], ysum[1], ysum[0], float(ysum[2]/ysum[0])))
 
 # Randomly shuffle training data. No need to do this on the test data
 shuffle_indices = np.random.permutation(np.arange(len(y_train)))
@@ -75,7 +76,7 @@ with tf.Graph().as_default():
 
         # Define Training procedure
         global_step = tf.Variable(0, name="global_step", trainable=False)
-        optimizer = tf.train.AdamOptimizer(1e-3)
+        optimizer = tf.train.AdamOptimizer(learning_rate=FLAGS.learning_rate)
         grads_and_vars = optimizer.compute_gradients(cnn.loss)
         train_op = optimizer.apply_gradients(grads_and_vars, global_step=global_step)
 

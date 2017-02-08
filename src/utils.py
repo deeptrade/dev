@@ -1,3 +1,4 @@
+import constants as const 
 
 def dataSum(spyArray, index, count, columnIndex):
     s = 0
@@ -9,9 +10,13 @@ def dataSum(spyArray, index, count, columnIndex):
 # the data is always sorted inversely by time.
 def decideLabel(spyArray, i, predictAhead, closeIndex):
     currentClose = spyArray[i][closeIndex]
-    total = dataSum(spyArray, i-predictAhead, predictAhead, closeIndex)
-        
-    # this model issues a buy signal if the average is higher than the current price. 
-    if (total / predictAhead) > currentClose:
+    high = currentClose * (1 + const.BUY_THRESHOLD)
+    low = currentClose * (1 - const.SELL_THRESHOLD)
+
+    avg = dataSum(spyArray, i-predictAhead, predictAhead, closeIndex) / predictAhead
+    if avg >= high:
+        return 2
+    elif avg <= low:
+        return 0
+    else:
         return 1
-    return 0

@@ -18,6 +18,7 @@ from read_data import readOne
 tf.flags.DEFINE_integer("num_filters", 64, "Number of filters to begin with (default: 64)")
 tf.flags.DEFINE_float("dropout_keep_prob", 0.5, "Dropout keep probability (default: 0.5)")
 tf.flags.DEFINE_float("l2_reg_lambda", 0.0, "L2 regularization lambda (default: 0.0)")
+tf.flags.DEFINE_float("learning_rate", 0.001, "Learning rate")
 
 # Training parameters
 tf.flags.DEFINE_integer("batch_size", 1024, "Batch Size (default: 1024)")
@@ -55,7 +56,7 @@ with tf.Graph().as_default():
 
         cnn = StockCNN(
             data_length=int(data._shape[0]),
-            data_width=1,
+            data_width=int(data._shape[1]),
             data_height=int(data._shape[2]),
             num_classes=int(label._shape[0]),
             num_filters=FLAGS.num_filters,
@@ -65,7 +66,7 @@ with tf.Graph().as_default():
 
         # Define Training procedure
         global_step = tf.Variable(0, name="global_step", trainable=False)
-        optimizer = tf.train.AdamOptimizer(1e-3)
+        optimizer = tf.train.AdamOptimizer(learning_rate=FLAGS.learning_rate)
         grads_and_vars = optimizer.compute_gradients(cnn.loss)
         train_op = optimizer.apply_gradients(grads_and_vars, global_step=global_step)
 
@@ -87,7 +88,7 @@ with tf.Graph().as_default():
         # Summaries for loss and accuracy
         loss_summary = tf.summary.scalar("loss", cnn.loss)
         acc_summary = tf.summary.scalar("accuracy", cnn.accuracy)
-        activation_summary = tf.summary.histogram("activation", cnn.scores)
+        activation_summary = tf.summary.histogram("activation", cnn.softmax)
 
         # Train Summaries
         train_summary_op = tf.summary.merge([loss_summary, acc_summary, activation_summary, grad_summaries_merged])
