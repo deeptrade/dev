@@ -90,8 +90,12 @@ with tf.Graph().as_default():
         acc_summary = tf.summary.scalar("accuracy", cnn.accuracy)
         activation_summary = tf.summary.histogram("activation", cnn.softmax)
 
+        # Summaries for internal states
+        w1_summary = tf.summary.histogram("w1", cnn.w1)
+        wfc_summary = tf.summary.histogram("w_fc", cnn.wfc)
+
         # Train Summaries
-        train_summary_op = tf.summary.merge([loss_summary, acc_summary, activation_summary, grad_summaries_merged])
+        train_summary_op = tf.summary.merge([loss_summary, acc_summary, activation_summary, w1_summary, wfc_summary, grad_summaries_merged])
         train_summary_dir = os.path.join(out_dir, "summaries", "train")
         train_summary_writer = tf.summary.FileWriter(train_summary_dir, sess.graph)
 
