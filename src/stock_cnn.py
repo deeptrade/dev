@@ -217,9 +217,14 @@ class StockSqueezeNet(BaseCNN):
         out = self.fire("fire9", out, 64, 256)
         out = tf.nn.dropout(out, self.dropout_keep_prob)
         out = self.conv("conv10_nexar", out, 1, [1, 1, 1, 1], num_classes)
-        out = tf.nn.max_pool(out, ksize=[1, int(out._shape[1]), 1, 1], strides=[1, 1, 1, 1], padding='VALID', name="pool10")
+        
+        # out = tf.nn.avg_pool(out, ksize=[1, int(out._shape[1]), 1, 1], strides=[1, 1, 1, 1], padding='VALID', name="pool10")
+        # self.scores = tf.reshape(out, [-1, num_classes])
 
-        self.scores = tf.reshape(out, [-1, num_classes])
+        flat_size = int(out._shape[1] * out._shape[2] * out._shape[3])
+        flat = tf.reshape(out, [-1, flat_size])
+        out = self.fc("fc11", flat, flat_size, num_classes)
+        self.scores = self.publicVariables["fc11"]["scores"]
 
         # Final (unnormalized) scores and predictions
         with tf.name_scope("output"):
