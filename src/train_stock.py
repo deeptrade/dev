@@ -56,7 +56,7 @@ with tf.Graph().as_default():
             capacity=4000,
             min_after_dequeue=2000)
 
-        cnn = StockSqueezeNet(
+        cnn = StockFCN(
             data_length=int(data._shape[0]),
             data_width=int(data._shape[1]),
             data_height=int(data._shape[2]),
@@ -93,8 +93,8 @@ with tf.Graph().as_default():
         activation_summary = tf.summary.histogram("activation", cnn.softmax)
 
         # Summaries for internal states
-        w1_summary = tf.summary.histogram("w1", cnn.publicVariables["conv1"]["W"])
-        wfc_summary = tf.summary.histogram("w_fc", cnn.publicVariables["conv10_nexar"]["W"])
+        w1_summary = tf.summary.histogram("w1", cnn.publicVariables["conv1_1"]["W"])
+        wfc_summary = tf.summary.histogram("w_fc", cnn.publicVariables["fc6"]["W"])
 
         # Train Summaries
         train_summary_op = tf.summary.merge([loss_summary, acc_summary, activation_summary, w1_summary, wfc_summary, grad_summaries_merged])

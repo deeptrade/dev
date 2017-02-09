@@ -130,7 +130,7 @@ class StockFCN(BaseCNN):
         out = self.conv("conv4_2", out, 1, [1, 1, 1, 1], num_filters*8)
         out = self.conv("conv4_3", out, 1, [1, 1, 1, 1], num_filters*8)
         out = tf.nn.max_pool(out, ksize=[1, 2, 1, 1], strides=[1, 2, 1, 1], padding='VALID', name="pool4")
-        out = tf.nn.dropout(out, self.dropout_keep_prob)
+        #out = tf.nn.dropout(out, self.dropout_keep_prob)
 
         out = self.conv("conv5_1", out, 1, [1, 1, 1, 1], num_filters*8)
         out = self.conv("conv5_2", out, 1, [1, 1, 1, 1], num_filters*8)
