@@ -9,6 +9,7 @@ from tensorflow.contrib import learn
 from prepare_data import getETFData
 from stock_cnn import StockFCN
 from stock_cnn import StockVGG
+from stock_cnn import StockSqueezeNet
 
 # logging
 logger = logging.getLogger("dt")
@@ -67,7 +68,7 @@ with tf.Graph().as_default():
     session_conf = tf.ConfigProto(allow_soft_placement=FLAGS.allow_soft_placement, log_device_placement=FLAGS.log_device_placement)
     sess = tf.Session(config=session_conf)
     with sess.as_default():
-        cnn = StockFCN(
+        cnn = StockSqueezeNet(
             data_length=x_train.shape[1],
             data_width=x_train.shape[2],
             data_height=x_train.shape[3],

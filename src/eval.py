@@ -14,6 +14,7 @@ import pdb
 from prepare_data import getETFData
 from stock_cnn import StockVGG
 from stock_cnn import StockFCN
+from stock_cnn import StockSqueezeNet
 
 MOVING_AVERAGE_DECAY = 0.9999     # The decay to use for the moving average.
 
@@ -21,7 +22,7 @@ def evaluate(x, y):
     with tf.Graph().as_default() as g:
         x_tensor = tf.constant(x)
         y_tensor = tf.constant(y)
-        cnn = StockFCN(
+        cnn = StockSqueezeNet(
             data_length=len(x[0]),
             data_width=len(x[0][0]),
             data_height=len(x[0][0][0]),
