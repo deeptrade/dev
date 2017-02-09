@@ -40,7 +40,7 @@ def getETFData(filename, startYear=2007):
         for j in range(0, weekCount):
             jPos = i + j*5
             j1Pos = jPos + 5
-            data[outIndex][j][0][0] = math.log(dataSum(spyArray, jPos, 5, closeIndex) / dataSum(spyArray, j1Pos, 5, closeIndex))
-            data[outIndex][j][0][1] = math.log(dataSum(spyArray, jPos, 5, volumeIndex) / dataSum(spyArray, j1Pos, 5, volumeIndex))
+            data[outIndex][j][0][0] = (dataSum(spyArray, jPos, 5, closeIndex) / dataSum(spyArray, j1Pos, 5, closeIndex)) - 1.0
+            data[outIndex][j][0][1] = (dataSum(spyArray, jPos, 5, volumeIndex) / dataSum(spyArray, j1Pos, 5, volumeIndex)) - 1.0
 
     return np.resize(data, [outIndex+1, weekCount, 1, dataPerDay]), np.resize(labels, [outIndex+1, const.NUM_CLASSES])
