@@ -61,7 +61,7 @@ def getStockData(filename, untilYear=2007):
         return [], []
 
     # in our calculation, we always treat 5 trading day as 1 week, and 20 trading day as 1 month
-    # currently look back 60 weeks, look ahead 20 days. For each week data point, we take the average
+    # currently look back 64 weeks, look ahead 20 days. For each week data point, we take the average
     # for that week.
     predictAhead = const.PREDICT_DAYS_AHEAD
     lookBehind = weekCount * 5
