@@ -249,16 +249,16 @@ class StockSquareFCN(BaseCNN):
         out = tf.nn.lrn(out, 4, bias=1.0, alpha=0.001 / 9.0, beta=0.75, name='norm3')
         out = tf.nn.max_pool(out, ksize=[1, 2, 2, 1], strides=[1, 2, 2, 1], padding='VALID', name="pool3")
         
-        out = self.conv("conv4_1", out, 3, [1, 1, 1, 1], num_filters*8)
-        out = self.conv("conv4_2", out, 3, [1, 1, 1, 1], num_filters*8)
-        out = self.conv("conv4_3", out, 3, [1, 1, 1, 1], num_filters*8)
+        out = self.conv("conv4_1", out, 1, [1, 1, 1, 1], num_filters*8)
+        out = self.conv("conv4_2", out, 1, [1, 1, 1, 1], num_filters*8)
+        out = self.conv("conv4_3", out, 1, [1, 1, 1, 1], num_filters*8)
         out = tf.nn.lrn(out, 4, bias=1.0, alpha=0.001 / 9.0, beta=0.75, name='norm4')
         out = tf.nn.max_pool(out, ksize=[1, 2, 2, 1], strides=[1, 2, 2, 1], padding='VALID', name="pool4")
         #out = tf.nn.dropout(out, self.dropout_keep_prob)
 
-        out = self.conv("conv5_1", out, 3, [1, 1, 1, 1], num_filters*8)
-        out = self.conv("conv5_2", out, 3, [1, 1, 1, 1], num_filters*8)
-        out = self.conv("conv5_3", out, 3, [1, 1, 1, 1], num_filters*8)
+        out = self.conv("conv5_1", out, 1, [1, 1, 1, 1], num_filters*8)
+        out = self.conv("conv5_2", out, 1, [1, 1, 1, 1], num_filters*8)
+        out = self.conv("conv5_3", out, 1, [1, 1, 1, 1], num_filters*8)
         out = tf.nn.max_pool(out, ksize=[1, 2, 2, 1], strides=[1, 2, 2, 1], padding='VALID', name="pool5")
 
         out = tf.nn.dropout(out, self.dropout_keep_prob)
