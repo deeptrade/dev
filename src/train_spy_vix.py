@@ -10,6 +10,7 @@ from prepare_data import getETFData
 from stock_cnn import StockFCN
 from stock_cnn import StockVGG
 from stock_cnn import StockSqueezeNet
+from stock_cnn import StockSquareFCN
 
 # logging
 logger = logging.getLogger("dt")
