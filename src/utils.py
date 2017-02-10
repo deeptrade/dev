@@ -10,13 +10,19 @@ def dataSum(spyArray, index, count, columnIndex):
 # the data is always sorted inversely by time.
 def decideLabel(spyArray, i, predictAhead, closeIndex):
     currentClose = spyArray[i][closeIndex]
-    high = currentClose * (1 + const.BUY_THRESHOLD)
-    low = currentClose * (1 - const.SELL_THRESHOLD)
+    #high = currentClose * (1 + const.BUY_THRESHOLD)
+    #low = currentClose * (1 - const.SELL_THRESHOLD)
 
     avg = dataSum(spyArray, i-predictAhead, predictAhead, closeIndex) / predictAhead
+    if currentClose > avg:
+        return 1
+    return 0
+    
+    '''
     if avg >= high:
         return 2
     elif avg <= low:
         return 0
     else:
         return 1
+    '''
