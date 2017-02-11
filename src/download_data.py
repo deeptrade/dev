@@ -128,7 +128,7 @@ for filename in os.listdir(args.output):
             continue
         
         labelsum = sum(labels)
-        print("... {} entries, buy {} sell {}".format(len(data), labelsum[1], labelsum[0]))
+        print("... {} entries, buy {} hold {} sell {}".format(len(data), labelsum[2], labelsum[1], labelsum[0]))
         assert(len(data) == len(labels))
         shuffle_indices = np.random.permutation(np.arange(len(data)))
         data = data[shuffle_indices]
