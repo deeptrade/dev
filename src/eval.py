@@ -14,6 +14,7 @@ import pdb
 from prepare_data import getETFData
 from stock_cnn import StockVGG
 from stock_cnn import StockFCN
+from stock_cnn import StockFC
 from stock_cnn import StockSqueezeNet
 
 MOVING_AVERAGE_DECAY = 0.9999     # The decay to use for the moving average.

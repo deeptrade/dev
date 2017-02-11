@@ -11,6 +11,7 @@ from stock_cnn import StockFCN
 from stock_cnn import StockVGG
 from stock_cnn import StockSqueezeNet
 from stock_cnn import StockSquareFCN
+from stock_cnn import StockFC
 
 # logging
 logger = logging.getLogger("dt")

@@ -10,6 +10,7 @@ import time
 import datetime
 from tensorflow.contrib import learn
 from stock_cnn import StockFCN
+from stock_cnn import StockFC
 from stock_cnn import StockVGG
 from stock_cnn import StockSqueezeNet
 from read_data import readOne
