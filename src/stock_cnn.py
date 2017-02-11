@@ -146,19 +146,6 @@ class StockFCN(BaseCNN):
 
 
 class StockSqueezeNet(BaseCNN):
-    def fire(self, name, x, squeeze_filters, expand_filters):
-        with tf.name_scope(name):
-            squeeze = self.conv("squeeze1x1", x, 1, [1, 1, 1, 1], squeeze_filters)
-            expand1 = self.conv("expand1x1", squeeze, 1, [1, 1, 1, 1], expand_filters)
-            expand3 = self.conv("expand3x3", squeeze, 3, [1, 1, 1, 1], expand_filters)
-            out = tf.concat_v2([expand1, expand3], 3, name="concat")
-
-            self.publicVariables[name] = {}
-            self.publicVariables[name]["squeeze1x1"] = self.publicVariables["squeeze1x1"]["W"]
-            self.publicVariables[name]["expand1x1"] = self.publicVariables["expand1x1"]["W"]
-            self.publicVariables[name]["expand3x3"] = self.publicVariables["expand3x3"]["W"]
-            return out
-
     """
     A CNN for stock classification.
     Uses a convolutional, max-pooling and softmax layer.
@@ -267,6 +254,70 @@ class StockSquareFCN(BaseCNN):
         flat_size = int(out._shape[1] * out._shape[2] * out._shape[3])
         flat = tf.reshape(out, [-1, flat_size])
         out = self.fc("fc6", flat, flat_size, num_classes, relu=False)
+        self.scores = out
+
+        # Final (unnormalized) scores and predictions
+        with tf.name_scope("output"):
+            self.predictions = tf.argmax(self.scores, 1, name="predictions")
+            self.softmax = tf.nn.softmax(self.scores)
+
+        # CalculateMean cross-entropy loss
+        with tf.name_scope("loss"):
+            losses = tf.nn.softmax_cross_entropy_with_logits(self.scores, self.input_y)
+            self.loss = tf.reduce_mean(losses)
+
+        # Accuracy
+        with tf.name_scope("accuracy"):
+            correct_predictions = tf.equal(self.predictions, tf.argmax(self.input_y, 1))
+            self.accuracy = tf.reduce_mean(tf.cast(correct_predictions, "float"), name="accuracy")
+
+class StockSquareSqueezeNet(BaseCNN):
+    """
+    A CNN for stock classification.
+    Uses a convolutional, max-pooling and softmax layer.
+    data_length is the number of dates we have in one sample of data.
+    data_width is the number of data points we have in each date.
+    num_classes is the number of prediction classes
+    filter_sizes is an array of filter size we want to use along the data_length direction
+    num_filters is the number of filters we use for each filter size
+    """
+    def __init__(self, data_length, data_width, data_height, num_classes, num_filters, l2_reg_lambda=0.0, x=None, y=None):
+        self.initInput(data_length, data_width, data_height, num_classes, num_filters, l2_reg_lambda, x, y)
+
+        # Use FC layer to convert the input into a larger squre image
+        out = self.input_x
+        flat_size = int(data_length * data_width * data_height)
+        flat = tf.reshape(out, [-1, flat_size])
+        out = self.fc("fc0", flat, flat_size, int(flat_size * flat_size / 4))
+        out = tf.reshape(out, [-1, int(flat_size/2), int(flat_size/2), 1])
+
+        #pdb.set_trace()
+        out = self.conv("conv1", out, 7, [1, 2, 2, 1], 96)
+        out = tf.nn.max_pool(out, ksize=[1, 3, 3, 1], strides=[1, 2, 2, 1], padding='VALID', name="pool1")
+
+        out = self.fire("fire2", out, 16, 64)
+        out = self.fire("fire3", out, 16, 64)
+        out = self.fire("fire4", out, 32, 128)
+        out = tf.nn.max_pool(out, ksize=[1, 3, 3, 1], strides=[1, 2, 2, 1], padding='VALID', name="pool4")
+
+        out = self.fire("fire5", out, 32, 128)
+        out = self.fire("fire6", out, 48, 192)
+        out = self.fire("fire7", out, 48, 192)
+        out = self.fire("fire8", out, 64, 256)
+        out = tf.nn.max_pool(out, ksize=[1, 3, 3, 1], strides=[1, 2, 2, 1], padding='VALID', name="pool8")
+
+        out = self.fire("fire9", out, 64, 256)
+        out = tf.nn.dropout(out, self.dropout_keep_prob)
+
+        '''
+        out = self.conv("conv10_nexar", out, 1, [1, 1, 1, 1], num_classes)
+        out = tf.nn.avg_pool(out, ksize=[1, int(out._shape[1]), int(out._shape[2]), 1], strides=[1, 1, 1, 1], padding='VALID', name="pool10")
+        self.scores = tf.reshape(out, [-1, num_classes])
+        '''
+        
+        flat_size = int(out._shape[1] * out._shape[2] * out._shape[3])
+        flat = tf.reshape(out, [-1, flat_size])
+        out = self.fc("fc11", flat, flat_size, num_classes, relu=False)
         self.scores = out
 
         # Final (unnormalized) scores and predictions

@@ -38,6 +38,19 @@ class BaseCNN(object):
 
             return h
 
+    def fire(self, name, x, squeeze_filters, expand_filters):
+        with tf.name_scope(name):
+            squeeze = self.conv("squeeze1x1", x, 1, [1, 1, 1, 1], squeeze_filters)
+            expand1 = self.conv("expand1x1", squeeze, 1, [1, 1, 1, 1], expand_filters)
+            expand3 = self.conv("expand3x3", squeeze, 3, [1, 1, 1, 1], expand_filters)
+            out = tf.concat_v2([expand1, expand3], 3, name="concat")
+
+            self.publicVariables[name] = {}
+            self.publicVariables[name]["squeeze1x1"] = self.publicVariables["squeeze1x1"]["W"]
+            self.publicVariables[name]["expand1x1"] = self.publicVariables["expand1x1"]["W"]
+            self.publicVariables[name]["expand3x3"] = self.publicVariables["expand3x3"]["W"]
+            return out
+
     def initInput(self, data_length, data_width, data_height, num_classes, num_filters, l2_reg_lambda=0.0, x=None, y=None):
         # Placeholders for input, output and dropout
         if x == None:
