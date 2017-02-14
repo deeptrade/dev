@@ -40,10 +40,10 @@ class StockVGG(BaseCNN):
         out = tf.nn.lrn(out, 4, bias=1.0, alpha=0.001 / 9.0, beta=0.75, name='norm4')
         out = tf.nn.max_pool(out, ksize=[1, 2, 1, 1], strides=[1, 2, 1, 1], padding='VALID', name="pool4")
 
-        out = self.conv("conv5_1", out, 3, [1, 1, 1, 1], num_filters*8)
-        out = self.conv("conv5_2", out, 3, [1, 1, 1, 1], num_filters*8)
-        out = self.conv("conv5_3", out, 3, [1, 1, 1, 1], num_filters*8)
-        out = tf.nn.max_pool(out, ksize=[1, 2, 1, 1], strides=[1, 2, 1, 1], padding='VALID', name="pool5")
+        out = self.conv("conv5_1", out, 1, [1, 1, 1, 1], num_filters*8)
+        out = self.conv("conv5_2", out, 1, [1, 1, 1, 1], num_filters*8)
+        out = self.conv("conv5_3", out, 1, [1, 1, 1, 1], num_filters*8)
+        #out = tf.nn.max_pool(out, ksize=[1, 2, 1, 1], strides=[1, 2, 1, 1], padding='VALID', name="pool5")
 
         # Combine all the pooled features
         flat_size = int(out._shape[1] * out._shape[2] * out._shape[3])

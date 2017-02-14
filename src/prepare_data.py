@@ -6,14 +6,20 @@ import pdb
 import constants as const
 from utils import dataSum
 from utils import decideLabel
+from utils import getDailyData
 
 # The index as presented in spy.json file
 dateIndex = 0
+openIndex = 1
+highIndex = 2
+lowIndex = 3
 volumeIndex = 5
 closeIndex = 6
 
 dataPerDay = const.DATA_PER_DAY
 
+'''
+# This version gets the weekly average data
 def getETFData(filename, startYear=2007):
     with open(filename) as spyJsonFile:
         spyJson = json.load(spyJsonFile)
@@ -44,3 +50,17 @@ def getETFData(filename, startYear=2007):
             data[outIndex][j][0][1] = (dataSum(spyArray, jPos, 5, volumeIndex) / dataSum(spyArray, j1Pos, 5, volumeIndex)) - 1.0
 
     return np.resize(data, [outIndex+1, weekCount, 1, dataPerDay]), np.resize(labels, [outIndex+1, const.NUM_CLASSES])
+'''
+
+# This version gets the daily data.
+def getETFData(filename, startYear=2007):
+    with open(filename) as spyJsonFile:
+        spyJson = json.load(spyJsonFile)
+        spyArray = spyJson['dataset']['data']
+
+    for i in range(0, len(spyArray)):
+        if int(spyArray[i][dateIndex].split('-')[0]) < startYear:
+            break
+    spyArray = spyArray[:i]
+    
+    return getDailyData(spyArray, openIndex, closeIndex, highIndex, lowIndex, volumeIndex)

@@ -15,6 +15,7 @@ import pdb
 import constants as const
 from utils import dataSum
 from utils import decideLabel
+from utils import getDailyData
 
 BASEURL="https://www.quandl.com/api/v3/datatables/WIKI/PRICES.json?qopts.columns=ticker,date,adj_close,adj_volume"
 
@@ -26,6 +27,7 @@ volumeIndex = 3
 
 # parameter used when parsing and serializing data
 weekCount = const.WEEK_COUNT
+dayCount = weekCount*5
 dataPerDay = const.DATA_PER_DAY
 
 def getStockData(filename, untilYear=2007):
@@ -60,34 +62,10 @@ def getStockData(filename, untilYear=2007):
         print("discarding stock")
         return [], []
 
-    # in our calculation, we always treat 5 trading day as 1 week, and 20 trading day as 1 month
-    # currently look back 64 weeks, look ahead 20 days. For each week data point, we take the average
-    # for that week.
-    predictAhead = const.PREDICT_DAYS_AHEAD
-    lookBehind = weekCount * 5
+    # data, labels = getWeeklyData(spyArray, closeIndex, volumeIndex)
 
-    data = np.zeros([dataSize-predictAhead-lookBehind, weekCount, 1, dataPerDay], dtype=np.float32)
-    labels = np.zeros([dataSize-predictAhead-lookBehind, const.NUM_CLASSES], dtype=np.int)
-    
-    for i in range(predictAhead, dataSize - lookBehind - 5):
-        outIndex = i-predictAhead # index position in the output array
-        labels[outIndex][decideLabel(spyArray, i, predictAhead, closeIndex)] = 1
-        
-        for j in range(0, weekCount):
-            jPos = i + j*5
-            j1Pos = jPos + 5
-            data[outIndex][j][0][0] = (dataSum(spyArray, jPos, 5, closeIndex) / dataSum(spyArray, j1Pos, 5, closeIndex)) - 1.0
-            data[outIndex][j][0][1] = (dataSum(spyArray, jPos, 5, volumeIndex) / dataSum(spyArray, j1Pos, 5, volumeIndex)) - 1.0
-        
-        # debug print
-        '''
-        print("{} {} {}".format(spyArray[i][dateIndex], spyArray[i][closeIndex], labels[outIndex]))
-        for j in range(0, weekCount):
-            print("diff {}".format(data[outIndex][j][0]))
-        print("")
-        '''
-
-    return np.reshape(data, [-1, weekCount*dataPerDay]), labels
+    data, labels = getDailyData(spyArray, 0, closeIndex, 0, 0, volumeIndex)
+    return np.reshape(data, [-1, dayCount*dataPerDay]), labels
 
 currentDir = os.path.dirname(os.path.realpath(__file__))
 
