@@ -79,6 +79,14 @@ def getStockData(filename, untilYear=2007):
             data[outIndex][j][0][0] = (dataSum(spyArray, jPos, 5, closeIndex) / dataSum(spyArray, j1Pos, 5, closeIndex)) - 1.0
             data[outIndex][j][0][1] = (dataSum(spyArray, jPos, 5, volumeIndex) / dataSum(spyArray, j1Pos, 5, volumeIndex)) - 1.0
         
+        # debug print
+        '''
+        print("{} {} {}".format(spyArray[i][dateIndex], spyArray[i][closeIndex], labels[outIndex]))
+        for j in range(0, weekCount):
+            print("diff {}".format(data[outIndex][j][0]))
+        print("")
+        '''
+
     return np.reshape(data, [-1, weekCount*dataPerDay]), labels
 
 currentDir = os.path.dirname(os.path.realpath(__file__))

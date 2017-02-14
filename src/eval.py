@@ -23,7 +23,7 @@ def evaluate(x, y):
     with tf.Graph().as_default() as g:
         x_tensor = tf.constant(x)
         y_tensor = tf.constant(y)
-        cnn = StockFCN(
+        cnn = StockVGG(
             data_length=len(x[0]),
             data_width=len(x[0][0]),
             data_height=len(x[0][0][0]),

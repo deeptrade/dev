@@ -70,7 +70,7 @@ with tf.Graph().as_default():
     session_conf = tf.ConfigProto(allow_soft_placement=FLAGS.allow_soft_placement, log_device_placement=FLAGS.log_device_placement)
     sess = tf.Session(config=session_conf)
     with sess.as_default():
-        cnn = StockFCN(
+        cnn = StockVGG(
             data_length=x_train.shape[1],
             data_width=x_train.shape[2],
             data_height=x_train.shape[3],

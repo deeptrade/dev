@@ -54,10 +54,10 @@ with tf.Graph().as_default():
         # groups examples into batches randomly
         x_batch, y_batch = tf.train.shuffle_batch(
             [data, label], batch_size=FLAGS.batch_size,
-            capacity=4000,
-            min_after_dequeue=2000)
+            capacity=FLAGS.batch_size*2,
+            min_after_dequeue=FLAGS.batch_size)
 
-        cnn = StockFCN(
+        cnn = StockVGG(
             data_length=int(data._shape[0]),
             data_width=int(data._shape[1]),
             data_height=int(data._shape[2]),
