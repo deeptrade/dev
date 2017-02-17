@@ -378,3 +378,53 @@ class StockFC(BaseCNN):
             correct_predictions = tf.equal(self.predictions, tf.argmax(self.input_y, 1))
             self.accuracy = tf.reduce_mean(tf.cast(correct_predictions, "float"), name="accuracy")
 
+class StockNoPool(BaseCNN):
+    """
+    A CNN for stock classification.
+    Uses a convolutional, max-pooling and softmax layer.
+    data_length is the number of dates we have in one sample of data.
+    data_width is the number of data points we have in each date.
+    num_classes is the number of prediction classes
+    filter_sizes is an array of filter size we want to use along the data_length direction
+    num_filters is the number of filters we use for each filter size
+    """
+    def __init__(self, data_length, data_width, data_height, num_classes, num_filters, l2_reg_lambda=0.0, x=None, y=None):
+        self.initInput(data_length, data_width, data_height, num_classes, num_filters, l2_reg_lambda, x, y)
+
+        # Keeping track of l2 regularization loss (optional)
+        l2_loss = tf.constant(0.0)
+
+        out = self.conv("conv1_1", self.input_x, 8, [1, 2, 1, 1], num_filters, padding="VALID")
+        out = self.conv("conv1_2", out, 4, [1, 1, 1, 1], num_filters, padding="VALID")
+
+        out = self.conv("conv2_1", out, 4, [1, 1, 1, 1], num_filters*2, padding="VALID")
+        out = self.conv("conv2_2", out, 4, [1, 1, 1, 1], num_filters*2, padding="VALID")
+        out = tf.nn.lrn(out, 4, bias=1.0, alpha=0.001 / 9.0, beta=0.75, name='norm2')
+
+        # Combine all the pooled features
+        flat_size = int(out._shape[1] * out._shape[2] * out._shape[3])
+        flat = tf.reshape(out, [-1, flat_size])
+        out = self.fc("fc6", flat, flat_size, 512)
+        out = tf.nn.dropout(out, self.dropout_keep_prob)
+        out = self.fc("fc7", out, 512, 512)
+        #out = tf.nn.dropout(out, self.dropout_keep_prob)
+        out = self.fc("fc8", out, 512, num_classes, relu=False)
+        l2_loss += tf.nn.l2_loss(self.publicVariables["fc8"]["W"])
+        l2_loss += tf.nn.l2_loss(self.publicVariables["fc8"]["b"])
+        self.scores = out
+
+        # Final (unnormalized) scores and predictions
+        with tf.name_scope("output"):
+            self.predictions = tf.argmax(self.scores, 1, name="predictions")
+            self.softmax = tf.nn.softmax(self.scores)
+
+        # CalculateMean cross-entropy loss
+        with tf.name_scope("loss"):
+            losses = tf.nn.softmax_cross_entropy_with_logits(self.scores, self.input_y)
+            self.loss = tf.reduce_mean(losses) + l2_reg_lambda * l2_loss
+
+        # Accuracy
+        with tf.name_scope("accuracy"):
+            correct_predictions = tf.equal(self.predictions, tf.argmax(self.input_y, 1))
+            self.accuracy = tf.reduce_mean(tf.cast(correct_predictions, "float"), name="accuracy")
+

@@ -11,7 +11,7 @@ from stock_cnn import StockFCN
 from stock_cnn import StockVGG
 from stock_cnn import StockSqueezeNet
 from stock_cnn import StockSquareFCN
-from stock_cnn import StockFC
+from stock_cnn import StockNoPool
 
 # logging
 logger = logging.getLogger("dt")
@@ -70,7 +70,7 @@ with tf.Graph().as_default():
     session_conf = tf.ConfigProto(allow_soft_placement=FLAGS.allow_soft_placement, log_device_placement=FLAGS.log_device_placement)
     sess = tf.Session(config=session_conf)
     with sess.as_default():
-        cnn = StockVGG(
+        cnn = StockNoPool(
             data_length=x_train.shape[1],
             data_width=x_train.shape[2],
             data_height=x_train.shape[3],
@@ -84,7 +84,17 @@ with tf.Graph().as_default():
         grads_and_vars = optimizer.compute_gradients(cnn.loss)
         train_op = optimizer.apply_gradients(grads_and_vars, global_step=global_step)
 
+        # keep track of all the W and b 
+        weightSummaries = []
+        for name in cnn.publicVariables:
+            wSummary = tf.summary.histogram("{}/W".format(name), cnn.publicVariables[name]["W"])
+            bSummary = tf.summary.histogram("{}/b".format(name), cnn.publicVariables[name]["b"])
+            weightSummaries.append(wSummary)
+            weightSummaries.append(bSummary)
+        weight_summaries_merged = tf.summary.merge(weightSummaries)
+
         # Keep track of gradient values and sparsity (optional)
+        '''
         grad_summaries = []
         for g, v in grads_and_vars:
             if g is not None:
@@ -93,6 +103,7 @@ with tf.Graph().as_default():
                 grad_summaries.append(grad_hist_summary)
                 grad_summaries.append(sparsity_summary)
         grad_summaries_merged = tf.summary.merge(grad_summaries)
+        '''
 
         # Output directory for models and summaries
         timestamp = str(int(time.time()))
@@ -104,7 +115,7 @@ with tf.Graph().as_default():
         acc_summary = tf.summary.scalar("accuracy", cnn.accuracy)
 
         # Train Summaries
-        train_summary_op = tf.summary.merge([loss_summary, acc_summary, grad_summaries_merged])
+        train_summary_op = tf.summary.merge([loss_summary, acc_summary, weight_summaries_merged])
         train_summary_dir = os.path.join(out_dir, "summaries", "train")
         train_summary_writer = tf.summary.FileWriter(train_summary_dir, sess.graph)
 
