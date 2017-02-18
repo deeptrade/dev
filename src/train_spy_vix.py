@@ -50,7 +50,7 @@ print("")
 currentDir = os.path.dirname(os.path.realpath(__file__))
 x, y = getETFData(currentDir+'/../data/spy.json', startYear=1950)
 ysum = y.sum(0)
-print("Total distribution: buy {} hold {} sell {}".format(ysum[2], ysum[1], ysum[0]))
+print("Total distribution: buy {} sell {}".format(ysum[1], ysum[0]))
 
 # Split train/test set
 dev_sample_index = len(y) - int(FLAGS.dev_sample_percentage * float(len(y)))
@@ -58,7 +58,7 @@ x_train, x_dev = x[:dev_sample_index], x[dev_sample_index:]
 y_train, y_dev = y[:dev_sample_index], y[dev_sample_index:]
 print("Train/Dev split: {:d}/{:d}".format(len(y_train), len(y_dev)))
 ysum = y_dev.sum(0)
-print("Test set distribution: buy {} hold {} sell {}".format(ysum[2], ysum[1], ysum[0]))
+print("Test set distribution: buy {} sell {}".format(ysum[1], ysum[0]))
 
 # Randomly shuffle training data. No need to do this on the test data
 shuffle_indices = np.random.permutation(np.arange(len(y_train)))
@@ -92,6 +92,7 @@ with tf.Graph().as_default():
             weightSummaries.append(wSummary)
             weightSummaries.append(bSummary)
         weight_summaries_merged = tf.summary.merge(weightSummaries)
+        # image_summaries = tf.summary.image("x", x_train)
 
         # Keep track of gradient values and sparsity (optional)
         '''

@@ -16,14 +16,17 @@ import constants as const
 from utils import dataSum
 from utils import decideLabel
 from utils import getDailyData
+from utils import getDailyImageData
 
-BASEURL="https://www.quandl.com/api/v3/datatables/WIKI/PRICES.json?qopts.columns=ticker,date,adj_close,adj_volume"
+BASEURL="https://www.quandl.com/api/v3/datatables/WIKI/PRICES.json?qopts.columns=date,open,high,low,close,adj_volume,adj_close"
 
 # parameter regarding the raw data format
-tickerIndex = 0
-dateIndex = 1
-closeIndex = 2
-volumeIndex = 3
+dateIndex = const.DATE_INDEX
+openIndex = const.OPEN_INDEX
+highIndex = const.HIGH_INDEX
+lowIndex = const.LOW_INDEX
+volumeIndex = const.VOLUME_INDEX
+closeIndex = const.CLOSE_INDEX
 
 # parameter used when parsing and serializing data
 weekCount = const.WEEK_COUNT
@@ -64,8 +67,8 @@ def getStockData(filename, untilYear=2007):
 
     # data, labels = getWeeklyData(spyArray, closeIndex, volumeIndex)
 
-    data, labels = getDailyData(spyArray, 0, closeIndex, 0, 0, volumeIndex)
-    return np.reshape(data, [-1, dayCount*dataPerDay]), labels
+    data, labels = getDailyImageData(spyArray)
+    return np.reshape(data, [-1, data.shape[1]*data.shape[2]*data.shape[3]]), labels
 
 currentDir = os.path.dirname(os.path.realpath(__file__))
 
@@ -114,11 +117,13 @@ for filename in os.listdir(args.output):
             continue
         
         labelsum = sum(labels)
-        print("... {} entries, buy {} hold {} sell {}".format(len(data), labelsum[2], labelsum[1], labelsum[0]))
+        print("... {} entries, buy {} sell {}".format(len(data), labelsum[1], labelsum[0]))
         assert(len(data) == len(labels))
+        '''
         shuffle_indices = np.random.permutation(np.arange(len(data)))
         data = data[shuffle_indices]
         labels = labels[shuffle_indices]
+        '''
 
         data = data.tolist()
         labels = labels.tolist()

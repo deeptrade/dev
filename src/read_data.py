@@ -8,6 +8,7 @@ import tensorflow as tf
 import numpy as np
 import json
 import math
+import pdb
 import constants as const
 
 # parameter used when parsing and serializing data
@@ -35,5 +36,6 @@ def readOne(filename):
     # now return the converted data
     label = features['label']
     data = features['data']
-    return data, label
+    norm = tf.image.per_image_standardization(data)
+    return norm, label
 

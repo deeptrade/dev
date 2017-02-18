@@ -5,6 +5,7 @@ Train using feature data gathered by download_data.py
 import numpy as np
 import os
 import math
+import pdb
 import tensorflow as tf
 import time
 import datetime
@@ -13,6 +14,7 @@ from stock_cnn import StockFCN
 from stock_cnn import StockFC
 from stock_cnn import StockVGG
 from stock_cnn import StockSqueezeNet
+from stock_cnn import StockNoPool
 from read_data import readOne
 
 # Parameters
@@ -57,7 +59,7 @@ with tf.Graph().as_default():
             capacity=FLAGS.batch_size*2,
             min_after_dequeue=FLAGS.batch_size)
 
-        cnn = StockVGG(
+        cnn = StockNoPool(
             data_length=int(data._shape[0]),
             data_width=int(data._shape[1]),
             data_height=int(data._shape[2]),
@@ -72,8 +74,25 @@ with tf.Graph().as_default():
         optimizer = tf.train.AdamOptimizer(learning_rate=FLAGS.learning_rate)
         grads_and_vars = optimizer.compute_gradients(cnn.loss)
         train_op = optimizer.apply_gradients(grads_and_vars, global_step=global_step)
+        #train_op = optimizer.minimize(loss=cnn.loss, global_step=global_step)
+
+        # keep track of all the W and b 
+        weightSummaries = []
+        for name in cnn.publicVariables:
+            wSummary = tf.summary.histogram("{}/W".format(name), cnn.publicVariables[name]["W"])
+            bSummary = tf.summary.histogram("{}/b".format(name), cnn.publicVariables[name]["b"])
+            weightSummaries.append(wSummary)
+            weightSummaries.append(bSummary)
+        weight_summaries_merged = tf.summary.merge(weightSummaries)
+
+        dataSummaries = [
+            tf.summary.histogram("data", x_batch),
+            tf.summary.histogram("label", y_batch)
+        ]
+        
 
         # Keep track of gradient values and sparsity (optional)
+        '''
         grad_summaries = []
         for g, v in grads_and_vars:
             if g is not None:
@@ -82,6 +101,7 @@ with tf.Graph().as_default():
                 grad_summaries.append(grad_hist_summary)
                 grad_summaries.append(sparsity_summary)
         grad_summaries_merged = tf.summary.merge(grad_summaries)
+        '''
 
         # Output directory for models and summaries
         timestamp = str(int(time.time()))
@@ -93,12 +113,8 @@ with tf.Graph().as_default():
         acc_summary = tf.summary.scalar("accuracy", cnn.accuracy)
         activation_summary = tf.summary.histogram("activation", cnn.softmax)
 
-        # Summaries for internal states
-        w1_summary = tf.summary.histogram("w1", cnn.publicVariables["conv1_1"]["W"])
-        wfc_summary = tf.summary.histogram("w_fc", cnn.publicVariables["fc6"]["W"])
-
         # Train Summaries
-        train_summary_op = tf.summary.merge([loss_summary, acc_summary, activation_summary, w1_summary, wfc_summary, grad_summaries_merged])
+        train_summary_op = tf.summary.merge([loss_summary, acc_summary, activation_summary, weight_summaries_merged, dataSummaries])
         train_summary_dir = os.path.join(out_dir, "summaries", "train")
         train_summary_writer = tf.summary.FileWriter(train_summary_dir, sess.graph)
 

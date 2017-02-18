@@ -15,23 +15,20 @@ from prepare_data import getETFData
 from stock_cnn import StockVGG
 from stock_cnn import StockFCN
 from stock_cnn import StockFC
+from stock_cnn import StockNoPool
 from stock_cnn import StockSqueezeNet
 
 MOVING_AVERAGE_DECAY = 0.9999     # The decay to use for the moving average.
 
 def evaluate(x, y):
     with tf.Graph().as_default() as g:
-        x_tensor = tf.constant(x)
-        y_tensor = tf.constant(y)
-        cnn = StockVGG(
+        cnn = StockNoPool(
             data_length=len(x[0]),
             data_width=len(x[0][0]),
             data_height=len(x[0][0][0]),
             num_classes=len(y[0]),
             num_filters=FLAGS.num_filters,
-            l2_reg_lambda=0.0,
-            x=x_tensor,
-            y=y_tensor)
+            l2_reg_lambda=0.0)
 
         # Calculate predictions.
         # top_k_op = tf.nn.in_top_k(cnn.scores, y_tensor, 1)
@@ -57,17 +54,20 @@ def evaluate(x, y):
                 return
 
             total_sample_count = len(y)
-            feed_dict = {cnn.dropout_keep_prob: 1.0}
-            probabilities, predictions = sess.run([cnn.softmax, cnn.predictions], feed_dict)
-
-            i = 0
             correctCount = 0
-            for truth in y:
-                if truth[predictions[i]] == 1:
+            pdb.set_trace()
+            for i in range(0, total_sample_count):
+                norm = tf.image.per_image_standardization(x[i]).eval()
+                #input_x = tf.reshape(norm, [1, int(norm.shape[0]), int(norm.shape[1]), int(norm.shape[2])])
+                feed_dict = {cnn.dropout_keep_prob: 1.0, cnn.input_x: [norm], cnn.input_y: y[i:i+1]}
+                probabilities, predictions = sess.run([cnn.softmax, cnn.predictions], feed_dict)
+                
+                truth = y[i]
+                if truth[predictions[0]] == 1:
                     correctCount += 1
                 else:
-                    print("probability {} truth {}".format(probabilities[i], truth))
-                i += 1
+                    print("probability {} truth {}".format(probabilities[0], truth))
+
             print("\naccuracy: {}".format( float(correctCount) / float(len(y)) ))
             '''
             # Compute precision @ 1.
